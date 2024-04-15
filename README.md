@@ -2,7 +2,9 @@
 Yang Chen
  
 ## Implementation
-The main package {py_srvcli} has two files, sensor_server and sensor_client. To run, edit the server ip in sensor_server and compile. Then run: ros2 run py_srvcli server   
+The main package {py_srvcli} has two files, sensor_server and sensor_client. To run, edit the server ip in sensor_server and compile. Then run: 
+
+ros2 run py_srvcli server   
 
 Followed by ros2 run py_srvcli client
 - The first task is to make a custom service for 3-DOF sensor
