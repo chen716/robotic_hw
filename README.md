@@ -1,13 +1,16 @@
 # Robotic_HW
-## Context
-The design of our cells in Machina Labs has evolved over the past years. Currently, each of our cells has two articulated industrial robots on rails (a total of 7 axes) and a frame with hydraulic clamps. For the parts to form correctly, we must exert and maintain a dynamic force during the forming in a very accurate location in space. Currently, each robot is equipped with a load cell. See a quick video about our process [here](https://www.youtube.com/watch?v=iqYMprTEXRI). We are using ROS2 to collect the data from the network and control the robots in real-time. As a robotic engineer, we keep developing different modules for our network to add features to the system.  
+
  
-## Objective
+## Implementation
 The goal of This project is to build a ROS2 network that collects data from 3-DOF sensors and makes the filtered data available as a ROS service and topic. Since we cannot send a real sensor to all of our applicants, we made a simple simulator (sensor.py) that mimics the behavior of a real sensor but with random data. 
-- The first task is to make a custom service for 3-DOF sensor 
-- The second task is to make a ROS2 service server that continuously reads data from the sensor and has the latest filter data available for the client service that you make. 
-- Finally, please make a simple client that calls two of these services and publishes them to a topic at 500Hz. Please keep in mind that your service servers can run slower than 500Hz. 
+- The first task is to make a custom service for 3-DOF sensor
+  Creates a service to the given ip, listed in sensor_server.py under py_srvcli
+- The second task is to make a ROS2 service server that continuously reads data from the sensor and has the latest filter data available for the client service that you make.
+  Uses a client to connect, connects at 500 hz calling the sensors (changable btw) with different sample rate, then apply a moving-window filter to the results to get the sensor_readings
+- Finally, please make a simple client that calls two of these services and publishes them to a topic at 500Hz. Please keep in mind that your service servers can run slower than 500Hz.
+  Uses the same approach above, but creating two services. 
 - You can define a second server in the simulator to modify the code and run two at the same time.
+  Edit: the ip is changed as to 172.0.0.1 & 172.0.0.2, using port 10000
 - You can check the example.py to see how to make calls to the sensor
 
 ## Grading Criteria
