@@ -1,5 +1,5 @@
 # Robotic_HW
-
+Yang Chen
  
 ## Implementation
 The goal of This project is to build a ROS2 network that collects data from 3-DOF sensors and makes the filtered data available as a ROS service and topic. Since we cannot send a real sensor to all of our applicants, we made a simple simulator (sensor.py) that mimics the behavior of a real sensor but with random data. 
