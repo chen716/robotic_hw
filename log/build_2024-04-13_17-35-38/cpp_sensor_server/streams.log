@@ -1,0 +1,67 @@
+[0.006s] Invoking command in '/home/yang/ros2_ws/build/cpp_sensor_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16
+[0.019s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.097s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[0.112s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.117s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.124s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.133s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.217s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.218s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.280s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.371s] -- Found rclcpp_components: 21.0.5 (/opt/ros/iron/share/rclcpp_components/cmake)
+[0.422s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[0.426s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[0.432s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[0.614s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[0.777s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.841s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.853s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[0.865s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.865s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.865s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.872s] [0mCMake Deprecation Warning at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[0.872s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[0.872s]   rosidl_target_interfaces()
+[0.872s] Call Stack (most recent call first):
+[0.872s]   CMakeLists.txt:37 (rosidl_target_interfaces)
+[0.872s] 
+[0.872s] [0m
+[0.873s] [0mCMake Deprecation Warning at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[0.873s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[0.873s]   rosidl_target_interfaces()
+[0.873s] Call Stack (most recent call first):
+[0.873s]   CMakeLists.txt:38 (rosidl_target_interfaces)
+[0.873s] 
+[0.873s] [0m
+[0.873s] [0mCMake Deprecation Warning at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[0.873s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[0.873s]   rosidl_target_interfaces()
+[0.873s] Call Stack (most recent call first):
+[0.873s]   CMakeLists.txt:39 (rosidl_target_interfaces)
+[0.873s] 
+[0.873s] [0m
+[0.875s] -- Configuring done
+[0.897s] -- Generating done
+[0.899s] -- Build files have been written to: /home/yang/ros2_ws/build/cpp_sensor_server
+[0.918s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.923s] [  2%] Built target ament_cmake_python_copy_cpp_sensor_server
+[1.040s] Traceback (most recent call last):
+[1.040s]   File "/opt/ros/iron/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>
+[1.040s]     sys.exit(main())
+[1.040s]   File "/opt/ros/iron/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main
+[1.040s]     generate_type_hash(args.generator_arguments_file)
+[1.040s]   File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_generator_type_description/__init__.py", line 160, in generate_type_hash
+[1.040s]     pkg_dir = include_map[pkg]
+[1.040s] KeyError: 'std_msgs'
+[1.050s] gmake[2]: *** [CMakeFiles/cpp_sensor_server__rosidl_generator_type_description.dir/build.make:75: rosidl_generator_type_description/cpp_sensor_server/msg/SampleArray.json] Error 1
+[1.050s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/cpp_sensor_server__rosidl_generator_type_description.dir/all] Error 2
+[1.050s] gmake[1]: *** Waiting for unfinished jobs....
+[1.055s] running egg_info
+[1.056s] writing cpp_sensor_server.egg-info/PKG-INFO
+[1.056s] writing dependency_links to cpp_sensor_server.egg-info/dependency_links.txt
+[1.056s] writing top-level names to cpp_sensor_server.egg-info/top_level.txt
+[1.057s] reading manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'
+[1.058s] writing manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'
+[1.072s] [  2%] Built target ament_cmake_python_build_cpp_sensor_server_egg
+[1.072s] gmake: *** [Makefile:146: all] Error 2
+[1.073s] Invoked command in '/home/yang/ros2_ws/build/cpp_sensor_server' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16

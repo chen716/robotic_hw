@@ -1,0 +1,29 @@
+[0.008s] Invoking command in '/home/yang/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron LD_LIBRARY_PATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib:/home/yang/ros2_ws/install/cpp_sensor_server/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[0.021s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.100s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[0.115s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.120s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.127s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.221s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.222s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.285s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.386s] -- Found tutorial_interfaces: 0.0.0 (/home/yang/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.546s] -- Configuring done
+[0.554s] -- Generating done
+[0.554s] -- Build files have been written to: /home/yang/ros2_ws/build/cpp_srvcli
+[0.568s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.568s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.578s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.580s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[2.031s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.031s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:39:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::executor[m[K’ has not been declared
+[2.031s]    39 |     rclcpp::[01;31m[Kexecutor[m[K::FutureReturnCode::SUCCESS)
+[2.032s]       |             [01;31m[K^~~~~~~~[m[K
+[2.624s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+[2.624s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[2.624s] gmake[1]: *** Waiting for unfinished jobs....
+[2.899s] [ 75%] [32m[1mLinking CXX executable server[0m
+[2.985s] [ 75%] Built target server
+[2.986s] gmake: *** [Makefile:146: all] Error 2
+[2.987s] Invoked command in '/home/yang/ros2_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron LD_LIBRARY_PATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib:/home/yang/ros2_ws/install/cpp_sensor_server/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_srvcli -- -j16 -l16

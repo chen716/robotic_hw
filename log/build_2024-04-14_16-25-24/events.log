@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000168] (-) JobUnselected: {'identifier': 'cpp_sensor_server'}
+[0.000246] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000257] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000266] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000276] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/yang/ros2_ws/install/tutorial_interfaces')])}
+[0.000289] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.005887] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.006111] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.006465] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yang/ros2_ws/build/cpp_srvcli', '--', '-j16', '-l16'], 'cwd': '/home/yang/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yang'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yang/ros2_ws/install/tutorial_interfaces/lib:/home/yang/ros2_ws/install/cpp_sensor_server/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/yang'), ('OLDPWD', '/home/yang/ros2_ws/build/cpp_sensor_server'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1428'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yang/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yang-System-Product-Name:@/tmp/.ICE-unix/1405,unix/yang-System-Product-Name:/tmp/.ICE-unix/1405'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6ccf2dbc_74aa_4166_85fa_f1cb7fa9d44a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/py_srvcli:/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_sensor_server:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yang/ros2_ws/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron')]), 'shell': False}
+[0.029674] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client\x1b[0m\n'}
+[0.030923] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server\x1b[0m\n'}
+[0.039716] (cpp_srvcli) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/sensor_client.cpp.o\x1b[0m\n'}
+[0.046372] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/sensor_server.cpp.o\x1b[0m\n'}
+[0.099716] (-) TimerEvent: {}
+[0.199943] (-) TimerEvent: {}
+[0.300178] (-) TimerEvent: {}
+[0.400409] (-) TimerEvent: {}
+[0.500640] (-) TimerEvent: {}
+[0.600888] (-) TimerEvent: {}
+[0.701136] (-) TimerEvent: {}
+[0.801360] (-) TimerEvent: {}
+[0.901576] (-) TimerEvent: {}
+[1.001828] (-) TimerEvent: {}
+[1.102046] (-) TimerEvent: {}
+[1.202248] (-) TimerEvent: {}
+[1.302507] (-) TimerEvent: {}
+[1.402758] (-) TimerEvent: {}
+[1.502999] (-) TimerEvent: {}
+[1.506494] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SensorClient::request_data()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.506602] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:19:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct tutorial_interfaces::srv::SampleRequest_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct tutorial_interfaces::srv::SampleRequest_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KrequestSample\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Krequestsample\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.506643] (cpp_srvcli) StderrLine: {'line': b'   19 |         request->\x1b[01;31m\x1b[KrequestSample\x1b[m\x1b[K = 4;\n'}
+[1.506676] (cpp_srvcli) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.506707] (cpp_srvcli) StderrLine: {'line': b'      |                  \x1b[32m\x1b[Krequestsample\x1b[m\x1b[K\n'}
+[1.507565] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:23:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin_until_future_complete(SensorClient*, rclcpp::Client<tutorial_interfaces::srv::SampleRequest>::FutureAndRequestId&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.507639] (cpp_srvcli) StderrLine: {'line': b'   23 |         if (\x1b[01;31m\x1b[Krclcpp::spin_until_future_complete(this, result)\x1b[m\x1b[K == rclcpp::FutureReturnCode::SUCCESS)\n'}
+[1.507681] (cpp_srvcli) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.507797] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[1.507863] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:1\x1b[m\x1b[K:\n'}
+[1.507898] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:106:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, const FutureT&, std::chrono::duration<_Rep, _Period>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.507937] (cpp_srvcli) StderrLine: {'line': b'  106 | \x1b[01;36m\x1b[Kspin_until_future_complete\x1b[m\x1b[K(\n'}
+[1.507970] (cpp_srvcli) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.508001] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:106:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.508033] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:23:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K(SensorClient*)this\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[KSensorClient*\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.508069] (cpp_srvcli) StderrLine: {'line': b'   23 |         if (rclcpp::spin_until_future_complete(\x1b[01;36m\x1b[Kthis\x1b[m\x1b[K, result) == rclcpp::FutureReturnCode::SUCCESS)\n'}
+[1.508100] (cpp_srvcli) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.508131] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[1.508162] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:1\x1b[m\x1b[K:\n'}
+[1.508191] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:118:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, const FutureT&, std::chrono::duration<_Rep2, _Period2>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.508229] (cpp_srvcli) StderrLine: {'line': b'  118 | \x1b[01;36m\x1b[Kspin_until_future_complete\x1b[m\x1b[K(\n'}
+[1.508260] (cpp_srvcli) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.508290] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:118:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.508320] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:23:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KSensorClient*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.508351] (cpp_srvcli) StderrLine: {'line': b'   23 |         if (\x1b[01;36m\x1b[Krclcpp::spin_until_future_complete(this, result)\x1b[m\x1b[K == rclcpp::FutureReturnCode::SUCCESS)\n'}
+[1.508382] (cpp_srvcli) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.603117] (-) TimerEvent: {}
+[1.703355] (-) TimerEvent: {}
+[1.803598] (-) TimerEvent: {}
+[1.903843] (-) TimerEvent: {}
+[2.004084] (-) TimerEvent: {}
+[2.104331] (-) TimerEvent: {}
+[2.182349] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SensorService::handle_service(std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.182497] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:26:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct tutorial_interfaces::srv::SampleRequest_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct tutorial_interfaces::srv::SampleRequest_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KrequestSample\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Krequestsample\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.182543] (cpp_srvcli) StderrLine: {'line': b'   26 |         std::string send_buf = std::to_string(request->\x1b[01;31m\x1b[KrequestSample\x1b[m\x1b[K);\n'}
+[2.182579] (cpp_srvcli) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.182611] (cpp_srvcli) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[Krequestsample\x1b[m\x1b[K\n'}
+[2.184526] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:31:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kerror\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.184595] (cpp_srvcli) StderrLine: {'line': b'   31 |         size_t len = socket_->read_some(boost::asio::buffer(recv_buf), \x1b[01;31m\x1b[Kerror\x1b[m\x1b[K);\n'}
+[2.184633] (cpp_srvcli) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.184667] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:31:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[2.184700] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/asio/detail/impl/posix_event.ipp:24\x1b[m\x1b[K,\n'}
+[2.184733] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/detail/posix_event.hpp:172\x1b[m\x1b[K,\n'}
+[2.184765] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/detail/event.hpp:25\x1b[m\x1b[K,\n'}
+[2.184797] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/execution/blocking_adaptation.hpp:19\x1b[m\x1b[K,\n'}
+[2.184828] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/execution.hpp:22\x1b[m\x1b[K,\n'}
+[2.184859] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/system_executor.hpp:20\x1b[m\x1b[K,\n'}
+[2.184891] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/associated_executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.184923] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio.hpp:21\x1b[m\x1b[K,\n'}
+[2.184954] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:3\x1b[m\x1b[K:\n'}
+[2.184986] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/asio/error.hpp:66:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::asio::error\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.185019] (cpp_srvcli) StderrLine: {'line': b'   66 | namespace \x1b[01;36m\x1b[Kerror\x1b[m\x1b[K {\n'}
+[2.185057] (cpp_srvcli) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.185087] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/asio.hpp:135\x1b[m\x1b[K,\n'}
+[2.185119] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:3\x1b[m\x1b[K:\n'}
+[2.185151] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/asio/placeholders.hpp:65:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::asio::placeholders::error\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.185183] (cpp_srvcli) StderrLine: {'line': b'   65 | inline boost::arg<1> \x1b[01;36m\x1b[Kerror\x1b[m\x1b[K()\n'}
+[2.185227] (cpp_srvcli) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.204448] (-) TimerEvent: {}
+[2.251342] (cpp_srvcli) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/sensor_client.cpp.o] Error 1\n'}
+[2.251531] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2\n'}
+[2.251593] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.304560] (-) TimerEvent: {}
+[2.404802] (-) TimerEvent: {}
+[2.505046] (-) TimerEvent: {}
+[2.605299] (-) TimerEvent: {}
+[2.705541] (-) TimerEvent: {}
+[2.805757] (-) TimerEvent: {}
+[2.820531] (cpp_srvcli) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/sensor_server.cpp.o] Error 1\n'}
+[2.820658] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2\n'}
+[2.820714] (cpp_srvcli) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.822021] (cpp_srvcli) CommandEnded: {'returncode': 2}
+[2.843454] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 2}
+[2.853701] (-) EventReactorShutdown: {}

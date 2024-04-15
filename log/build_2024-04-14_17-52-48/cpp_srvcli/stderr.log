@@ -1,0 +1,60 @@
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:1[m[K:
+/opt/ros/iron/include/rclcpp/rclcpp/function_traits.hpp: In instantiation of ‘[01m[Kstruct rclcpp::function_traits::function_traits<SensorClient::request_data()::<lambda(auto:40)> >[m[K’:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/function_traits.hpp:165:8:[m[K   required from ‘[01m[Kstruct rclcpp::function_traits::same_arguments<SensorClient::request_data()::<lambda(auto:40)>, std::function<void(std::shared_future<std::pair<std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Response_<std::allocator<void> > > > >)> >[m[K’
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:673:17:[m[K   required by substitution of ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<tutorial_interfaces::srv::SampleRequest>::SharedFutureWithRequestAndRequestId rclcpp::Client<tutorial_interfaces::srv::SampleRequest>::async_send_request<CallbackT, <anonymous> >(rclcpp::Client<tutorial_interfaces::srv::SampleRequest>::SharedRequest, CallbackT&&) [with CallbackT = SensorClient::request_data()::<lambda(auto:40)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> = <missing>][m[K’
+[01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:25:36:[m[K   required from here
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/function_traits.hpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+   51 |   using [01;31m[Karguments[m[K = typename tuple_tail<
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/function_traits.hpp:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+   57 |   using [01;31m[Kargument_type[m[K = typename std::tuple_element<N, arguments>::type;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/function_traits.hpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+   59 |   using [01;31m[Kreturn_type[m[K = typename function_traits<decltype( &FunctionT::operator())>::return_type;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:[m[K In member function ‘[01m[Kvoid SensorClient::request_data()[m[K’:
+[01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:25:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Client<tutorial_interfaces::srv::SampleRequest>::async_send_request(std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Request_<std::allocator<void> > >&, SensorClient::request_data()::<lambda(auto:40)>)[m[K’
+   25 |         [01;31m[Kclient_->async_send_request(request, [this](auto response) {[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   26 | [01;31m[K            publish_data(response.get()->data);[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   27 | [01;31m[K        })[m[K;
+      |         [01;31m[K~~[m[K                          
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:1[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:645:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = <anonymous>; ServiceT = tutorial_interfaces::srv::SampleRequest][m[K’
+  645 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:645:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:642:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kvalue[m[K’ is not a member of ‘[01m[Krclcpp::function_traits::same_arguments<SensorClient::request_data()::<lambda(auto:40)>, std::function<void(std::shared_future<std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Response_<std::allocator<void> > > >)> >[m[K’
+  642 |     >::type * = [01;31m[Knullptr[m[K
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:676:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequestAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = <anonymous>; ServiceT = tutorial_interfaces::srv::SampleRequest][m[K’
+  676 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:676:3:[m[K [01;36m[Knote: [m[K  substitution of deduced template arguments resulted in errors seen above
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:610:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest) [with ServiceT = tutorial_interfaces::srv::SampleRequest; rclcpp::Client<ServiceT>::SharedRequest = std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Request_<std::allocator<void> > >][m[K’
+  610 |   [01;36m[Kasync_send_request[m[K(SharedRequest request)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:610:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/sensor_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

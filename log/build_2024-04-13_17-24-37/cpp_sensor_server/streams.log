@@ -1,0 +1,63 @@
+[0.006s] Invoking command in '/home/yang/ros2_ws/build/cpp_sensor_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16
+[0.019s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.097s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[0.112s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.117s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.124s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.133s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.217s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.217s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.279s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.369s] -- Found rclcpp_components: 21.0.5 (/opt/ros/iron/share/rclcpp_components/cmake)
+[0.420s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[0.424s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[0.430s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[0.539s] [31mCMake Error at /opt/ros/iron/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.539s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[0.539s]   cpp_sensor_server --arguments-file
+[0.539s]   /home/yang/ros2_ws/build/cpp_sensor_server/rosidl_adapter__arguments__cpp_sensor_server.json
+[0.539s]   --output-dir
+[0.539s]   /home/yang/ros2_ws/build/cpp_sensor_server/rosidl_adapter/cpp_sensor_server
+[0.539s]   --output-file
+[0.539s]   /home/yang/ros2_ws/build/cpp_sensor_server/rosidl_adapter/cpp_sensor_server.idls)
+[0.539s]   returned error code 1:
+[0.539s] 
+[0.539s]   Error processing 'float32[6][4] data' of
+[0.539s]   'cpp_sensor_server/SensorData_Response': ''float32[6]' is an invalid
+[0.540s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[0.540s] 
+[0.540s]   Traceback (most recent call last):
+[0.540s] 
+[0.540s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.540s]       return _run_code(code, main_globals, None,
+[0.540s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.540s]       exec(code, run_globals)
+[0.540s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.540s]       sys.exit(main())
+[0.540s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.540s]       abs_idl_file = convert_to_idl(
+[0.540s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.540s]       return convert_srv_to_idl(
+[0.540s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.540s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.540s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 864, in parse_service_string
+[0.540s]       response_message = parse_message_string(
+[0.540s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 521, in parse_message_string
+[0.540s]       Type(type_string, context_package_name=pkg_name),
+[0.540s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 278, in __init__
+[0.540s]       super(Type, self).__init__(
+[0.540s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 206, in __init__
+[0.540s]       raise InvalidResourceName(
+[0.541s] 
+[0.541s]   rosidl_adapter.parser.InvalidResourceName: 'float32[6]' is an invalid
+[0.541s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.541s] 
+[0.541s] Call Stack (most recent call first):
+[0.541s]   /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.541s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[0.541s] 
+[0.541s] [0m
+[0.541s] -- Configuring incomplete, errors occurred!
+[0.541s] See also "/home/yang/ros2_ws/build/cpp_sensor_server/CMakeFiles/CMakeOutput.log".
+[0.544s] gmake: *** [Makefile:938: cmake_check_build_system] Error 1
+[0.545s] Invoked command in '/home/yang/ros2_ws/build/cpp_sensor_server' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16

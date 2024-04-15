@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/home/yang/ros2_ws/build/cpp_sensor_server': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron LD_LIBRARY_PATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib:/home/yang/ros2_ws/install/cpp_sensor_server/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16
+[0.037s] [ 16%] [32mBuilding CXX object CMakeFiles/sensor_client.dir/src/sensor_client.cpp.o[0m
+[0.041s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor_server2.dir/src/sensor_server2.cpp.o[0m
+[0.041s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor_server.dir/src/sensor_server.cpp.o[0m
+[0.160s] [01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_client.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/srv/SampleRequest.hpp: No such file or directory
+[0.161s]     3 | #include [01;31m[K"tutorial_interfaces/srv/SampleRequest.hpp"[m[K
+[0.161s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.161s] compilation terminated.
+[0.165s] [01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/srv/SampleRequest.hpp: No such file or directory
+[0.165s]     2 | #include [01;31m[K"tutorial_interfaces/srv/SampleRequest.hpp"[m[K
+[0.165s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.165s] compilation terminated.
+[0.165s] gmake[2]: *** [CMakeFiles/sensor_client.dir/build.make:76: CMakeFiles/sensor_client.dir/src/sensor_client.cpp.o] Error 1
+[0.165s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/sensor_client.dir/all] Error 2
+[0.165s] gmake[1]: *** Waiting for unfinished jobs....
+[0.167s] gmake[2]: *** [CMakeFiles/sensor_server2.dir/build.make:76: CMakeFiles/sensor_server2.dir/src/sensor_server2.cpp.o] Error 1
+[0.167s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/sensor_server2.dir/all] Error 2
+[0.424s] [01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/msg/samplearray.hpp: No such file or directory
+[0.424s]     5 | #include [01;31m[K"tutorial_interfaces/msg/samplearray.hpp"[m[K
+[0.424s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.424s] compilation terminated.
+[0.429s] gmake[2]: *** [CMakeFiles/sensor_server.dir/build.make:76: CMakeFiles/sensor_server.dir/src/sensor_server.cpp.o] Error 1
+[0.430s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/sensor_server.dir/all] Error 2
+[0.430s] gmake: *** [Makefile:146: all] Error 2
+[0.431s] Invoked command in '/home/yang/ros2_ws/build/cpp_sensor_server' returned '2': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron LD_LIBRARY_PATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib:/home/yang/ros2_ws/install/cpp_sensor_server/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16

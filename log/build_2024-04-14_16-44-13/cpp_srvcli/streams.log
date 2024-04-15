@@ -1,0 +1,28 @@
+[0.007s] Invoking command in '/home/yang/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron LD_LIBRARY_PATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib:/home/yang/ros2_ws/install/cpp_sensor_server/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.038s] [ 50%] Built target client
+[0.047s] [ 75%] [32mBuilding CXX object CMakeFiles/server.dir/src/sensor_server.cpp.o[0m
+[3.479s] [100%] [32m[1mLinking CXX executable server[0m
+[3.604s] [100%] Built target server
+[3.610s] Invoked command in '/home/yang/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron LD_LIBRARY_PATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib:/home/yang/ros2_ws/install/cpp_sensor_server/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[3.629s] Invoking command in '/home/yang/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron LD_LIBRARY_PATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib:/home/yang/ros2_ws/install/cpp_sensor_server/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/yang/ros2_ws/build/cpp_srvcli
+[3.633s] -- Install configuration: ""
+[3.633s] -- Installing: /home/yang/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[3.634s] -- Set runtime path of "/home/yang/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[3.634s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[3.634s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[3.634s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[3.634s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[3.634s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[3.634s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[3.634s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[3.635s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[3.635s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[3.635s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[3.635s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[3.635s] -- Installing: /home/yang/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[3.635s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[3.635s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[3.635s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[3.635s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[3.636s] Invoked command in '/home/yang/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron LD_LIBRARY_PATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib:/home/yang/ros2_ws/install/cpp_sensor_server/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/yang/ros2_ws/build/cpp_srvcli

@@ -1,0 +1,20 @@
+[01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcpp_sensor_server/srv/samplerequest.hpp: No such file or directory
+    2 | #include [01;31m[K"cpp_sensor_server/srv/samplerequest.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/Float32MultiArray.hpp: No such file or directory
+    2 | #include [01;31m[K<std_msgs/Float32MultiArray.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sensor_client.dir/build.make:76: CMakeFiles/sensor_client.dir/src/sensor_client.cpp.o] Error 1
+[01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcpp_sensor_server/srv/samplerequest.hpp: No such file or directory
+    2 | #include [01;31m[K"cpp_sensor_server/srv/samplerequest.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[1]: *** [CMakeFiles/Makefile2:688: CMakeFiles/sensor_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/sensor_server.dir/build.make:76: CMakeFiles/sensor_server.dir/src/sensor_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:630: CMakeFiles/sensor_server.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/sensor_server2.dir/build.make:76: CMakeFiles/sensor_server2.dir/src/sensor_server2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:659: CMakeFiles/sensor_server2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,35 @@
+[0.006s] Invoking command in '/home/yang/ros2_ws/build/cpp_sensor_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16
+[0.032s] [  5%] Built target cpp_sensor_server__rosidl_generator_type_description
+[0.032s] [  5%] [32mBuilding CXX object CMakeFiles/sensor_client.dir/src/sensor_client.cpp.o[0m
+[0.037s] [  5%] Built target ament_cmake_python_copy_cpp_sensor_server
+[0.042s] [  7%] Built target cpp_sensor_server__cpp
+[0.042s] [ 21%] Built target cpp_sensor_server__rosidl_generator_c
+[0.054s] [ 50%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c
+[0.055s] [ 50%] Built target cpp_sensor_server__rosidl_typesupport_cpp
+[0.055s] [ 52%] Built target cpp_sensor_server__rosidl_typesupport_c
+[0.055s] [ 52%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c
+[0.055s] [ 63%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_cpp
+[0.055s] [ 68%] Built target cpp_sensor_server__rosidl_typesupport_introspection_cpp
+[0.065s] [ 68%] Built target cpp_sensor_server
+[0.076s] [ 71%] Built target cpp_sensor_server__py
+[0.082s] [ 76%] Built target sensor_server
+[0.088s] [ 81%] Built target cpp_sensor_server__rosidl_generator_py
+[0.100s] [ 97%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c__pyext
+[0.100s] [ 97%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c__pyext
+[0.100s] [ 97%] Built target cpp_sensor_server__rosidl_typesupport_c__pyext
+[0.160s] [01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcpp_sensor_server/srv/sensor_data.hpp: No such file or directory
+[0.160s]     2 | #include [01;31m[K"cpp_sensor_server/srv/sensor_data.hpp"[m[K
+[0.160s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.160s] compilation terminated.
+[0.164s] gmake[2]: *** [CMakeFiles/sensor_client.dir/build.make:76: CMakeFiles/sensor_client.dir/src/sensor_client.cpp.o] Error 1
+[0.164s] gmake[1]: *** [CMakeFiles/Makefile2:654: CMakeFiles/sensor_client.dir/all] Error 2
+[0.164s] gmake[1]: *** Waiting for unfinished jobs....
+[0.173s] running egg_info
+[0.174s] writing cpp_sensor_server.egg-info/PKG-INFO
+[0.174s] writing dependency_links to cpp_sensor_server.egg-info/dependency_links.txt
+[0.174s] writing top-level names to cpp_sensor_server.egg-info/top_level.txt
+[0.175s] reading manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'
+[0.176s] writing manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'
+[0.189s] [ 97%] Built target ament_cmake_python_build_cpp_sensor_server_egg
+[0.189s] gmake: *** [Makefile:146: all] Error 2
+[0.191s] Invoked command in '/home/yang/ros2_ws/build/cpp_sensor_server' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16

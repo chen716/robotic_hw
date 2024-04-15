@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:34 (rosidl_target_interfaces):
+  Unknown CMake command "rosidl_target_interfaces".
+
+[0m
+gmake: *** [Makefile:1208: cmake_check_build_system] Error 1

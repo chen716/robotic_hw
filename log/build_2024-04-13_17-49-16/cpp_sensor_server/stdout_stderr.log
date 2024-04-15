@@ -1,0 +1,65 @@
+[  2%] Built target cpp_sensor_server__rosidl_generator_type_description
+[  2%] Built target ament_cmake_python_copy_cpp_sensor_server
+[35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_generator_c[0m
+[  4%] Built target cpp_sensor_server__cpp
+[ 20%] Built target cpp_sensor_server__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_introspection_cpp[0m
+[ 28%] Built target cpp_sensor_server__rosidl_typesupport_c
+[ 36%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c
+[ 56%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c
+[ 58%] Built target cpp_sensor_server__rosidl_typesupport_cpp
+[ 60%] Built target cpp_sensor_server__rosidl_typesupport_introspection_cpp
+[ 68%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_cpp
+[ 68%] Built target cpp_sensor_server
+[ 70%] Built target cpp_sensor_server__py
+[ 72%] [32mBuilding CXX object CMakeFiles/sensor_client.dir/src/sensor_client.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/sensor_server.dir/src/sensor_server.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/sensor_server2.dir/src/sensor_server2.cpp.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_generator_py.dir/rosidl_generator_py/cpp_sensor_server/srv/_sample_request_s.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_generator_py.dir/rosidl_generator_py/cpp_sensor_server/msg/_sample_array_s.c.o[0m
+[ 82%] [32m[1mLinking C shared library rosidl_generator_py/cpp_sensor_server/libcpp_sensor_server__rosidl_generator_py.so[0m
+running egg_info
+writing cpp_sensor_server.egg-info/PKG-INFO
+writing dependency_links to cpp_sensor_server.egg-info/dependency_links.txt
+writing top-level names to cpp_sensor_server.egg-info/top_level.txt
+reading manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'
+writing manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'
+[ 82%] Built target cpp_sensor_server__rosidl_generator_py
+[ 82%] Built target ament_cmake_python_build_cpp_sensor_server_egg
+[35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_c__pyext[0m
+[ 88%] [32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cpp_sensor_server/_cpp_sensor_server_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cpp_sensor_server/_cpp_sensor_server_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cpp_sensor_server/_cpp_sensor_server_s.ep.rosidl_typesupport_c.c.o[0m
+[01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcpp_sensor_server/srv/samplerequest.hpp: No such file or directory
+    2 | #include [01;31m[K"cpp_sensor_server/srv/samplerequest.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sensor_client.dir/build.make:76: CMakeFiles/sensor_client.dir/src/sensor_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:688: CMakeFiles/sensor_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcpp_sensor_server/srv/samplerequest.hpp: No such file or directory
+    2 | #include [01;31m[K"cpp_sensor_server/srv/samplerequest.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sensor_server2.dir/build.make:76: CMakeFiles/sensor_server2.dir/src/sensor_server2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:659: CMakeFiles/sensor_server2.dir/all] Error 2
+[01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcpp_sensor_server/srv/SampleRequest.hpp: No such file or directory
+    2 | #include [01;31m[K"cpp_sensor_server/srv/SampleRequest.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sensor_server.dir/build.make:76: CMakeFiles/sensor_server.dir/src/sensor_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:630: CMakeFiles/sensor_server.dir/all] Error 2
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 94%] Built target cpp_sensor_server__rosidl_typesupport_c__pyext
+[ 94%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c__pyext
+[ 94%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c__pyext
+gmake: *** [Makefile:146: all] Error 2

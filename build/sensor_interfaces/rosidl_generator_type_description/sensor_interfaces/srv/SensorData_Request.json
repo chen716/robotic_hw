@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "sensor_interfaces/srv/SensorData_Request",
+      "fields": [
+        {
+          "name": "num_samples",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "sensor_interfaces/srv/SensorData_Request",
+      "hash_string": "RIHS01_ecb9cd8ec9cb1700445cf19f040eacef5b56928ea5b85adfe9ee1cdb2ba01150"
+    }
+  ]
+}

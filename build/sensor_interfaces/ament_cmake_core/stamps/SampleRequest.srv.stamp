@@ -1,0 +1,3 @@
+int32 requestsample
+---
+std_msgs/Float64MultiArray data

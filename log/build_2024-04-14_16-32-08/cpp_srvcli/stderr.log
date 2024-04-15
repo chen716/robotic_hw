@@ -1,0 +1,31 @@
+[01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:4:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kboost[m[K’ does not name a type
+    4 | [01;31m[Kboost[m[K::system::error_code error;
+      | [01;31m[K^~~~~[m[K
+[01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:[m[K In member function ‘[01m[Kvoid SensorService::handle_service(std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:31:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror[m[K’ was not declared in this scope
+   31 |         size_t len = socket_->read_some(boost::asio::buffer(recv_buf), [01;31m[Kerror[m[K);
+      |                                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:31:72:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/boost/asio/detail/impl/posix_event.ipp:24[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/posix_event.hpp:172[m[K,
+                 from [01m[K/usr/include/boost/asio/detail/event.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/asio/execution/blocking_adaptation.hpp:19[m[K,
+                 from [01m[K/usr/include/boost/asio/execution.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio/system_executor.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/asio/associated_executor.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/asio.hpp:21[m[K,
+                 from [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:3[m[K:
+[01m[K/usr/include/boost/asio/error.hpp:66:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::asio::error[m[K’
+   66 | namespace [01;36m[Kerror[m[K {
+      |           [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/boost/asio.hpp:135[m[K,
+                 from [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:3[m[K:
+[01m[K/usr/include/boost/asio/placeholders.hpp:65:22:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::asio::placeholders::error[m[K’
+   65 | inline boost::arg<1> [01;36m[Kerror[m[K()
+      |                      [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/sensor_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/sensor_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

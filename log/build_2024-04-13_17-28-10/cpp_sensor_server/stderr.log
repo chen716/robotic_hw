@@ -1,0 +1,54 @@
+[0mCMake Deprecation Warning at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:37 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:38 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:39 (rosidl_target_interfaces)
+
+[0m
+[01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/srv/get_sensor_data.hpp: No such file or directory
+    2 | #include [01;31m[K"example_interfaces/srv/get_sensor_data.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sensor_client.dir/build.make:76: CMakeFiles/sensor_client.dir/src/sensor_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:688: CMakeFiles/sensor_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/srv/get_sensor_data.hpp: No such file or directory
+    2 | #include [01;31m[K"example_interfaces/srv/get_sensor_data.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sensor_server.dir/build.make:76: CMakeFiles/sensor_server.dir/src/sensor_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:630: CMakeFiles/sensor_server.dir/all] Error 2
+[01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:[m[K In member function ‘[01m[Kvoid SensorServer::handle_sensor_data(std::shared_ptr<cpp_sensor_server::srv::SensorData_Request_<std::allocator<void> > >, std::shared_ptr<cpp_sensor_server::srv::SensorData_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:22:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct cpp_sensor_server::srv::SensorData_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct cpp_sensor_server::srv::SensorData_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knum_samples[m[K’
+   22 |         std::vector<float> buffer(request->[01;31m[Knum_samples[m[K * 6); // Assuming each sample has 6 values
+      |                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:23:104:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct cpp_sensor_server::srv::SensorData_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct cpp_sensor_server::srv::SensorData_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knum_samples[m[K’
+   23 |         boost::asio::read(socket_, boost::asio::buffer(buffer), boost::asio::transfer_exactly(request->[01;31m[Knum_samples[m[K * 6 * sizeof(float)));
+      |                                                                                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:26:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct cpp_sensor_server::srv::SensorData_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct cpp_sensor_server::srv::SensorData_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knum_samples[m[K’
+   26 |         for (int i = 0; i < request->[01;31m[Knum_samples[m[K; i++) {
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:27:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ has not been declared
+   27 |             [01;31m[Kstd_msgs[m[K::msg::Float64MultiArray row;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:28:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krow[m[K’ was not declared in this scope; did you mean ‘[01m[Know[m[K’?
+   28 |             [01;31m[Krow[m[K.data.assign(buffer.begin() + i * 6, buffer.begin() + (i + 1) * 6);
+      |             [01;31m[K^~~[m[K
+      |             [32m[Know[m[K
+gmake[2]: *** [CMakeFiles/sensor_server2.dir/build.make:76: CMakeFiles/sensor_server2.dir/src/sensor_server2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:659: CMakeFiles/sensor_server2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

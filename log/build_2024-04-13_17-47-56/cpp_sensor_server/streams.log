@@ -1,0 +1,126 @@
+[0.006s] Invoking command in '/home/yang/ros2_ws/build/cpp_sensor_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16
+[0.019s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.098s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[0.111s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.116s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.123s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.131s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.160s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[0.238s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.239s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.301s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.392s] -- Found rclcpp_components: 21.0.5 (/opt/ros/iron/share/rclcpp_components/cmake)
+[0.446s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[0.450s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[0.640s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[0.835s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.912s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.924s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[0.937s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.937s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.937s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.954s] [0mCMake Deprecation Warning at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[0.954s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[0.954s]   rosidl_target_interfaces()
+[0.954s] Call Stack (most recent call first):
+[0.954s]   CMakeLists.txt:38 (rosidl_target_interfaces)
+[0.954s] 
+[0.954s] [0m
+[0.954s] [0mCMake Deprecation Warning at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[0.954s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[0.954s]   rosidl_target_interfaces()
+[0.954s] Call Stack (most recent call first):
+[0.954s]   CMakeLists.txt:39 (rosidl_target_interfaces)
+[0.954s] 
+[0.954s] [0m
+[0.954s] [0mCMake Deprecation Warning at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[0.954s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[0.954s]   rosidl_target_interfaces()
+[0.954s] Call Stack (most recent call first):
+[0.954s]   CMakeLists.txt:40 (rosidl_target_interfaces)
+[0.954s] 
+[0.954s] [0m
+[0.956s] -- Configuring done
+[0.982s] -- Generating done
+[0.983s] -- Build files have been written to: /home/yang/ros2_ws/build/cpp_sensor_server
+[1.003s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.008s] [  2%] Built target ament_cmake_python_copy_cpp_sensor_server
+[1.125s] [  2%] Built target cpp_sensor_server__rosidl_generator_type_description
+[1.130s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.136s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.137s] running egg_info
+[1.137s] writing cpp_sensor_server.egg-info/PKG-INFO
+[1.138s] writing dependency_links to cpp_sensor_server.egg-info/dependency_links.txt
+[1.138s] writing top-level names to cpp_sensor_server.egg-info/top_level.txt
+[1.139s] reading manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'
+[1.140s] writing manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'
+[1.154s] [  6%] Built target ament_cmake_python_build_cpp_sensor_server_egg
+[1.323s] [  6%] Built target cpp_sensor_server__cpp
+[1.358s] [ 14%] [32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_generator_c.dir/rosidl_generator_c/cpp_sensor_server/msg/detail/sample_array__description.c.o[0m
+[1.358s] [ 14%] [32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_generator_c.dir/rosidl_generator_c/cpp_sensor_server/msg/detail/sample_array__type_support.c.o[0m
+[1.358s] [ 14%] [32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_generator_c.dir/rosidl_generator_c/cpp_sensor_server/msg/detail/sample_array__functions.c.o[0m
+[1.358s] [ 14%] [32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_generator_c.dir/rosidl_generator_c/cpp_sensor_server/srv/detail/sample_request__description.c.o[0m
+[1.358s] [ 16%] [32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_generator_c.dir/rosidl_generator_c/cpp_sensor_server/srv/detail/sample_request__functions.c.o[0m
+[1.358s] [ 18%] [32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_generator_c.dir/rosidl_generator_c/cpp_sensor_server/srv/detail/sample_request__type_support.c.o[0m
+[1.397s] [ 20%] [32m[1mLinking C shared library libcpp_sensor_server__rosidl_generator_c.so[0m
+[1.417s] [ 20%] Built target cpp_sensor_server__rosidl_generator_c
+[1.423s] [ 22%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.423s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.423s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.423s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.423s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.423s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.580s] [ 36%] [32mBuilding CXX object CMakeFiles/cpp_sensor_server__rosidl_typesupport_c.dir/rosidl_typesupport_c/cpp_sensor_server/srv/sample_request__type_support.cpp.o[0m
+[1.581s] [ 36%] [32mBuilding CXX object CMakeFiles/cpp_sensor_server__rosidl_typesupport_c.dir/rosidl_typesupport_c/cpp_sensor_server/msg/sample_array__type_support.cpp.o[0m
+[1.583s] [ 40%] [32mBuilding CXX object CMakeFiles/cpp_sensor_server__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cpp_sensor_server/srv/sample_request__type_support.cpp.o[0m
+[1.583s] [ 40%] [32mBuilding CXX object CMakeFiles/cpp_sensor_server__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cpp_sensor_server/msg/sample_array__type_support.cpp.o[0m
+[1.606s] [ 42%] [32m[1mLinking CXX shared library libcpp_sensor_server__rosidl_typesupport_c.so[0m
+[1.610s] [ 46%] [32mBuilding CXX object CMakeFiles/cpp_sensor_server__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cpp_sensor_server/srv/detail/sample_request__type_support.cpp.o[0m
+[1.610s] [ 46%] [32mBuilding CXX object CMakeFiles/cpp_sensor_server__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cpp_sensor_server/msg/detail/sample_array__type_support.cpp.o[0m
+[1.618s] [ 50%] [32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cpp_sensor_server/msg/detail/sample_array__type_support.c.o[0m
+[1.618s] [ 50%] [32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cpp_sensor_server/srv/detail/sample_request__type_support.c.o[0m
+[1.626s] [ 54%] [32mBuilding CXX object CMakeFiles/cpp_sensor_server__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cpp_sensor_server/msg/detail/dds_fastrtps/sample_array__type_support.cpp.o[0m
+[1.627s] [ 54%] [32mBuilding CXX object CMakeFiles/cpp_sensor_server__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cpp_sensor_server/srv/detail/dds_fastrtps/sample_request__type_support.cpp.o[0m
+[1.633s] [ 56%] [32mBuilding CXX object CMakeFiles/cpp_sensor_server__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cpp_sensor_server/msg/detail/sample_array__type_support_c.cpp.o[0m
+[1.634s] [ 58%] [32mBuilding CXX object CMakeFiles/cpp_sensor_server__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cpp_sensor_server/srv/detail/sample_request__type_support_c.cpp.o[0m
+[1.636s] [ 58%] Built target cpp_sensor_server__rosidl_typesupport_c
+[1.658s] [ 60%] [32m[1mLinking C shared library libcpp_sensor_server__rosidl_typesupport_introspection_c.so[0m
+[1.676s] [ 60%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c
+[1.893s] [ 62%] [32m[1mLinking CXX shared library libcpp_sensor_server__rosidl_typesupport_fastrtps_c.so[0m
+[1.905s] [ 64%] [32m[1mLinking CXX shared library libcpp_sensor_server__rosidl_typesupport_cpp.so[0m
+[1.941s] [ 64%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c
+[1.954s] [ 64%] Built target cpp_sensor_server__rosidl_typesupport_cpp
+[1.987s] [ 66%] [32m[1mLinking CXX shared library libcpp_sensor_server__rosidl_typesupport_introspection_cpp.so[0m
+[2.030s] [ 66%] Built target cpp_sensor_server__rosidl_typesupport_introspection_cpp
+[2.046s] [ 68%] [32m[1mLinking CXX shared library libcpp_sensor_server__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.086s] [ 68%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_cpp
+[2.096s] [ 68%] Built target cpp_sensor_server
+[2.102s] [35m[1mConsolidate compiler generated dependencies of target sensor_client[0m
+[2.102s] [35m[1mConsolidate compiler generated dependencies of target sensor_server[0m
+[2.102s] [35m[1mConsolidate compiler generated dependencies of target sensor_server2[0m
+[2.107s] [ 70%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.112s] [ 72%] [32mBuilding CXX object CMakeFiles/sensor_client.dir/src/sensor_client.cpp.o[0m
+[2.119s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_server2.dir/src/sensor_server2.cpp.o[0m
+[2.119s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_server.dir/src/sensor_server.cpp.o[0m
+[2.237s] [01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcpp_sensor_server/srv/samplerequest.hpp: No such file or directory
+[2.237s]     2 | #include [01;31m[K"cpp_sensor_server/srv/samplerequest.hpp"[m[K
+[2.237s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.237s] compilation terminated.
+[2.241s] gmake[2]: *** [CMakeFiles/sensor_client.dir/build.make:76: CMakeFiles/sensor_client.dir/src/sensor_client.cpp.o] Error 1
+[2.241s] gmake[1]: *** [CMakeFiles/Makefile2:688: CMakeFiles/sensor_client.dir/all] Error 2
+[2.241s] gmake[1]: *** Waiting for unfinished jobs....
+[2.241s] [01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcpp_sensor_server/srv/samplerequest.hpp: No such file or directory
+[2.241s]     2 | #include [01;31m[K"cpp_sensor_server/srv/samplerequest.hpp"[m[K
+[2.241s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.241s] [01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcpp_sensor_server/srv/samplerequest.hpp: No such file or directory
+[2.241s]     2 | #include [01;31m[K"cpp_sensor_server/srv/samplerequest.hpp"[m[K
+[2.241s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.241s] compilation terminated.
+[2.241s] compilation terminated.
+[2.242s] gmake[2]: *** [CMakeFiles/sensor_server.dir/build.make:76: CMakeFiles/sensor_server.dir/src/sensor_server.cpp.o] Error 1
+[2.243s] gmake[2]: *** [CMakeFiles/sensor_server2.dir/build.make:76: CMakeFiles/sensor_server2.dir/src/sensor_server2.cpp.o] Error 1
+[2.243s] gmake[1]: *** [CMakeFiles/Makefile2:630: CMakeFiles/sensor_server.dir/all] Error 2
+[2.243s] gmake[1]: *** [CMakeFiles/Makefile2:659: CMakeFiles/sensor_server2.dir/all] Error 2
+[2.388s] [ 76%] Built target cpp_sensor_server__py
+[2.388s] gmake: *** [Makefile:146: all] Error 2
+[2.389s] Invoked command in '/home/yang/ros2_ws/build/cpp_sensor_server' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16

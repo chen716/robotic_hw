@@ -1,0 +1,312 @@
+[0.000000] (-) TimerEvent: {}
+[0.000379] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000412] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000423] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000433] (cpp_sensor_server) JobQueued: {'identifier': 'cpp_sensor_server', 'dependencies': OrderedDict()}
+[0.000444] (cpp_sensor_server) JobStarted: {'identifier': 'cpp_sensor_server'}
+[0.004389] (cpp_sensor_server) JobProgress: {'identifier': 'cpp_sensor_server', 'progress': 'cmake'}
+[0.004828] (cpp_sensor_server) Command: {'cmd': ['/usr/bin/cmake', '/home/yang/ros2_ws/src/cpp_sensor_server', '-DCMAKE_INSTALL_PREFIX=/home/yang/ros2_ws/install/cpp_sensor_server'], 'cwd': '/home/yang/ros2_ws/build/cpp_sensor_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yang'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yang/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/yang'), ('OLDPWD', '/home/yang/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4399'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yang/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yang-System-Product-Name:@/tmp/.ICE-unix/1398,unix/yang-System-Product-Name:/tmp/.ICE-unix/1398'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c88847e9_7e1d_40e3_92b0_cd744afe46c3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yang/ros2_ws/install/py_srvcli:/home/yang/ros2_ws/install/tutorial_interfaces:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yang/ros2_ws/build/cpp_sensor_server'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron')]), 'shell': False}
+[0.012270] (cpp_sensor_server) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.090662] (cpp_sensor_server) StdoutLine: {'line': b'-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.099910] (-) TimerEvent: {}
+[0.106270] (cpp_sensor_server) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.110912] (cpp_sensor_server) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.118067] (cpp_sensor_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.126955] (cpp_sensor_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.200016] (-) TimerEvent: {}
+[0.212946] (cpp_sensor_server) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.213742] (cpp_sensor_server) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.277158] (cpp_sensor_server) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300125] (-) TimerEvent: {}
+[0.369472] (cpp_sensor_server) StdoutLine: {'line': b'-- Found rclcpp_components: 21.0.5 (/opt/ros/iron/share/rclcpp_components/cmake)\n'}
+[0.400203] (-) TimerEvent: {}
+[0.421363] (cpp_sensor_server) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[0.425506] (cpp_sensor_server) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[0.500360] (-) TimerEvent: {}
+[0.600640] (-) TimerEvent: {}
+[0.608363] (cpp_sensor_server) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[0.700823] (-) TimerEvent: {}
+[0.779739] (cpp_sensor_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800926] (-) TimerEvent: {}
+[0.846699] (cpp_sensor_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.859558] (cpp_sensor_server) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[0.860531] (cpp_sensor_server) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[0.875542] (cpp_sensor_server) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[0.875634] (cpp_sensor_server) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.875673] (cpp_sensor_server) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.875709] (cpp_sensor_server) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.886953] (cpp_sensor_server) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.901024] (-) TimerEvent: {}
+[0.907397] (cpp_sensor_server) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[0.907502] (cpp_sensor_server) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[0.907540] (cpp_sensor_server) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[0.907571] (cpp_sensor_server) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.907603] (cpp_sensor_server) StderrLine: {'line': b'  CMakeLists.txt:34 (rosidl_target_interfaces)\n'}
+[0.907633] (cpp_sensor_server) StderrLine: {'line': b'\n'}
+[0.907663] (cpp_sensor_server) StderrLine: {'line': b'\x1b[0m\n'}
+[0.912235] (cpp_sensor_server) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.930617] (cpp_sensor_server) StdoutLine: {'line': b'-- Generating done\n'}
+[0.932102] (cpp_sensor_server) StdoutLine: {'line': b'-- Build files have been written to: /home/yang/ros2_ws/build/cpp_sensor_server\n'}
+[0.937364] (cpp_sensor_server) CommandEnded: {'returncode': 0}
+[0.937847] (cpp_sensor_server) JobProgress: {'identifier': 'cpp_sensor_server', 'progress': 'build'}
+[0.938323] (cpp_sensor_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yang/ros2_ws/build/cpp_sensor_server', '--', '-j16', '-l16'], 'cwd': '/home/yang/ros2_ws/build/cpp_sensor_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yang'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yang/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/yang'), ('OLDPWD', '/home/yang/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4399'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yang/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yang-System-Product-Name:@/tmp/.ICE-unix/1398,unix/yang-System-Product-Name:/tmp/.ICE-unix/1398'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c88847e9_7e1d_40e3_92b0_cd744afe46c3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yang/ros2_ws/install/py_srvcli:/home/yang/ros2_ws/install/tutorial_interfaces:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yang/ros2_ws/build/cpp_sensor_server'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron')]), 'shell': False}
+[0.963420] (cpp_sensor_server) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[0.967565] (cpp_sensor_server) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_cpp_sensor_server\n'}
+[1.001113] (-) TimerEvent: {}
+[1.074638] (cpp_sensor_server) StdoutLine: {'line': b'[  2%] Built target cpp_sensor_server__rosidl_generator_type_description\n'}
+[1.080128] (cpp_sensor_server) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.085713] (cpp_sensor_server) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.099506] (cpp_sensor_server) StdoutLine: {'line': b'running egg_info\n'}
+[1.099799] (cpp_sensor_server) StdoutLine: {'line': b'creating cpp_sensor_server.egg-info\n'}
+[1.099893] (cpp_sensor_server) StdoutLine: {'line': b'writing cpp_sensor_server.egg-info/PKG-INFO\n'}
+[1.099989] (cpp_sensor_server) StdoutLine: {'line': b'writing dependency_links to cpp_sensor_server.egg-info/dependency_links.txt\n'}
+[1.100197] (cpp_sensor_server) StdoutLine: {'line': b'writing top-level names to cpp_sensor_server.egg-info/top_level.txt\n'}
+[1.100303] (cpp_sensor_server) StdoutLine: {'line': b"writing manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'\n"}
+[1.101164] (-) TimerEvent: {}
+[1.101353] (cpp_sensor_server) StdoutLine: {'line': b"reading manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'\n"}
+[1.101668] (cpp_sensor_server) StdoutLine: {'line': b"writing manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'\n"}
+[1.116582] (cpp_sensor_server) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_cpp_sensor_server_egg\n'}
+[1.201283] (-) TimerEvent: {}
+[1.257506] (cpp_sensor_server) StdoutLine: {'line': b'[  8%] Built target cpp_sensor_server__cpp\n'}
+[1.269975] (cpp_sensor_server) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_generator_c.dir/rosidl_generator_c/cpp_sensor_server/srv/detail/sensor_data__description.c.o\x1b[0m\n'}
+[1.270157] (cpp_sensor_server) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_generator_c.dir/rosidl_generator_c/cpp_sensor_server/srv/detail/sensor_data__functions.c.o\x1b[0m\n'}
+[1.270224] (cpp_sensor_server) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_generator_c.dir/rosidl_generator_c/cpp_sensor_server/srv/detail/sensor_data__type_support.c.o\x1b[0m\n'}
+[1.301404] (-) TimerEvent: {}
+[1.313332] (cpp_sensor_server) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libcpp_sensor_server__rosidl_generator_c.so\x1b[0m\n'}
+[1.332706] (cpp_sensor_server) StdoutLine: {'line': b'[ 19%] Built target cpp_sensor_server__rosidl_generator_c\n'}
+[1.338185] (cpp_sensor_server) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.338326] (cpp_sensor_server) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.338393] (cpp_sensor_server) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.338430] (cpp_sensor_server) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.338466] (cpp_sensor_server) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.338500] (cpp_sensor_server) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.401514] (-) TimerEvent: {}
+[1.482954] (cpp_sensor_server) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/cpp_sensor_server__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cpp_sensor_server/srv/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[1.488286] (cpp_sensor_server) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/cpp_sensor_server__rosidl_typesupport_c.dir/rosidl_typesupport_c/cpp_sensor_server/srv/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[1.501620] (-) TimerEvent: {}
+[1.502909] (cpp_sensor_server) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/cpp_sensor_server__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cpp_sensor_server/srv/detail/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[1.508291] (cpp_sensor_server) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cpp_sensor_server/srv/detail/sensor_data__type_support.c.o\x1b[0m\n'}
+[1.512846] (cpp_sensor_server) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_sensor_server__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cpp_sensor_server/srv/detail/sensor_data__type_support_c.cpp.o\x1b[0m\n'}
+[1.515992] (cpp_sensor_server) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_sensor_server__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.516170] (cpp_sensor_server) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/cpp_sensor_server__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cpp_sensor_server/srv/detail/dds_fastrtps/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[1.538224] (cpp_sensor_server) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libcpp_sensor_server__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.538884] (cpp_sensor_server) StdoutLine: {'line': b'[ 58%] Built target cpp_sensor_server__rosidl_typesupport_c\n'}
+[1.554973] (cpp_sensor_server) StdoutLine: {'line': b'[ 58%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c\n'}
+[1.601722] (-) TimerEvent: {}
+[1.702004] (-) TimerEvent: {}
+[1.728517] (cpp_sensor_server) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_sensor_server__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.771574] (cpp_sensor_server) StdoutLine: {'line': b'[ 61%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c\n'}
+[1.795061] (cpp_sensor_server) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_sensor_server__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.802113] (-) TimerEvent: {}
+[1.836412] (cpp_sensor_server) StdoutLine: {'line': b'[ 63%] Built target cpp_sensor_server__rosidl_typesupport_cpp\n'}
+[1.843880] (cpp_sensor_server) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_sensor_server__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.884482] (cpp_sensor_server) StdoutLine: {'line': b'[ 66%] Built target cpp_sensor_server__rosidl_typesupport_introspection_cpp\n'}
+[1.902217] (-) TimerEvent: {}
+[1.923765] (cpp_sensor_server) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_sensor_server__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.963987] (cpp_sensor_server) StdoutLine: {'line': b'[ 69%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_cpp\n'}
+[1.973611] (cpp_sensor_server) StdoutLine: {'line': b'[ 69%] Built target cpp_sensor_server\n'}
+[1.983654] (cpp_sensor_server) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/sensor_server.dir/src/sensor_server.cpp.o\x1b[0m\n'}
+[1.983765] (cpp_sensor_server) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.002308] (-) TimerEvent: {}
+[2.102535] (-) TimerEvent: {}
+[2.202750] (-) TimerEvent: {}
+[2.221809] (cpp_sensor_server) StdoutLine: {'line': b'[ 75%] Built target cpp_sensor_server__py\n'}
+[2.232653] (cpp_sensor_server) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_generator_py.dir/rosidl_generator_py/cpp_sensor_server/srv/_sensor_data_s.c.o\x1b[0m\n'}
+[2.302870] (-) TimerEvent: {}
+[2.306607] (cpp_sensor_server) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cpp_sensor_server/libcpp_sensor_server__rosidl_generator_py.so\x1b[0m\n'}
+[2.328346] (cpp_sensor_server) StdoutLine: {'line': b'[ 80%] Built target cpp_sensor_server__rosidl_generator_py\n'}
+[2.339784] (cpp_sensor_server) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cpp_sensor_server/_cpp_sensor_server_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.339968] (cpp_sensor_server) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cpp_sensor_server/_cpp_sensor_server_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.340038] (cpp_sensor_server) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/cpp_sensor_server__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cpp_sensor_server/_cpp_sensor_server_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.398805] (cpp_sensor_server) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.398979] (cpp_sensor_server) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.399083] (cpp_sensor_server) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.402953] (-) TimerEvent: {}
+[2.419704] (cpp_sensor_server) StdoutLine: {'line': b'[ 97%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.419883] (cpp_sensor_server) StdoutLine: {'line': b'[ 97%] Built target cpp_sensor_server__rosidl_typesupport_c__pyext\n'}
+[2.419946] (cpp_sensor_server) StdoutLine: {'line': b'[ 97%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c__pyext\n'}
+[2.503053] (-) TimerEvent: {}
+[2.603326] (-) TimerEvent: {}
+[2.703601] (-) TimerEvent: {}
+[2.803872] (-) TimerEvent: {}
+[2.904163] (-) TimerEvent: {}
+[3.004438] (-) TimerEvent: {}
+[3.104714] (-) TimerEvent: {}
+[3.204988] (-) TimerEvent: {}
+[3.305256] (-) TimerEvent: {}
+[3.405553] (-) TimerEvent: {}
+[3.505828] (-) TimerEvent: {}
+[3.606101] (-) TimerEvent: {}
+[3.706379] (-) TimerEvent: {}
+[3.806651] (-) TimerEvent: {}
+[3.906920] (-) TimerEvent: {}
+[4.007183] (-) TimerEvent: {}
+[4.107452] (-) TimerEvent: {}
+[4.140318] (cpp_sensor_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SensorServer::handle_sensor_data(std::shared_ptr<cpp_sensor_server::srv::SensorData_Request_<std::allocator<void> > >, std::shared_ptr<cpp_sensor_server::srv::SensorData_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.140522] (cpp_sensor_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server.cpp:23:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klen\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.140617] (cpp_sensor_server) StderrLine: {'line': b'   23 |     size_t \x1b[01;35m\x1b[Klen\x1b[m\x1b[K = socket_.read_some(asio::buffer(buffer), ignored_error);\n'}
+[4.140671] (cpp_sensor_server) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.207549] (-) TimerEvent: {}
+[4.307819] (-) TimerEvent: {}
+[4.408110] (-) TimerEvent: {}
+[4.508392] (-) TimerEvent: {}
+[4.608666] (-) TimerEvent: {}
+[4.708938] (-) TimerEvent: {}
+[4.809207] (-) TimerEvent: {}
+[4.909464] (-) TimerEvent: {}
+[5.009723] (-) TimerEvent: {}
+[5.109983] (-) TimerEvent: {}
+[5.210241] (-) TimerEvent: {}
+[5.310502] (-) TimerEvent: {}
+[5.410779] (-) TimerEvent: {}
+[5.426165] (cpp_sensor_server) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sensor_server\x1b[0m\n'}
+[5.510879] (-) TimerEvent: {}
+[5.542013] (cpp_sensor_server) StdoutLine: {'line': b'[100%] Built target sensor_server\n'}
+[5.547583] (cpp_sensor_server) CommandEnded: {'returncode': 0}
+[5.581310] (cpp_sensor_server) JobProgress: {'identifier': 'cpp_sensor_server', 'progress': 'install'}
+[5.586147] (cpp_sensor_server) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yang/ros2_ws/build/cpp_sensor_server'], 'cwd': '/home/yang/ros2_ws/build/cpp_sensor_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yang'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yang/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/yang'), ('OLDPWD', '/home/yang/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4399'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yang/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yang-System-Product-Name:@/tmp/.ICE-unix/1398,unix/yang-System-Product-Name:/tmp/.ICE-unix/1398'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c88847e9_7e1d_40e3_92b0_cd744afe46c3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yang/ros2_ws/install/py_srvcli:/home/yang/ros2_ws/install/tutorial_interfaces:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yang/ros2_ws/build/cpp_sensor_server'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron')]), 'shell': False}
+[5.589979] (cpp_sensor_server) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.590068] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/ament_index/resource_index/rosidl_interfaces/cpp_sensor_server\n'}
+[5.590151] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/srv/SensorData.json\n'}
+[5.590219] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server\n'}
+[5.590284] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv\n'}
+[5.590322] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail\n'}
+[5.590372] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__description.c\n'}
+[5.590423] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__struct.h\n'}
+[5.590474] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__functions.c\n'}
+[5.590534] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__functions.h\n'}
+[5.590587] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__type_support.c\n'}
+[5.590636] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__type_support.h\n'}
+[5.590683] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/sensor_data.h\n'}
+[5.590733] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/msg\n'}
+[5.590793] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.590843] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/environment/library_path.sh\n'}
+[5.590904] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/environment/library_path.dsv\n'}
+[5.590991] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_generator_c.so\n'}
+[5.591145] (cpp_sensor_server) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_generator_c.so" to ""\n'}
+[5.591195] (cpp_sensor_server) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server\n'}
+[5.591260] (cpp_sensor_server) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv\n'}
+[5.591298] (cpp_sensor_server) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail\n'}
+[5.591333] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__rosidl_typesupport_fastrtps_c.h\n'}
+[5.591367] (cpp_sensor_server) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/msg\n'}
+[5.591421] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.591457] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_typesupport_fastrtps_c.so\n'}
+[5.591509] (cpp_sensor_server) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.591564] (cpp_sensor_server) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server\n'}
+[5.591600] (cpp_sensor_server) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv\n'}
+[5.591651] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/sensor_data.hpp\n'}
+[5.591687] (cpp_sensor_server) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail\n'}
+[5.591722] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__traits.hpp\n'}
+[5.591771] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__builder.hpp\n'}
+[5.591841] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__struct.hpp\n'}
+[5.591891] (cpp_sensor_server) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server\n'}
+[5.591926] (cpp_sensor_server) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv\n'}
+[5.591977] (cpp_sensor_server) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail\n'}
+[5.592011] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.592043] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/dds_fastrtps\n'}
+[5.592084] (cpp_sensor_server) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/msg\n'}
+[5.592124] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.592157] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.592212] (cpp_sensor_server) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.592268] (cpp_sensor_server) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server\n'}
+[5.592306] (cpp_sensor_server) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv\n'}
+[5.592378] (cpp_sensor_server) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail\n'}
+[5.592414] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__rosidl_typesupport_introspection_c.h\n'}
+[5.592448] (cpp_sensor_server) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__type_support.c\n'}
+[5.592481] (cpp_sensor_server) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/msg\n'}
+[5.592523] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.592560] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_typesupport_introspection_c.so\n'}
+[5.592594] (cpp_sensor_server) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.592643] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_typesupport_c.so\n'}
+[5.592692] (cpp_sensor_server) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_typesupport_c.so" to ""\n'}
+[5.592743] (cpp_sensor_server) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server\n'}
+[5.592806] (cpp_sensor_server) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv\n'}
+[5.592846] (cpp_sensor_server) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail\n'}
+[5.592881] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.592916] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__type_support.cpp\n'}
+[5.592965] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_typesupport_introspection_cpp.so\n'}
+[5.593071] (cpp_sensor_server) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.593121] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_typesupport_cpp.so\n'}
+[5.593278] (cpp_sensor_server) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_typesupport_cpp.so" to ""\n'}
+[5.593330] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/environment/pythonpath.sh\n'}
+[5.593377] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/environment/pythonpath.dsv\n'}
+[5.593426] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server-0.0.0-py3.10.egg-info\n'}
+[5.593476] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.593521] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.593573] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.593620] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.593666] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server\n'}
+[5.593716] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/_cpp_sensor_server_s.ep.rosidl_typesupport_c.c\n'}
+[5.593767] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/_cpp_sensor_server_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.593813] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/_cpp_sensor_server_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.593863] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/srv\n'}
+[5.593914] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/srv/_sensor_data.py\n'}
+[5.593965] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/srv/_sensor_data_s.c\n'}
+[5.594019] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/srv/__init__.py\n'}
+[5.594071] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.594123] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.594170] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.594220] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/libcpp_sensor_server__rosidl_generator_py.so\n'}
+[5.594272] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/__init__.py\n'}
+[5.610929] (-) TimerEvent: {}
+[5.614661] (cpp_sensor_server) StdoutLine: {'line': b"Listing '/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server'...\n"}
+[5.614743] (cpp_sensor_server) StdoutLine: {'line': b"Compiling '/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/__init__.py'...\n"}
+[5.614781] (cpp_sensor_server) StdoutLine: {'line': b"Listing '/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/srv'...\n"}
+[5.614815] (cpp_sensor_server) StdoutLine: {'line': b"Compiling '/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/srv/__init__.py'...\n"}
+[5.614848] (cpp_sensor_server) StdoutLine: {'line': b"Compiling '/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/srv/_sensor_data.py'...\n"}
+[5.617186] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.617356] (cpp_sensor_server) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.617431] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.617544] (cpp_sensor_server) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.617624] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.617744] (cpp_sensor_server) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.617811] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_generator_py.so\n'}
+[5.617880] (cpp_sensor_server) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_generator_py.so" to ""\n'}
+[5.617934] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/srv/SensorData.idl\n'}
+[5.617985] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/srv/SensorData.srv\n'}
+[5.618036] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/srv/SensorData_Request.msg\n'}
+[5.618087] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/srv/SensorData_Response.msg\n'}
+[5.618153] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/cpp_sensor_server/sensor_server\n'}
+[5.619019] (cpp_sensor_server) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/cpp_sensor_server/lib/cpp_sensor_server/sensor_server" to ""\n'}
+[5.619070] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/ament_index/resource_index/package_run_dependencies/cpp_sensor_server\n'}
+[5.619143] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/ament_index/resource_index/parent_prefix_path/cpp_sensor_server\n'}
+[5.619203] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/environment/ament_prefix_path.sh\n'}
+[5.619259] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/environment/ament_prefix_path.dsv\n'}
+[5.619320] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/environment/path.sh\n'}
+[5.619375] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/environment/path.dsv\n'}
+[5.619433] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/local_setup.bash\n'}
+[5.619481] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/local_setup.sh\n'}
+[5.619536] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/local_setup.zsh\n'}
+[5.619589] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/local_setup.dsv\n'}
+[5.619639] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/package.dsv\n'}
+[5.619713] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/ament_index/resource_index/packages/cpp_sensor_server\n'}
+[5.619792] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/export_cpp_sensor_server__rosidl_generator_cExport.cmake\n'}
+[5.619853] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/export_cpp_sensor_server__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.619918] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/export_cpp_sensor_server__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.619976] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/export_cpp_sensor_server__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.620038] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/export_cpp_sensor_server__rosidl_generator_cppExport.cmake\n'}
+[5.620134] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/export_cpp_sensor_server__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.620207] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/export_cpp_sensor_server__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.620271] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_server__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.620334] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_server__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.620399] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_server__rosidl_typesupport_cExport.cmake\n'}
+[5.620460] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_server__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.620530] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_server__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.620590] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_server__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.620652] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_server__rosidl_typesupport_cppExport.cmake\n'}
+[5.620712] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_server__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.620773] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/export_cpp_sensor_server__rosidl_generator_pyExport.cmake\n'}
+[5.620834] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/export_cpp_sensor_server__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.620894] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/rosidl_cmake-extras.cmake\n'}
+[5.620951] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.621010] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.621067] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.621125] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.621195] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.621252] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.621311] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_serverConfig.cmake\n'}
+[5.621364] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_serverConfig-version.cmake\n'}
+[5.621426] (cpp_sensor_server) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/package.xml\n'}
+[5.622765] (cpp_sensor_server) CommandEnded: {'returncode': 0}
+[5.668674] (cpp_sensor_server) JobEnded: {'identifier': 'cpp_sensor_server', 'rc': 0}
+[5.669157] (-) EventReactorShutdown: {}

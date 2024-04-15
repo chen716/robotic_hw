@@ -1,0 +1,40 @@
+[0.006s] Invoking command in '/home/yang/ros2_ws/build/cpp_sensor_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16
+[0.032s] [  2%] Built target cpp_sensor_server__rosidl_generator_type_description
+[0.037s] [  2%] Built target ament_cmake_python_copy_cpp_sensor_server
+[0.043s] [  5%] Built target cpp_sensor_server__cpp
+[0.043s] [ 17%] Built target cpp_sensor_server__rosidl_generator_c
+[0.055s] [ 57%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c
+[0.055s] [ 57%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c
+[0.056s] [ 57%] Built target cpp_sensor_server__rosidl_typesupport_c
+[0.056s] [ 57%] Built target cpp_sensor_server__rosidl_typesupport_introspection_cpp
+[0.056s] [ 57%] Built target cpp_sensor_server__rosidl_typesupport_cpp
+[0.056s] [ 62%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_cpp
+[0.067s] [ 62%] Built target cpp_sensor_server
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target sensor_server2[0m
+[0.078s] [ 65%] Built target cpp_sensor_server__py
+[0.082s] [ 70%] Built target sensor_client
+[0.085s] [ 75%] Built target sensor_server
+[0.089s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_server2.dir/src/sensor_server2.cpp.o[0m
+[0.089s] [ 82%] Built target cpp_sensor_server__rosidl_generator_py
+[0.102s] [ 97%] Built target cpp_sensor_server__rosidl_typesupport_c__pyext
+[0.102s] [ 97%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c__pyext
+[0.102s] [ 97%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c__pyext
+[0.176s] running egg_info
+[0.177s] writing cpp_sensor_server.egg-info/PKG-INFO
+[0.177s] writing dependency_links to cpp_sensor_server.egg-info/dependency_links.txt
+[0.177s] writing top-level names to cpp_sensor_server.egg-info/top_level.txt
+[0.178s] reading manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'
+[0.178s] writing manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'
+[0.192s] [ 97%] Built target ament_cmake_python_build_cpp_sensor_server_egg
+[2.150s] [01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:[m[K In constructor ‘[01m[KSensorServer2::SensorServer2()[m[K’:
+[2.150s] [01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:13:80:[m[K [01;31m[Kerror: [m[K‘[01m[KSensorServer[m[K’ has not been declared
+[2.150s]    13 |     service_ = this->create_service<SensorData>("get_sensor_data2", std::bind(&[01;31m[KSensorServer[m[K::handle_sensor_data, this, std::placeholders::_1, std::placeholders::_2));
+[2.150s]       |                                                                                [01;31m[K^~~~~~~~~~~~[m[K
+[2.156s] [01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:[m[K In member function ‘[01m[Kvoid SensorServer2::handle_sensor_data(std::shared_ptr<cpp_sensor_server::srv::SensorData_Request_<std::allocator<void> > >, std::shared_ptr<cpp_sensor_server::srv::SensorData_Response_<std::allocator<void> > >)[m[K’:
+[2.156s] [01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:23:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klen[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.156s]    23 |     size_t [01;35m[Klen[m[K = socket_.read_some(asio::buffer(buffer), ignored_error);
+[2.156s]       |            [01;35m[K^~~[m[K
+[2.721s] gmake[2]: *** [CMakeFiles/sensor_server2.dir/build.make:76: CMakeFiles/sensor_server2.dir/src/sensor_server2.cpp.o] Error 1
+[2.721s] gmake[1]: *** [CMakeFiles/Makefile2:659: CMakeFiles/sensor_server2.dir/all] Error 2
+[2.722s] gmake: *** [Makefile:146: all] Error 2
+[2.723s] Invoked command in '/home/yang/ros2_ws/build/cpp_sensor_server' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16

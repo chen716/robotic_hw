@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/home/yang/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron PYTHONPATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[0.031s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.041s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/sensor_client.cpp.o[0m
+[0.047s] [ 75%] Built target server
+[1.464s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.464s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[1.464s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.464s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.464s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.464s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.464s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.464s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.464s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.464s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.464s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[1.464s]                  from [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:1[m[K:
+[1.464s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:[m[K In member function ‘[01m[Kvoid SensorClient::request_data()[m[K’:
+[1.464s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:28:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct tutorial_interfaces::srv::SampleRequest_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::srv::SampleRequest_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksum[m[K’
+[1.464s]    28 |             RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Sum: %ld", result.get()->[01;31m[Ksum[m[K);
+[1.464s]       |                                                                                 [01;31m[K^~~[m[K
+[2.202s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/sensor_client.cpp.o] Error 1
+[2.202s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[2.202s] gmake: *** [Makefile:146: all] Error 2
+[2.204s] Invoked command in '/home/yang/ros2_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron PYTHONPATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_srvcli -- -j16 -l16

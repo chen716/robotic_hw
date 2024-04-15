@@ -1,0 +1,48 @@
+[0.006s] Invoking command in '/home/yang/ros2_ws/build/cpp_sensor_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16
+[0.033s] [  2%] Built target cpp_sensor_server__rosidl_generator_type_description
+[0.038s] [  2%] Built target ament_cmake_python_copy_cpp_sensor_server
+[0.044s] [  4%] Built target cpp_sensor_server__cpp
+[0.045s] [ 20%] Built target cpp_sensor_server__rosidl_generator_c
+[0.057s] [ 52%] Built target cpp_sensor_server__rosidl_typesupport_c
+[0.058s] [ 52%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c
+[0.058s] [ 52%] Built target cpp_sensor_server__rosidl_typesupport_cpp
+[0.058s] [ 52%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c
+[0.058s] [ 60%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_cpp
+[0.058s] [ 68%] Built target cpp_sensor_server__rosidl_typesupport_introspection_cpp
+[0.068s] [ 68%] Built target cpp_sensor_server
+[0.079s] [ 70%] Built target cpp_sensor_server__py
+[0.082s] [ 72%] [32mBuilding CXX object CMakeFiles/sensor_client.dir/src/sensor_client.cpp.o[0m
+[0.086s] [ 74%] [32mBuilding CXX object CMakeFiles/sensor_server2.dir/src/sensor_server2.cpp.o[0m
+[0.086s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_server.dir/src/sensor_server.cpp.o[0m
+[0.092s] [ 82%] Built target cpp_sensor_server__rosidl_generator_py
+[0.105s] [ 94%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c__pyext
+[0.105s] [ 94%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c__pyext
+[0.105s] [ 94%] Built target cpp_sensor_server__rosidl_typesupport_c__pyext
+[0.180s] running egg_info
+[0.180s] writing cpp_sensor_server.egg-info/PKG-INFO
+[0.180s] writing dependency_links to cpp_sensor_server.egg-info/dependency_links.txt
+[0.180s] writing top-level names to cpp_sensor_server.egg-info/top_level.txt
+[0.182s] reading manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'
+[0.182s] writing manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'
+[0.198s] [ 94%] Built target ament_cmake_python_build_cpp_sensor_server_egg
+[0.210s] [01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcpp_sensor_server/srv/samplerequest.hpp: No such file or directory
+[0.210s]     2 | #include [01;31m[K"cpp_sensor_server/srv/samplerequest.hpp"[m[K
+[0.210s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.210s] compilation terminated.
+[0.211s] gmake[2]: *** [CMakeFiles/sensor_client.dir/build.make:76: CMakeFiles/sensor_client.dir/src/sensor_client.cpp.o] Error 1
+[0.212s] gmake[1]: *** [CMakeFiles/Makefile2:688: CMakeFiles/sensor_client.dir/all] Error 2
+[0.212s] gmake[1]: *** Waiting for unfinished jobs....
+[0.212s] [01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/Float32MultiArray.hpp: No such file or directory
+[0.212s]     2 | #include [01;31m[K<std_msgs/Float32MultiArray.hpp>[m[K
+[0.213s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.213s] compilation terminated.
+[0.214s] gmake[2]: *** [CMakeFiles/sensor_server.dir/build.make:76: CMakeFiles/sensor_server.dir/src/sensor_server.cpp.o] Error 1
+[0.214s] gmake[1]: *** [CMakeFiles/Makefile2:630: CMakeFiles/sensor_server.dir/all] Error 2
+[0.215s] [01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcpp_sensor_server/SampleRequest.hpp: No such file or directory
+[0.215s]     2 | #include [01;31m[K"cpp_sensor_server/SampleRequest.hpp"[m[K
+[0.215s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.215s] compilation terminated.
+[0.217s] gmake[2]: *** [CMakeFiles/sensor_server2.dir/build.make:76: CMakeFiles/sensor_server2.dir/src/sensor_server2.cpp.o] Error 1
+[0.217s] gmake[1]: *** [CMakeFiles/Makefile2:659: CMakeFiles/sensor_server2.dir/all] Error 2
+[0.217s] gmake: *** [Makefile:146: all] Error 2
+[0.219s] Invoked command in '/home/yang/ros2_ws/build/cpp_sensor_server' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16

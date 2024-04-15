@@ -1,0 +1,341 @@
+[0.000000] (-) TimerEvent: {}
+[0.000100] (-) JobUnselected: {'identifier': 'cpp_sensor_server'}
+[0.000127] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000138] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000151] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000164] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/yang/ros2_ws/install/tutorial_interfaces')])}
+[0.000579] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.006118] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.006412] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.006836] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yang/ros2_ws/build/cpp_srvcli', '--', '-j16', '-l16'], 'cwd': '/home/yang/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yang'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yang/ros2_ws/install/tutorial_interfaces/lib:/home/yang/ros2_ws/install/cpp_sensor_server/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/yang'), ('OLDPWD', '/home/yang/ros2_ws/build/cpp_sensor_server'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1428'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yang/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yang-System-Product-Name:@/tmp/.ICE-unix/1405,unix/yang-System-Product-Name:/tmp/.ICE-unix/1405'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6ccf2dbc_74aa_4166_85fa_f1cb7fa9d44a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/py_srvcli:/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_sensor_server:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yang/ros2_ws/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron')]), 'shell': False}
+[0.021025] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.099623] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.099895] (-) TimerEvent: {}
+[0.115123] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.119743] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.126646] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.135434] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199955] (-) TimerEvent: {}
+[0.219711] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.220509] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.283097] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300055] (-) TimerEvent: {}
+[0.373906] (cpp_srvcli) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[0.390765] (cpp_srvcli) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/yang/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[0.400148] (-) TimerEvent: {}
+[0.500346] (-) TimerEvent: {}
+[0.515688] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.523072] (cpp_srvcli) StdoutLine: {'line': b'-- Generating done\n'}
+[0.523962] (cpp_srvcli) StdoutLine: {'line': b'-- Build files have been written to: /home/yang/ros2_ws/build/cpp_srvcli\n'}
+[0.538199] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client\x1b[0m\n'}
+[0.538308] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server\x1b[0m\n'}
+[0.552151] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/sensor_server.cpp.o\x1b[0m\n'}
+[0.552267] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/sensor_client.cpp.o\x1b[0m\n'}
+[0.600464] (-) TimerEvent: {}
+[0.700710] (-) TimerEvent: {}
+[0.800955] (-) TimerEvent: {}
+[0.901186] (-) TimerEvent: {}
+[1.001431] (-) TimerEvent: {}
+[1.101706] (-) TimerEvent: {}
+[1.201955] (-) TimerEvent: {}
+[1.302202] (-) TimerEvent: {}
+[1.402449] (-) TimerEvent: {}
+[1.502699] (-) TimerEvent: {}
+[1.602922] (-) TimerEvent: {}
+[1.703150] (-) TimerEvent: {}
+[1.803410] (-) TimerEvent: {}
+[1.903660] (-) TimerEvent: {}
+[2.003910] (-) TimerEvent: {}
+[2.104158] (-) TimerEvent: {}
+[2.204402] (-) TimerEvent: {}
+[2.304636] (-) TimerEvent: {}
+[2.404873] (-) TimerEvent: {}
+[2.505125] (-) TimerEvent: {}
+[2.525712] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:21:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcustom_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.525846] (cpp_srvcli) StderrLine: {'line': b'   21 |     void handle_service_request(const std::shared_ptr<\x1b[01;31m\x1b[Kcustom_interfaces\x1b[m\x1b[K::srv::SampleRequest::Request> request,\n'}
+[2.525889] (cpp_srvcli) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.525922] (cpp_srvcli) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\n'}
+[2.525955] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:21:101:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.525987] (cpp_srvcli) StderrLine: {'line': b'   21 |     void handle_service_request(const std::shared_ptr<custom_interfaces::srv::SampleRequest::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[2.526019] (cpp_srvcli) StderrLine: {'line': b'      |                                                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.532358] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:21:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcustom_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.532467] (cpp_srvcli) StderrLine: {'line': b'   21 |     void handle_service_request(const std::shared_ptr<\x1b[01;31m\x1b[Kcustom_interfaces\x1b[m\x1b[K::srv::SampleRequest::Request> request,\n'}
+[2.532506] (cpp_srvcli) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.532540] (cpp_srvcli) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\n'}
+[2.532572] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:21:101:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.532605] (cpp_srvcli) StderrLine: {'line': b'   21 |     void handle_service_request(const std::shared_ptr<custom_interfaces::srv::SampleRequest::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[2.532636] (cpp_srvcli) StderrLine: {'line': b'      |                                                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.538950] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:21:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcustom_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.539060] (cpp_srvcli) StderrLine: {'line': b'   21 |     void handle_service_request(const std::shared_ptr<\x1b[01;31m\x1b[Kcustom_interfaces\x1b[m\x1b[K::srv::SampleRequest::Request> request,\n'}
+[2.539100] (cpp_srvcli) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.539136] (cpp_srvcli) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\n'}
+[2.539170] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:21:101:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.539211] (cpp_srvcli) StderrLine: {'line': b'   21 |     void handle_service_request(const std::shared_ptr<custom_interfaces::srv::SampleRequest::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[2.539244] (cpp_srvcli) StderrLine: {'line': b'      |                                                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.539281] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:21:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[2.539314] (cpp_srvcli) StderrLine: {'line': b'   21 |     void handle_service_request(const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<custom_interfaces::srv::SampleRequest::Request> request,\n'}
+[2.539346] (cpp_srvcli) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.539377] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:21:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcustom_interfaces\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.539410] (cpp_srvcli) StderrLine: {'line': b'   21 |     void handle_service_request(const std::shared_ptr<\x1b[01;31m\x1b[Kcustom_interfaces\x1b[m\x1b[K::srv::SampleRequest::Request> request,\n'}
+[2.539442] (cpp_srvcli) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.539474] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:21:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[2.539506] (cpp_srvcli) StderrLine: {'line': b'   21 |     void handle_service_request(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<custom_interfaces::srv::SampleRequest::Request> request,\n'}
+[2.539538] (cpp_srvcli) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.546913] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:22:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcustom_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.547029] (cpp_srvcli) StderrLine: {'line': b'   22 |                                 std::shared_ptr<\x1b[01;31m\x1b[Kcustom_interfaces\x1b[m\x1b[K::srv::SampleRequest::Response> response)\n'}
+[2.547068] (cpp_srvcli) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.547101] (cpp_srvcli) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\n'}
+[2.547133] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:22:96:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.547165] (cpp_srvcli) StderrLine: {'line': b'   22 |                                 std::shared_ptr<custom_interfaces::srv::SampleRequest::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[2.547196] (cpp_srvcli) StderrLine: {'line': b'      |                                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.554797] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:22:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcustom_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.554901] (cpp_srvcli) StderrLine: {'line': b'   22 |                                 std::shared_ptr<\x1b[01;31m\x1b[Kcustom_interfaces\x1b[m\x1b[K::srv::SampleRequest::Response> response)\n'}
+[2.554943] (cpp_srvcli) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.554984] (cpp_srvcli) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\n'}
+[2.555017] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:22:96:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.555049] (cpp_srvcli) StderrLine: {'line': b'   22 |                                 std::shared_ptr<custom_interfaces::srv::SampleRequest::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[2.555080] (cpp_srvcli) StderrLine: {'line': b'      |                                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.561268] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:22:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcustom_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.561355] (cpp_srvcli) StderrLine: {'line': b'   22 |                                 std::shared_ptr<\x1b[01;31m\x1b[Kcustom_interfaces\x1b[m\x1b[K::srv::SampleRequest::Response> response)\n'}
+[2.561393] (cpp_srvcli) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.561426] (cpp_srvcli) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\n'}
+[2.561459] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:22:96:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.561491] (cpp_srvcli) StderrLine: {'line': b'   22 |                                 std::shared_ptr<custom_interfaces::srv::SampleRequest::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[2.561522] (cpp_srvcli) StderrLine: {'line': b'      |                                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.561553] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:22:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[2.561591] (cpp_srvcli) StderrLine: {'line': b'   22 |                                 \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<custom_interfaces::srv::SampleRequest::Response> response)\n'}
+[2.561623] (cpp_srvcli) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.561653] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:22:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcustom_interfaces\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.561685] (cpp_srvcli) StderrLine: {'line': b'   22 |                                 std::shared_ptr<\x1b[01;31m\x1b[Kcustom_interfaces\x1b[m\x1b[K::srv::SampleRequest::Response> response)\n'}
+[2.561715] (cpp_srvcli) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.561745] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:22:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[2.561776] (cpp_srvcli) StderrLine: {'line': b'   22 |                                 \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<custom_interfaces::srv::SampleRequest::Response> response)\n'}
+[2.561809] (cpp_srvcli) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.567584] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:41:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcustom_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.567682] (cpp_srvcli) StderrLine: {'line': b'   41 |     rclcpp::Service<\x1b[01;31m\x1b[Kcustom_interfaces\x1b[m\x1b[K::srv::SampleRequest>::SharedPtr service_;\n'}
+[2.567721] (cpp_srvcli) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.567763] (cpp_srvcli) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\n'}
+[2.567797] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:41:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.567830] (cpp_srvcli) StderrLine: {'line': b'   41 |     rclcpp::Service<custom_interfaces::srv::SampleRequest\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr service_;\n'}
+[2.567861] (cpp_srvcli) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.567890] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:41:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.567922] (cpp_srvcli) StderrLine: {'line': b'   41 |     rclcpp::Service<custom_interfaces::srv::SampleRequest>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K service_;\n'}
+[2.567952] (cpp_srvcli) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.567983] (cpp_srvcli) StderrLine: {'line': b'      |                                                                      \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.569011] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:41:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kservice_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.569076] (cpp_srvcli) StderrLine: {'line': b'   41 |     rclcpp::Service<custom_interfaces::srv::SampleRequest>::SharedPtr \x1b[01;31m\x1b[Kservice_\x1b[m\x1b[K;\n'}
+[2.569113] (cpp_srvcli) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.577178] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSensorService::SensorService()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.577295] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:14:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kservice_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kio_service_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.577337] (cpp_srvcli) StderrLine: {'line': b'   14 |         \x1b[01;31m\x1b[Kservice_\x1b[m\x1b[K = this->create_service<custom_interfaces::srv::SampleRequest>("get_samples", std::bind(&SensorService::handle_service_request, this, _1));\n'}
+[2.577372] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.577404] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kio_service_\x1b[m\x1b[K\n'}
+[2.583413] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:14:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcustom_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.583507] (cpp_srvcli) StderrLine: {'line': b'   14 |         service_ = this->create_service<\x1b[01;31m\x1b[Kcustom_interfaces\x1b[m\x1b[K::srv::SampleRequest>("get_samples", std::bind(&SensorService::handle_service_request, this, _1));\n'}
+[2.583545] (cpp_srvcli) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.583579] (cpp_srvcli) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\n'}
+[2.583611] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:14:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.583643] (cpp_srvcli) StderrLine: {'line': b'   14 |         service_ = this->\x1b[01;31m\x1b[Kcreate_service<custom_interfaces::srv::SampleRequest>\x1b[m\x1b[K("get_samples", std::bind(&SensorService::handle_service_request, this, _1));\n'}
+[2.583675] (cpp_srvcli) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.586279] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:14:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KSensorService::create_service<<expression error> >(const char [12], std::_Bind_helper<false, void (SensorService::*)(...), SensorService*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.586366] (cpp_srvcli) StderrLine: {'line': b'   14 |         service_ = \x1b[01;31m\x1b[Kthis->create_service<custom_interfaces::srv::SampleRequest>("get_samples", std::bind(&SensorService::handle_service_request, this, _1))\x1b[m\x1b[K;\n'}
+[2.586530] (cpp_srvcli) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.586570] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.586604] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.586636] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.586668] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:1\x1b[m\x1b[K:\n'}
+[2.586699] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:299:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.586739] (cpp_srvcli) StderrLine: {'line': b'  299 |   \x1b[01;36m\x1b[Kcreate_service\x1b[m\x1b[K(\n'}
+[2.586771] (cpp_srvcli) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.586801] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:299:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.586832] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:14:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.586863] (cpp_srvcli) StderrLine: {'line': b'   14 |         service_ = \x1b[01;31m\x1b[Kthis->create_service<custom_interfaces::srv::SampleRequest>("get_samples", std::bind(&SensorService::handle_service_request, this, _1))\x1b[m\x1b[K;\n'}
+[2.586913] (cpp_srvcli) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.586947] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.586985] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.587015] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.587047] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:1\x1b[m\x1b[K:\n'}
+[2.587079] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:315:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.587114] (cpp_srvcli) StderrLine: {'line': b'  315 |   \x1b[01;36m\x1b[Kcreate_service\x1b[m\x1b[K(\n'}
+[2.587145] (cpp_srvcli) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.587175] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:315:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.587206] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:14:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.587237] (cpp_srvcli) StderrLine: {'line': b'   14 |         service_ = \x1b[01;31m\x1b[Kthis->create_service<custom_interfaces::srv::SampleRequest>("get_samples", std::bind(&SensorService::handle_service_request, this, _1))\x1b[m\x1b[K;\n'}
+[2.587267] (cpp_srvcli) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.594212] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SensorService::handle_service_request(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.594315] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:24:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.594354] (cpp_srvcli) StderrLine: {'line': b'   24 |         asio::write(socket_, asio::buffer(&\x1b[01;31m\x1b[Krequest\x1b[m\x1b[K->requestSample, sizeof(int)));\n'}
+[2.594387] (cpp_srvcli) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.600126] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:29:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.600214] (cpp_srvcli) StderrLine: {'line': b'   29 |         \x1b[01;31m\x1b[Kresponse\x1b[m\x1b[K->data.layout.dim.push_back(std_msgs::msg::MultiArrayDimension());\n'}
+[2.600251] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.605228] (-) TimerEvent: {}
+[2.659186] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:23:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.659309] (cpp_srvcli) StderrLine: {'line': b'   23 |     void handle_service(const std::shared_ptr<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::SampleRequest::Request> request,\n'}
+[2.659347] (cpp_srvcli) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.659381] (cpp_srvcli) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[2.659412] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:23:94:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.659445] (cpp_srvcli) StderrLine: {'line': b'   23 | :shared_ptr<example_interfaces::srv::SampleRequest::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[2.659475] (cpp_srvcli) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.659505] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[2.668769] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:23:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.668913] (cpp_srvcli) StderrLine: {'line': b'   23 |     void handle_service(const std::shared_ptr<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::SampleRequest::Request> request,\n'}
+[2.668952] (cpp_srvcli) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.668985] (cpp_srvcli) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[2.669017] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:23:94:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.669050] (cpp_srvcli) StderrLine: {'line': b'   23 | :shared_ptr<example_interfaces::srv::SampleRequest::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[2.669080] (cpp_srvcli) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.669111] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[2.678337] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:23:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.678468] (cpp_srvcli) StderrLine: {'line': b'   23 |     void handle_service(const std::shared_ptr<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::SampleRequest::Request> request,\n'}
+[2.678510] (cpp_srvcli) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.678545] (cpp_srvcli) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[2.678579] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:23:94:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.678612] (cpp_srvcli) StderrLine: {'line': b'   23 | :shared_ptr<example_interfaces::srv::SampleRequest::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[2.678645] (cpp_srvcli) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.678676] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[2.678707] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:23:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[2.678743] (cpp_srvcli) StderrLine: {'line': b'   23 |     void handle_service(const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<example_interfaces::srv::SampleRequest::Request> request,\n'}
+[2.678774] (cpp_srvcli) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.678806] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:23:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.678839] (cpp_srvcli) StderrLine: {'line': b'   23 |     void handle_service(const std::shared_ptr<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::SampleRequest::Request> request,\n'}
+[2.678871] (cpp_srvcli) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.678913] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:23:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[2.678948] (cpp_srvcli) StderrLine: {'line': b'   23 |     void handle_service(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<example_interfaces::srv::SampleRequest::Request> request,\n'}
+[2.678981] (cpp_srvcli) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.687971] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:24:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.688086] (cpp_srvcli) StderrLine: {'line': b'   24 |                         std::shared_ptr<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::SampleRequest::Response> response)\n'}
+[2.688126] (cpp_srvcli) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.688158] (cpp_srvcli) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[2.688190] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:24:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.688223] (cpp_srvcli) StderrLine: {'line': b'   24 | hared_ptr<example_interfaces::srv::SampleRequest::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[2.688254] (cpp_srvcli) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.688285] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[2.697506] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:24:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.697614] (cpp_srvcli) StderrLine: {'line': b'   24 |                         std::shared_ptr<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::SampleRequest::Response> response)\n'}
+[2.697651] (cpp_srvcli) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.697685] (cpp_srvcli) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[2.697717] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:24:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.697831] (cpp_srvcli) StderrLine: {'line': b'   24 | hared_ptr<example_interfaces::srv::SampleRequest::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[2.697867] (cpp_srvcli) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.697897] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[2.705332] (-) TimerEvent: {}
+[2.706996] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:24:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.707088] (cpp_srvcli) StderrLine: {'line': b'   24 |                         std::shared_ptr<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::SampleRequest::Response> response)\n'}
+[2.707204] (cpp_srvcli) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.707255] (cpp_srvcli) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[2.707290] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:24:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.707324] (cpp_srvcli) StderrLine: {'line': b'   24 | hared_ptr<example_interfaces::srv::SampleRequest::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[2.707356] (cpp_srvcli) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.707387] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[2.707417] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:24:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[2.707448] (cpp_srvcli) StderrLine: {'line': b'   24 |                         \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<example_interfaces::srv::SampleRequest::Response> response)\n'}
+[2.707478] (cpp_srvcli) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.707509] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:24:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.707541] (cpp_srvcli) StderrLine: {'line': b'   24 |                         std::shared_ptr<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::SampleRequest::Response> response)\n'}
+[2.707571] (cpp_srvcli) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.707602] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:24:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[2.707633] (cpp_srvcli) StderrLine: {'line': b'   24 |                         \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<example_interfaces::srv::SampleRequest::Response> response)\n'}
+[2.707664] (cpp_srvcli) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.716593] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:39:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.716694] (cpp_srvcli) StderrLine: {'line': b'   39 |     rclcpp::Service<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::SampleRequest>::SharedPtr service_;\n'}
+[2.716730] (cpp_srvcli) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.716775] (cpp_srvcli) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[2.716808] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:39:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.716840] (cpp_srvcli) StderrLine: {'line': b'   39 |     rclcpp::Service<example_interfaces::srv::SampleRequest\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr service_;\n'}
+[2.716872] (cpp_srvcli) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.716903] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:39:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.716937] (cpp_srvcli) StderrLine: {'line': b'   39 |  rclcpp::Service<example_interfaces::srv::SampleRequest>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K service_;\n'}
+[2.716969] (cpp_srvcli) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.716999] (cpp_srvcli) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.718231] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:39:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kservice_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.718298] (cpp_srvcli) StderrLine: {'line': b'   39 | :Service<example_interfaces::srv::SampleRequest>::SharedPtr \x1b[01;31m\x1b[Kservice_\x1b[m\x1b[K;\n'}
+[2.718336] (cpp_srvcli) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.718369] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[2.725056] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSensorService::SensorService()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.725161] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:14:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kservice_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kio_service_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.725202] (cpp_srvcli) StderrLine: {'line': b'   14 |         \x1b[01;31m\x1b[Kservice_\x1b[m\x1b[K = this->create_service<example_interfaces::srv::SampleRequest>("get_sensor_data", std::bind(&SensorService::handle_service, this, _1, _2));\n'}
+[2.725237] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.725269] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kio_service_\x1b[m\x1b[K\n'}
+[2.734763] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:14:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.734902] (cpp_srvcli) StderrLine: {'line': b'   14 |         service_ = this->create_service<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::SampleRequest>("get_sensor_data", std::bind(&SensorService::handle_service, this, _1, _2));\n'}
+[2.734946] (cpp_srvcli) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.734987] (cpp_srvcli) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[2.735019] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:14:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.735055] (cpp_srvcli) StderrLine: {'line': b'   14 |         service_ = this->\x1b[01;31m\x1b[Kcreate_service<example_interfaces::srv::SampleRequest>\x1b[m\x1b[K("get_sensor_data", std::bind(&SensorService::handle_service, this, _1, _2));\n'}
+[2.735086] (cpp_srvcli) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.738386] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:14:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KSensorService::create_service<<expression error> >(const char [16], std::_Bind_helper<false, void (SensorService::*)(...), SensorService*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.738526] (cpp_srvcli) StderrLine: {'line': b'   14 | \x1b[01;31m\x1b[Kis->create_service<example_interfaces::srv::SampleRequest>("get_sensor_data", std::bind(&SensorService::handle_service, this, _1, _2))\x1b[m\x1b[K;\n'}
+[2.738567] (cpp_srvcli) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.738603] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[2.738636] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.738669] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.738702] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.738734] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:1\x1b[m\x1b[K:\n'}
+[2.738765] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:299:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.738805] (cpp_srvcli) StderrLine: {'line': b'  299 |   \x1b[01;36m\x1b[Kcreate_service\x1b[m\x1b[K(\n'}
+[2.738838] (cpp_srvcli) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.738869] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:299:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.738909] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:14:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.738950] (cpp_srvcli) StderrLine: {'line': b'   14 | \x1b[01;31m\x1b[Kis->create_service<example_interfaces::srv::SampleRequest>("get_sensor_data", std::bind(&SensorService::handle_service, this, _1, _2))\x1b[m\x1b[K;\n'}
+[2.738989] (cpp_srvcli) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.739020] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[2.739050] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.739080] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.739119] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.739154] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:1\x1b[m\x1b[K:\n'}
+[2.739191] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:315:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.739223] (cpp_srvcli) StderrLine: {'line': b'  315 |   \x1b[01;36m\x1b[Kcreate_service\x1b[m\x1b[K(\n'}
+[2.739254] (cpp_srvcli) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.739284] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:315:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.739317] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:14:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.739352] (cpp_srvcli) StderrLine: {'line': b'   14 | \x1b[01;31m\x1b[Kis->create_service<example_interfaces::srv::SampleRequest>("get_sensor_data", std::bind(&SensorService::handle_service, this, _1, _2))\x1b[m\x1b[K;\n'}
+[2.739383] (cpp_srvcli) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.739413] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[2.750244] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SensorService::handle_service(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.750374] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:26:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.750414] (cpp_srvcli) StderrLine: {'line': b'   26 |         std::string send_buf = std::to_string(\x1b[01;31m\x1b[Krequest\x1b[m\x1b[K->requestSample);\n'}
+[2.750449] (cpp_srvcli) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.752261] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:31:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kerror\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.752344] (cpp_srvcli) StderrLine: {'line': b'   31 | ize_t len = socket_->read_some(boost::asio::buffer(recv_buf), \x1b[01;31m\x1b[Kerror\x1b[m\x1b[K);\n'}
+[2.752381] (cpp_srvcli) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.752415] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[2.789964] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:31:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[2.790084] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/asio/detail/impl/posix_event.ipp:24\x1b[m\x1b[K,\n'}
+[2.790124] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/detail/posix_event.hpp:172\x1b[m\x1b[K,\n'}
+[2.790159] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/detail/event.hpp:25\x1b[m\x1b[K,\n'}
+[2.790192] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/execution/blocking_adaptation.hpp:19\x1b[m\x1b[K,\n'}
+[2.790224] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/execution.hpp:22\x1b[m\x1b[K,\n'}
+[2.790265] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/system_executor.hpp:20\x1b[m\x1b[K,\n'}
+[2.790297] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/associated_executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.790329] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio.hpp:21\x1b[m\x1b[K,\n'}
+[2.790362] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:3\x1b[m\x1b[K:\n'}
+[2.790393] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/asio/error.hpp:66:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::asio::error\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.790426] (cpp_srvcli) StderrLine: {'line': b'   66 | namespace \x1b[01;36m\x1b[Kerror\x1b[m\x1b[K {\n'}
+[2.790458] (cpp_srvcli) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.790489] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/asio.hpp:135\x1b[m\x1b[K,\n'}
+[2.790520] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:3\x1b[m\x1b[K:\n'}
+[2.790551] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/asio/placeholders.hpp:65:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kboost::asio::placeholders::error\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.790585] (cpp_srvcli) StderrLine: {'line': b'   65 | inline boost::arg<1> \x1b[01;36m\x1b[Kerror\x1b[m\x1b[K()\n'}
+[2.790616] (cpp_srvcli) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.795637] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:36:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.795756] (cpp_srvcli) StderrLine: {'line': b'   36 |         \x1b[01;31m\x1b[Kresponse\x1b[m\x1b[K->data = parsed_data; // Assign parsed data to response\n'}
+[2.795795] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.802080] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:36:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kparsed_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.802178] (cpp_srvcli) StderrLine: {'line': b'   36 |         response->data = \x1b[01;31m\x1b[Kparsed_data\x1b[m\x1b[K; // Assign parsed data to response\n'}
+[2.802217] (cpp_srvcli) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.805440] (-) TimerEvent: {}
+[2.905656] (-) TimerEvent: {}
+[3.005907] (-) TimerEvent: {}
+[3.074605] (cpp_srvcli) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/sensor_client.cpp.o] Error 1\n'}
+[3.074736] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2\n'}
+[3.074775] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.106033] (-) TimerEvent: {}
+[3.206282] (-) TimerEvent: {}
+[3.306555] (-) TimerEvent: {}
+[3.348386] (cpp_srvcli) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/sensor_server.cpp.o] Error 1\n'}
+[3.348547] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2\n'}
+[3.348625] (cpp_srvcli) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.349790] (cpp_srvcli) CommandEnded: {'returncode': 2}
+[3.370091] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 2}
+[3.380300] (-) EventReactorShutdown: {}

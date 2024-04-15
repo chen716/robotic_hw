@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cpp_sensor_server/srv/SensorData.srv
+// generated code does not contain a copyright notice
+
+
+module cpp_sensor_server {
+  module srv {
+    struct SensorData_Request {
+      int64 num_samples;
+    };
+    struct SensorData_Response {
+      sequence<double> data;
+    };
+  };
+};

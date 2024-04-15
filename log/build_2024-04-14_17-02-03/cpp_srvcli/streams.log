@@ -1,0 +1,12 @@
+[0.007s] Invoking command in '/home/yang/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron PYTHONPATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[0.031s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.037s] [ 50%] Built target client
+[0.046s] [ 75%] [32mBuilding CXX object CMakeFiles/server.dir/src/sensor_server.cpp.o[0m
+[2.092s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:[m[K In member function ‘[01m[Kvoid SensorService::handle_service(std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Response_<std::allocator<void> > >)[m[K’:
+[2.092s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:58:36:[m[K [01;31m[Kerror: [m[K‘[01m[Klen[m[K’ cannot be used as a function
+[2.092s]    58 |         std::cout<<"got buf: "<<[01;31m[Klen(recv_buf.data())[m[K<<"\r";
+[2.092s]       |                                 [01;31m[K~~~^~~~~~~~~~~~~~~~~[m[K
+[2.728s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/sensor_server.cpp.o] Error 1
+[2.728s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[2.729s] gmake: *** [Makefile:146: all] Error 2
+[2.730s] Invoked command in '/home/yang/ros2_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron PYTHONPATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_srvcli -- -j16 -l16

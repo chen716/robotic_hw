@@ -1,0 +1,6 @@
+/home/yang/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Num.idl
+/home/yang/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Sphere.idl
+/home/yang/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/SampleArray.idl
+/home/yang/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:srv/AddThreeInts.idl
+/home/yang/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:srv/SensorData.idl
+/home/yang/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:srv/SampleRequest.idl

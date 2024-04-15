@@ -1,0 +1,478 @@
+[0.000000] (-) TimerEvent: {}
+[0.000145] (-) JobUnselected: {'identifier': 'cpp_sensor_server'}
+[0.000227] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000246] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000254] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000264] (sensor_interfaces) JobQueued: {'identifier': 'sensor_interfaces', 'dependencies': OrderedDict()}
+[0.000275] (sensor_interfaces) JobStarted: {'identifier': 'sensor_interfaces'}
+[0.004302] (sensor_interfaces) JobProgress: {'identifier': 'sensor_interfaces', 'progress': 'cmake'}
+[0.004480] (sensor_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/yang/ros2_ws/src/sensor_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/yang/ros2_ws/install/sensor_interfaces'], 'cwd': '/home/yang/ros2_ws/build/sensor_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yang'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yang/ros2_ws/install/cpp_sensor_server/lib:/home/yang/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/yang'), ('OLDPWD', '/home/yang'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yang/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yang-System-Product-Name:@/tmp/.ICE-unix/1412,unix/yang-System-Product-Name:/tmp/.ICE-unix/1412'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c517ccf2_94f2_4754_8779_e43466693370'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yang/ros2_ws/install/py_srvcli:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/tutorial_interfaces:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yang/ros2_ws/build/sensor_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron')]), 'shell': False}
+[0.042054] (sensor_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.071697] (sensor_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.075944] (sensor_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099653] (-) TimerEvent: {}
+[0.111933] (sensor_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.116137] (sensor_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.116610] (sensor_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.116864] (sensor_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.118639] (sensor_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.161005] (sensor_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.165194] (sensor_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.165299] (sensor_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.165668] (sensor_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.167387] (sensor_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.199760] (-) TimerEvent: {}
+[0.261137] (sensor_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.299873] (-) TimerEvent: {}
+[0.311490] (sensor_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)\n'}
+[0.332244] (sensor_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.338953] (sensor_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.348048] (sensor_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.359066] (sensor_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399995] (-) TimerEvent: {}
+[0.419666] (sensor_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[0.429480] (sensor_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[0.500113] (-) TimerEvent: {}
+[0.600327] (-) TimerEvent: {}
+[0.666281] (sensor_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[0.700438] (-) TimerEvent: {}
+[0.800663] (-) TimerEvent: {}
+[0.894128] (sensor_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.900754] (-) TimerEvent: {}
+[0.983421] (sensor_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.995935] (sensor_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[0.996793] (sensor_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[1.000853] (-) TimerEvent: {}
+[1.010980] (sensor_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.011072] (sensor_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.011111] (sensor_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.011146] (sensor_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.022747] (sensor_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.057514] (sensor_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[1.071654] (sensor_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.072769] (sensor_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.075011] (sensor_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.100662] (sensor_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.100913] (-) TimerEvent: {}
+[1.102045] (sensor_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/yang/ros2_ws/build/sensor_interfaces\n'}
+[1.106995] (sensor_interfaces) CommandEnded: {'returncode': 0}
+[1.108163] (sensor_interfaces) JobProgress: {'identifier': 'sensor_interfaces', 'progress': 'build'}
+[1.108181] (sensor_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yang/ros2_ws/build/sensor_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/yang/ros2_ws/build/sensor_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yang'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yang/ros2_ws/install/cpp_sensor_server/lib:/home/yang/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/yang'), ('OLDPWD', '/home/yang'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yang/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yang-System-Product-Name:@/tmp/.ICE-unix/1412,unix/yang-System-Product-Name:/tmp/.ICE-unix/1412'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c517ccf2_94f2_4754_8779_e43466693370'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yang/ros2_ws/install/py_srvcli:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/tutorial_interfaces:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yang/ros2_ws/build/sensor_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron')]), 'shell': False}
+[1.134521] (sensor_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[1.138889] (sensor_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_sensor_interfaces\n'}
+[1.201038] (-) TimerEvent: {}
+[1.267679] (sensor_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.268070] (sensor_interfaces) StdoutLine: {'line': b'creating sensor_interfaces.egg-info\n'}
+[1.268218] (sensor_interfaces) StdoutLine: {'line': b'writing sensor_interfaces.egg-info/PKG-INFO\n'}
+[1.268305] (sensor_interfaces) StdoutLine: {'line': b'writing dependency_links to sensor_interfaces.egg-info/dependency_links.txt\n'}
+[1.268439] (sensor_interfaces) StdoutLine: {'line': b'writing top-level names to sensor_interfaces.egg-info/top_level.txt\n'}
+[1.268555] (sensor_interfaces) StdoutLine: {'line': b"writing manifest file 'sensor_interfaces.egg-info/SOURCES.txt'\n"}
+[1.269661] (sensor_interfaces) StdoutLine: {'line': b"reading manifest file 'sensor_interfaces.egg-info/SOURCES.txt'\n"}
+[1.269974] (sensor_interfaces) StdoutLine: {'line': b"writing manifest file 'sensor_interfaces.egg-info/SOURCES.txt'\n"}
+[1.284774] (sensor_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_sensor_interfaces_egg\n'}
+[1.296938] (sensor_interfaces) StdoutLine: {'line': b'[  1%] Built target sensor_interfaces__rosidl_generator_type_description\n'}
+[1.301120] (-) TimerEvent: {}
+[1.303109] (sensor_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.308532] (sensor_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.401231] (-) TimerEvent: {}
+[1.501456] (-) TimerEvent: {}
+[1.601676] (-) TimerEvent: {}
+[1.675721] (sensor_interfaces) StdoutLine: {'line': b'[  3%] Built target sensor_interfaces__cpp\n'}
+[1.701745] (-) TimerEvent: {}
+[1.801920] (-) TimerEvent: {}
+[1.809362] (sensor_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensor_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[1.809560] (sensor_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensor_interfaces/msg/detail/num__description.c.o\x1b[0m\n'}
+[1.809640] (sensor_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensor_interfaces/msg/detail/sphere__description.c.o\x1b[0m\n'}
+[1.809700] (sensor_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensor_interfaces/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[1.809794] (sensor_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensor_interfaces/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[1.809856] (sensor_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensor_interfaces/msg/detail/sample_array__description.c.o\x1b[0m\n'}
+[1.809991] (sensor_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensor_interfaces/msg/detail/sample_array__type_support.c.o\x1b[0m\n'}
+[1.810075] (sensor_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensor_interfaces/srv/detail/add_three_ints__description.c.o\x1b[0m\n'}
+[1.810253] (sensor_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensor_interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[1.810480] (sensor_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensor_interfaces/srv/detail/sensor_data__type_support.c.o\x1b[0m\n'}
+[1.810581] (sensor_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensor_interfaces/srv/detail/sensor_data__functions.c.o\x1b[0m\n'}
+[1.810681] (sensor_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensor_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[1.810784] (sensor_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensor_interfaces/msg/detail/sample_array__functions.c.o\x1b[0m\n'}
+[1.810847] (sensor_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensor_interfaces/srv/detail/sensor_data__description.c.o\x1b[0m\n'}
+[1.810927] (sensor_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensor_interfaces/srv/detail/sample_request__description.c.o\x1b[0m\n'}
+[1.811268] (sensor_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensor_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[1.836412] (sensor_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensor_interfaces/srv/detail/sample_request__functions.c.o\x1b[0m\n'}
+[1.836622] (sensor_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sensor_interfaces/srv/detail/sample_request__type_support.c.o\x1b[0m\n'}
+[1.879461] (sensor_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking C shared library libsensor_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.901870] (sensor_interfaces) StdoutLine: {'line': b'[ 26%] Built target sensor_interfaces__rosidl_generator_c\n'}
+[1.901976] (-) TimerEvent: {}
+[1.907904] (sensor_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.908119] (sensor_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.908168] (sensor_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.908205] (sensor_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.908241] (sensor_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.908289] (sensor_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.002072] (-) TimerEvent: {}
+[2.102313] (-) TimerEvent: {}
+[2.153625] (sensor_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_interfaces/msg/sample_array__type_support.cpp.o\x1b[0m\n'}
+[2.153791] (sensor_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[2.153898] (sensor_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_interfaces/srv/sample_request__type_support.cpp.o\x1b[0m\n'}
+[2.155200] (sensor_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[2.155335] (sensor_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[2.155468] (sensor_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_interfaces/srv/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[2.184037] (sensor_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[2.184272] (sensor_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[2.184402] (sensor_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_interfaces/msg/sample_array__type_support.cpp.o\x1b[0m\n'}
+[2.184596] (sensor_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_interfaces/srv/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[2.184711] (sensor_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[2.184777] (sensor_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_interfaces/srv/sample_request__type_support.cpp.o\x1b[0m\n'}
+[2.196900] (sensor_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libsensor_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.202402] (-) TimerEvent: {}
+[2.236708] (sensor_interfaces) StdoutLine: {'line': b'[ 48%] Built target sensor_interfaces__rosidl_typesupport_c\n'}
+[2.244919] (sensor_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_interfaces/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[2.245247] (sensor_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_interfaces/srv/detail/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[2.245338] (sensor_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[2.245452] (sensor_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_interfaces/srv/detail/sample_request__type_support.cpp.o\x1b[0m\n'}
+[2.245653] (sensor_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[2.245914] (sensor_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_interfaces/msg/detail/sample_array__type_support.cpp.o\x1b[0m\n'}
+[2.302511] (-) TimerEvent: {}
+[2.322363] (sensor_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[2.331961] (sensor_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_interfaces/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[2.365929] (sensor_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_interfaces/msg/detail/sample_array__type_support.c.o\x1b[0m\n'}
+[2.372679] (sensor_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[2.381339] (sensor_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[2.402617] (-) TimerEvent: {}
+[2.420197] (sensor_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_interfaces/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[2.427897] (sensor_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_interfaces/srv/detail/sensor_data__type_support.c.o\x1b[0m\n'}
+[2.431396] (sensor_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[2.477767] (sensor_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_interfaces/srv/detail/sample_request__type_support.c.o\x1b[0m\n'}
+[2.502726] (-) TimerEvent: {}
+[2.526328] (sensor_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking C shared library libsensor_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.543294] (sensor_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[2.560792] (sensor_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_interfaces/msg/detail/dds_fastrtps/sample_array__type_support.cpp.o\x1b[0m\n'}
+[2.568882] (sensor_interfaces) StdoutLine: {'line': b'[ 70%] Built target sensor_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.577576] (sensor_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_interfaces/msg/detail/sample_array__type_support_c.cpp.o\x1b[0m\n'}
+[2.587836] (sensor_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[2.602827] (-) TimerEvent: {}
+[2.606439] (sensor_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_interfaces/srv/detail/dds_fastrtps/sensor_data__type_support.cpp.o\x1b[0m\n'}
+[2.627984] (sensor_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_interfaces/srv/detail/dds_fastrtps/sample_request__type_support.cpp.o\x1b[0m\n'}
+[2.643263] (sensor_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[2.682251] (sensor_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_interfaces/srv/detail/sensor_data__type_support_c.cpp.o\x1b[0m\n'}
+[2.702104] (sensor_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/sensor_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_interfaces/srv/detail/sample_request__type_support_c.cpp.o\x1b[0m\n'}
+[2.702340] (sensor_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libsensor_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.702896] (-) TimerEvent: {}
+[2.800407] (sensor_interfaces) StdoutLine: {'line': b'[ 79%] Built target sensor_interfaces__rosidl_typesupport_cpp\n'}
+[2.803009] (-) TimerEvent: {}
+[2.852678] (sensor_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libsensor_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.903222] (-) TimerEvent: {}
+[2.925620] (sensor_interfaces) StdoutLine: {'line': b'[ 80%] Built target sensor_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.003351] (-) TimerEvent: {}
+[3.023619] (sensor_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libsensor_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.070693] (sensor_interfaces) StdoutLine: {'line': b'[ 82%] Built target sensor_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.103442] (-) TimerEvent: {}
+[3.184172] (sensor_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libsensor_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.203573] (-) TimerEvent: {}
+[3.231001] (sensor_interfaces) StdoutLine: {'line': b'[ 83%] Built target sensor_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.242701] (sensor_interfaces) StdoutLine: {'line': b'[ 83%] Built target sensor_interfaces\n'}
+[3.253496] (sensor_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.303650] (-) TimerEvent: {}
+[3.403823] (-) TimerEvent: {}
+[3.504022] (-) TimerEvent: {}
+[3.604234] (-) TimerEvent: {}
+[3.704433] (-) TimerEvent: {}
+[3.804633] (-) TimerEvent: {}
+[3.883719] (sensor_interfaces) StdoutLine: {'line': b'[ 84%] Built target sensor_interfaces__py\n'}
+[3.894211] (sensor_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sensor_interfaces/msg/_sphere_s.c.o\x1b[0m\n'}
+[3.894410] (sensor_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sensor_interfaces/msg/_sample_array_s.c.o\x1b[0m\n'}
+[3.894488] (sensor_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sensor_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[3.894545] (sensor_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sensor_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[3.894625] (sensor_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sensor_interfaces/srv/_sensor_data_s.c.o\x1b[0m\n'}
+[3.894711] (sensor_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sensor_interfaces/srv/_sample_request_s.c.o\x1b[0m\n'}
+[3.904756] (-) TimerEvent: {}
+[3.966531] (sensor_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/sensor_interfaces/libsensor_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[3.990036] (sensor_interfaces) StdoutLine: {'line': b'[ 92%] Built target sensor_interfaces__rosidl_generator_py\n'}
+[4.001191] (sensor_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sensor_interfaces/_sensor_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.001313] (sensor_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sensor_interfaces/_sensor_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.001359] (sensor_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/sensor_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sensor_interfaces/_sensor_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.004833] (-) TimerEvent: {}
+[4.077631] (sensor_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/sensor_interfaces/sensor_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.077777] (sensor_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/sensor_interfaces/sensor_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.077911] (sensor_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/sensor_interfaces/sensor_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.101821] (sensor_interfaces) StdoutLine: {'line': b'[100%] Built target sensor_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.101938] (sensor_interfaces) StdoutLine: {'line': b'[100%] Built target sensor_interfaces__rosidl_typesupport_c__pyext\n'}
+[4.101981] (sensor_interfaces) StdoutLine: {'line': b'[100%] Built target sensor_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.104936] (-) TimerEvent: {}
+[4.108174] (sensor_interfaces) CommandEnded: {'returncode': 0}
+[4.200885] (sensor_interfaces) JobProgress: {'identifier': 'sensor_interfaces', 'progress': 'install'}
+[4.205002] (-) TimerEvent: {}
+[4.205655] (sensor_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yang/ros2_ws/build/sensor_interfaces'], 'cwd': '/home/yang/ros2_ws/build/sensor_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yang'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yang/ros2_ws/install/cpp_sensor_server/lib:/home/yang/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/yang'), ('OLDPWD', '/home/yang'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yang/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yang-System-Product-Name:@/tmp/.ICE-unix/1412,unix/yang-System-Product-Name:/tmp/.ICE-unix/1412'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c517ccf2_94f2_4754_8779_e43466693370'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yang/ros2_ws/install/py_srvcli:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/tutorial_interfaces:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yang/ros2_ws/build/sensor_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron')]), 'shell': False}
+[4.210388] (sensor_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.210477] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/ament_index/resource_index/rosidl_interfaces/sensor_interfaces\n'}
+[4.210637] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/msg/Num.json\n'}
+[4.210700] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/msg/Sphere.json\n'}
+[4.210759] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/msg/SampleArray.json\n'}
+[4.210841] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/srv/AddThreeInts.json\n'}
+[4.210901] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/srv/SensorData.json\n'}
+[4.210961] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/srv/SampleRequest.json\n'}
+[4.211021] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces\n'}
+[4.211076] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv\n'}
+[4.211126] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/add_three_ints.h\n'}
+[4.211170] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail\n'}
+[4.211218] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sensor_data__description.c\n'}
+[4.211262] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sensor_data__struct.h\n'}
+[4.211310] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/add_three_ints__functions.c\n'}
+[4.211357] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sample_request__functions.h\n'}
+[4.211409] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[4.211455] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sample_request__type_support.c\n'}
+[4.211502] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[4.211552] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sample_request__functions.c\n'}
+[4.211601] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sample_request__struct.h\n'}
+[4.211650] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/add_three_ints__description.c\n'}
+[4.211699] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sensor_data__functions.c\n'}
+[4.211744] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sample_request__description.c\n'}
+[4.211792] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[4.211841] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[4.211885] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sensor_data__functions.h\n'}
+[4.211937] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sensor_data__type_support.c\n'}
+[4.211986] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sample_request__type_support.h\n'}
+[4.212035] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sensor_data__type_support.h\n'}
+[4.212083] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/sample_request.h\n'}
+[4.212137] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/sensor_data.h\n'}
+[4.212176] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg\n'}
+[4.212226] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/num.h\n'}
+[4.212264] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/sphere.h\n'}
+[4.212315] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail\n'}
+[4.212362] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sphere__description.c\n'}
+[4.212416] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sample_array__functions.c\n'}
+[4.212454] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/num__functions.h\n'}
+[4.212506] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sphere__type_support.c\n'}
+[4.212543] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/num__description.c\n'}
+[4.212578] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sample_array__description.c\n'}
+[4.212630] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sphere__type_support.h\n'}
+[4.212673] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sample_array__type_support.h\n'}
+[4.212709] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sample_array__struct.h\n'}
+[4.212744] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/num__type_support.h\n'}
+[4.212795] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sphere__struct.h\n'}
+[4.212832] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sample_array__type_support.c\n'}
+[4.212882] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/num__functions.c\n'}
+[4.212917] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sphere__functions.c\n'}
+[4.212952] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sample_array__functions.h\n'}
+[4.213007] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/num__struct.h\n'}
+[4.213042] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sphere__functions.h\n'}
+[4.213078] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/num__type_support.c\n'}
+[4.213128] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.213165] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/sample_array.h\n'}
+[4.213212] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/environment/library_path.sh\n'}
+[4.213261] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/environment/library_path.dsv\n'}
+[4.213316] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/libsensor_interfaces__rosidl_generator_c.so\n'}
+[4.213624] (sensor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/sensor_interfaces/lib/libsensor_interfaces__rosidl_generator_c.so" to ""\n'}
+[4.213682] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces\n'}
+[4.213723] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv\n'}
+[4.213759] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail\n'}
+[4.213812] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[4.213851] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sensor_data__rosidl_typesupport_fastrtps_c.h\n'}
+[4.213900] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sample_request__rosidl_typesupport_fastrtps_c.h\n'}
+[4.213939] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg\n'}
+[4.213974] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.214009] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail\n'}
+[4.214063] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[4.214102] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sample_array__rosidl_typesupport_fastrtps_c.h\n'}
+[4.214136] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[4.214169] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/libsensor_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.214227] (sensor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/sensor_interfaces/lib/libsensor_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.214282] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces\n'}
+[4.214319] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv\n'}
+[4.214355] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/sample_request.hpp\n'}
+[4.214406] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/sensor_data.hpp\n'}
+[4.214451] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail\n'}
+[4.214488] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sensor_data__traits.hpp\n'}
+[4.214537] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[4.214573] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sensor_data__builder.hpp\n'}
+[4.214625] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sample_request__builder.hpp\n'}
+[4.214670] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[4.214704] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sample_request__traits.hpp\n'}
+[4.214740] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sample_request__struct.hpp\n'}
+[4.214790] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[4.214834] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sensor_data__struct.hpp\n'}
+[4.214871] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/add_three_ints.hpp\n'}
+[4.214923] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg\n'}
+[4.214959] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/num.hpp\n'}
+[4.214994] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/sample_array.hpp\n'}
+[4.215047] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/sphere.hpp\n'}
+[4.215084] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail\n'}
+[4.215131] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/num__struct.hpp\n'}
+[4.215168] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sample_array__builder.hpp\n'}
+[4.215203] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sample_array__struct.hpp\n'}
+[4.215238] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sample_array__traits.hpp\n'}
+[4.215289] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/num__traits.hpp\n'}
+[4.215328] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sphere__traits.hpp\n'}
+[4.215364] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sphere__struct.hpp\n'}
+[4.215417] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/num__builder.hpp\n'}
+[4.215464] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sphere__builder.hpp\n'}
+[4.215500] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces\n'}
+[4.215536] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv\n'}
+[4.215570] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail\n'}
+[4.215627] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.215666] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sample_request__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.215702] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.215737] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/dds_fastrtps\n'}
+[4.215771] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg\n'}
+[4.215827] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail\n'}
+[4.215864] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.215900] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sample_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.215935] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.215971] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/dds_fastrtps\n'}
+[4.216006] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.216054] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/libsensor_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.216198] (sensor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/sensor_interfaces/lib/libsensor_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.216252] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces\n'}
+[4.216303] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv\n'}
+[4.216341] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail\n'}
+[4.216377] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sample_request__rosidl_typesupport_introspection_c.h\n'}
+[4.216441] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[4.216486] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sample_request__type_support.c\n'}
+[4.216522] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sensor_data__rosidl_typesupport_introspection_c.h\n'}
+[4.216557] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sensor_data__type_support.c\n'}
+[4.216593] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[4.216628] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg\n'}
+[4.216663] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail\n'}
+[4.216698] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sphere__type_support.c\n'}
+[4.216756] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sample_array__rosidl_typesupport_introspection_c.h\n'}
+[4.216792] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sample_array__type_support.c\n'}
+[4.216826] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[4.216861] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[4.216895] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/num__type_support.c\n'}
+[4.216931] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.216966] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/libsensor_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.217018] (sensor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/sensor_interfaces/lib/libsensor_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.217064] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/libsensor_interfaces__rosidl_typesupport_c.so\n'}
+[4.217103] (sensor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/sensor_interfaces/lib/libsensor_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.217161] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces\n'}
+[4.217199] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv\n'}
+[4.217235] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail\n'}
+[4.217290] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sample_request__type_support.cpp\n'}
+[4.217326] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/add_three_ints__type_support.cpp\n'}
+[4.217362] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.217428] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sample_request__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.217465] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.217523] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/srv/detail/sensor_data__type_support.cpp\n'}
+[4.217572] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg\n'}
+[4.217609] (sensor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail\n'}
+[4.217645] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sample_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.217680] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sphere__type_support.cpp\n'}
+[4.217714] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.217749] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.217801] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/sample_array__type_support.cpp\n'}
+[4.217838] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/include/sensor_interfaces/sensor_interfaces/msg/detail/num__type_support.cpp\n'}
+[4.217871] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/libsensor_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.218051] (sensor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/sensor_interfaces/lib/libsensor_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.218100] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/libsensor_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.218350] (sensor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/sensor_interfaces/lib/libsensor_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.218400] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/environment/pythonpath.sh\n'}
+[4.218448] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/environment/pythonpath.dsv\n'}
+[4.218504] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces-0.0.0-py3.10.egg-info\n'}
+[4.218552] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.218596] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.218642] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.218691] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.218739] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces\n'}
+[4.218788] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/sensor_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.218841] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/sensor_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.218909] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/srv\n'}
+[4.218956] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/srv/_sample_request.py\n'}
+[4.219008] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/srv/_sample_request_s.c\n'}
+[4.219055] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/srv/_sensor_data.py\n'}
+[4.219105] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/srv/_add_three_ints.py\n'}
+[4.219157] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/srv/_sensor_data_s.c\n'}
+[4.219209] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/srv/_add_three_ints_s.c\n'}
+[4.219264] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/srv/__init__.py\n'}
+[4.219313] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/sensor_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.219359] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/_sensor_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[4.219434] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/msg\n'}
+[4.219483] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/msg/_sample_array_s.c\n'}
+[4.219531] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/msg/_num.py\n'}
+[4.219584] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/msg/_sphere.py\n'}
+[4.219628] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/msg/_sample_array.py\n'}
+[4.219680] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/msg/_sphere_s.c\n'}
+[4.219717] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/msg/_num_s.c\n'}
+[4.219769] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/msg/__init__.py\n'}
+[4.219807] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/_sensor_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.219856] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/libsensor_interfaces__rosidl_generator_py.so\n'}
+[4.219908] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/_sensor_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.219979] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/__init__.py\n'}
+[4.245230] (sensor_interfaces) StdoutLine: {'line': b"Listing '/home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces'...\n"}
+[4.245336] (sensor_interfaces) StdoutLine: {'line': b"Compiling '/home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/__init__.py'...\n"}
+[4.245383] (sensor_interfaces) StdoutLine: {'line': b"Listing '/home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/msg'...\n"}
+[4.245420] (sensor_interfaces) StdoutLine: {'line': b"Compiling '/home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/msg/__init__.py'...\n"}
+[4.245455] (sensor_interfaces) StdoutLine: {'line': b"Compiling '/home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/msg/_num.py'...\n"}
+[4.245489] (sensor_interfaces) StdoutLine: {'line': b"Compiling '/home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/msg/_sample_array.py'...\n"}
+[4.245523] (sensor_interfaces) StdoutLine: {'line': b"Compiling '/home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/msg/_sphere.py'...\n"}
+[4.245556] (sensor_interfaces) StdoutLine: {'line': b"Listing '/home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/srv'...\n"}
+[4.245589] (sensor_interfaces) StdoutLine: {'line': b"Compiling '/home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/srv/__init__.py'...\n"}
+[4.245621] (sensor_interfaces) StdoutLine: {'line': b"Compiling '/home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/srv/_add_three_ints.py'...\n"}
+[4.245653] (sensor_interfaces) StdoutLine: {'line': b"Compiling '/home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/srv/_sample_request.py'...\n"}
+[4.245686] (sensor_interfaces) StdoutLine: {'line': b"Compiling '/home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/srv/_sensor_data.py'...\n"}
+[4.247922] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/sensor_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.248023] (sensor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/sensor_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.248107] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/sensor_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.248261] (sensor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/sensor_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.248346] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/sensor_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.248492] (sensor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/sensor_interfaces/lib/python3.10/site-packages/sensor_interfaces/sensor_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.248542] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/lib/libsensor_interfaces__rosidl_generator_py.so\n'}
+[4.248719] (sensor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yang/ros2_ws/install/sensor_interfaces/lib/libsensor_interfaces__rosidl_generator_py.so" to ""\n'}
+[4.248768] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/msg/Num.idl\n'}
+[4.248817] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/msg/Sphere.idl\n'}
+[4.248870] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/msg/SampleArray.idl\n'}
+[4.248929] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/srv/AddThreeInts.idl\n'}
+[4.248988] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/srv/SensorData.idl\n'}
+[4.249045] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/srv/SampleRequest.idl\n'}
+[4.249105] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/msg/Num.msg\n'}
+[4.249162] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/msg/Sphere.msg\n'}
+[4.249218] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/msg/SampleArray.msg\n'}
+[4.249275] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/srv/AddThreeInts.srv\n'}
+[4.249335] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/srv/AddThreeInts_Request.msg\n'}
+[4.249410] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/srv/AddThreeInts_Response.msg\n'}
+[4.249474] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/srv/SensorData.srv\n'}
+[4.249535] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/srv/SensorData_Request.msg\n'}
+[4.249591] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/srv/SensorData_Response.msg\n'}
+[4.249648] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/srv/SampleRequest.srv\n'}
+[4.249705] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/srv/SampleRequest_Request.msg\n'}
+[4.249762] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/srv/SampleRequest_Response.msg\n'}
+[4.249848] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/ament_index/resource_index/package_run_dependencies/sensor_interfaces\n'}
+[4.249926] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/ament_index/resource_index/parent_prefix_path/sensor_interfaces\n'}
+[4.249990] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/environment/ament_prefix_path.sh\n'}
+[4.250050] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/environment/ament_prefix_path.dsv\n'}
+[4.250107] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/environment/path.sh\n'}
+[4.250165] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/environment/path.dsv\n'}
+[4.250225] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/local_setup.bash\n'}
+[4.250285] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/local_setup.sh\n'}
+[4.250344] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/local_setup.zsh\n'}
+[4.250400] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/local_setup.dsv\n'}
+[4.250461] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/package.dsv\n'}
+[4.250538] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/ament_index/resource_index/packages/sensor_interfaces\n'}
+[4.250618] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/export_sensor_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.250684] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/export_sensor_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.250760] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/export_sensor_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.250831] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/export_sensor_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.250907] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/export_sensor_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.250975] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/export_sensor_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.251039] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/export_sensor_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.251105] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/sensor_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.251168] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/sensor_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.251233] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/sensor_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.251296] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/sensor_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.251365] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/sensor_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.251429] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/sensor_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.251495] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/sensor_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.251559] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/sensor_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.251630] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/export_sensor_interfaces__rosidl_generator_pyExport.cmake\n'}
+[4.251697] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/export_sensor_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.251756] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.251817] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.251880] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.251942] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.252003] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.252078] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.252147] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.252205] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/sensor_interfacesConfig.cmake\n'}
+[4.252253] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/cmake/sensor_interfacesConfig-version.cmake\n'}
+[4.252308] (sensor_interfaces) StdoutLine: {'line': b'-- Installing: /home/yang/ros2_ws/install/sensor_interfaces/share/sensor_interfaces/package.xml\n'}
+[4.253647] (sensor_interfaces) CommandEnded: {'returncode': 0}
+[4.305081] (-) TimerEvent: {}
+[4.358940] (sensor_interfaces) JobEnded: {'identifier': 'sensor_interfaces', 'rc': 0}
+[4.359372] (-) EventReactorShutdown: {}

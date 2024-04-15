@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "cpp_sensor_server/srv/SensorData_Request",
+      "fields": [
+        {
+          "name": "requestsamples",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "cpp_sensor_server/srv/SensorData_Request",
+      "hash_string": "RIHS01_b70208d45f098dadc27e906091522f7950d4a5b33eaec39162693a7779870e74"
+    }
+  ]
+}

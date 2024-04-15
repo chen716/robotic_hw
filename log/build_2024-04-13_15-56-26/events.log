@@ -1,0 +1,160 @@
+[0.000000] (-) TimerEvent: {}
+[0.000092] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000118] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000128] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000139] (cpp_sensor_server) JobQueued: {'identifier': 'cpp_sensor_server', 'dependencies': OrderedDict()}
+[0.000150] (cpp_sensor_server) JobStarted: {'identifier': 'cpp_sensor_server'}
+[0.004144] (cpp_sensor_server) JobProgress: {'identifier': 'cpp_sensor_server', 'progress': 'cmake'}
+[0.004475] (cpp_sensor_server) JobProgress: {'identifier': 'cpp_sensor_server', 'progress': 'build'}
+[0.004903] (cpp_sensor_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yang/ros2_ws/build/cpp_sensor_server', '--', '-j16', '-l16'], 'cwd': '/home/yang/ros2_ws/build/cpp_sensor_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yang'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yang/ros2_ws/install/cpp_sensor_server/lib:/home/yang/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/yang'), ('OLDPWD', '/home/yang/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4399'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yang/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yang-System-Product-Name:@/tmp/.ICE-unix/1398,unix/yang-System-Product-Name:/tmp/.ICE-unix/1398'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c88847e9_7e1d_40e3_92b0_cd744afe46c3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/py_srvcli:/home/yang/ros2_ws/install/tutorial_interfaces:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yang/ros2_ws/build/cpp_sensor_server'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron')]), 'shell': False}
+[0.018972] (cpp_sensor_server) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.099594] (-) TimerEvent: {}
+[0.100821] (cpp_sensor_server) StdoutLine: {'line': b'-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.116547] (cpp_sensor_server) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.121231] (cpp_sensor_server) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.128324] (cpp_sensor_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.137112] (cpp_sensor_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199690] (-) TimerEvent: {}
+[0.221493] (cpp_sensor_server) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.222206] (cpp_sensor_server) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.284544] (cpp_sensor_server) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299791] (-) TimerEvent: {}
+[0.375646] (cpp_sensor_server) StdoutLine: {'line': b'-- Found rclcpp_components: 21.0.5 (/opt/ros/iron/share/rclcpp_components/cmake)\n'}
+[0.399892] (-) TimerEvent: {}
+[0.426778] (cpp_sensor_server) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[0.430892] (cpp_sensor_server) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[0.436318] (cpp_sensor_server) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[0.500007] (-) TimerEvent: {}
+[0.600226] (-) TimerEvent: {}
+[0.630030] (cpp_sensor_server) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[0.700330] (-) TimerEvent: {}
+[0.797203] (cpp_sensor_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800415] (-) TimerEvent: {}
+[0.863491] (cpp_sensor_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.875935] (cpp_sensor_server) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[0.888264] (cpp_sensor_server) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.888344] (cpp_sensor_server) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.888383] (cpp_sensor_server) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.897640] (cpp_sensor_server) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[0.897714] (cpp_sensor_server) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[0.897752] (cpp_sensor_server) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[0.897783] (cpp_sensor_server) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.897815] (cpp_sensor_server) StderrLine: {'line': b'  CMakeLists.txt:36 (rosidl_target_interfaces)\n'}
+[0.897846] (cpp_sensor_server) StderrLine: {'line': b'\n'}
+[0.897876] (cpp_sensor_server) StderrLine: {'line': b'\x1b[0m\n'}
+[0.897906] (cpp_sensor_server) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[0.897936] (cpp_sensor_server) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[0.897966] (cpp_sensor_server) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[0.897997] (cpp_sensor_server) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.898027] (cpp_sensor_server) StderrLine: {'line': b'  CMakeLists.txt:37 (rosidl_target_interfaces)\n'}
+[0.898057] (cpp_sensor_server) StderrLine: {'line': b'\n'}
+[0.898087] (cpp_sensor_server) StderrLine: {'line': b'\x1b[0m\n'}
+[0.898119] (cpp_sensor_server) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[0.898149] (cpp_sensor_server) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[0.898179] (cpp_sensor_server) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[0.898209] (cpp_sensor_server) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.898238] (cpp_sensor_server) StderrLine: {'line': b'  CMakeLists.txt:38 (rosidl_target_interfaces)\n'}
+[0.898267] (cpp_sensor_server) StderrLine: {'line': b'\n'}
+[0.898297] (cpp_sensor_server) StderrLine: {'line': b'\x1b[0m\n'}
+[0.900058] (cpp_sensor_server) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.900471] (-) TimerEvent: {}
+[0.922159] (cpp_sensor_server) StdoutLine: {'line': b'-- Generating done\n'}
+[0.924159] (cpp_sensor_server) StdoutLine: {'line': b'-- Build files have been written to: /home/yang/ros2_ws/build/cpp_sensor_server\n'}
+[0.944458] (cpp_sensor_server) StdoutLine: {'line': b'[  2%] Built target cpp_sensor_server__rosidl_generator_type_description\n'}
+[0.949222] (cpp_sensor_server) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_cpp_sensor_server\n'}
+[0.949979] (cpp_sensor_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_generator_c\x1b[0m\n'}
+[0.954898] (cpp_sensor_server) StdoutLine: {'line': b'[  5%] Built target cpp_sensor_server__cpp\n'}
+[0.956973] (cpp_sensor_server) StdoutLine: {'line': b'[ 17%] Built target cpp_sensor_server__rosidl_generator_c\n'}
+[0.962495] (cpp_sensor_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_c\x1b[0m\n'}
+[0.962675] (cpp_sensor_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.962748] (cpp_sensor_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.962823] (cpp_sensor_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.962904] (cpp_sensor_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.962982] (cpp_sensor_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.969040] (cpp_sensor_server) StdoutLine: {'line': b'[ 32%] Built target cpp_sensor_server__rosidl_typesupport_c\n'}
+[0.969218] (cpp_sensor_server) StdoutLine: {'line': b'[ 32%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c\n'}
+[0.969564] (cpp_sensor_server) StdoutLine: {'line': b'[ 42%] Built target cpp_sensor_server__rosidl_typesupport_introspection_cpp\n'}
+[0.969663] (cpp_sensor_server) StdoutLine: {'line': b'[ 47%] Built target cpp_sensor_server__rosidl_typesupport_cpp\n'}
+[0.970357] (cpp_sensor_server) StdoutLine: {'line': b'[ 55%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c\n'}
+[0.973099] (cpp_sensor_server) StdoutLine: {'line': b'[ 62%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_cpp\n'}
+[0.984324] (cpp_sensor_server) StdoutLine: {'line': b'[ 62%] Built target cpp_sensor_server\n'}
+[0.990283] (cpp_sensor_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensor_client\x1b[0m\n'}
+[0.990586] (cpp_sensor_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensor_server\x1b[0m\n'}
+[0.995534] (cpp_sensor_server) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/sensor_server2.dir/src/sensor_server2.cpp.o\x1b[0m\n'}
+[0.995714] (cpp_sensor_server) StdoutLine: {'line': b'[ 67%] Built target cpp_sensor_server__py\n'}
+[1.000576] (-) TimerEvent: {}
+[1.001052] (cpp_sensor_server) StdoutLine: {'line': b'[ 72%] Built target sensor_client\n'}
+[1.001198] (cpp_sensor_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_generator_py\x1b[0m\n'}
+[1.006337] (cpp_sensor_server) StdoutLine: {'line': b'[ 77%] Built target sensor_server\n'}
+[1.008371] (cpp_sensor_server) StdoutLine: {'line': b'[ 82%] Built target cpp_sensor_server__rosidl_generator_py\n'}
+[1.014086] (cpp_sensor_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.014248] (cpp_sensor_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.014330] (cpp_sensor_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.021565] (cpp_sensor_server) StdoutLine: {'line': b'[ 95%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c__pyext\n'}
+[1.021742] (cpp_sensor_server) StdoutLine: {'line': b'[ 95%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.021821] (cpp_sensor_server) StdoutLine: {'line': b'[ 97%] Built target cpp_sensor_server__rosidl_typesupport_c__pyext\n'}
+[1.088814] (cpp_sensor_server) StdoutLine: {'line': b'running egg_info\n'}
+[1.089295] (cpp_sensor_server) StdoutLine: {'line': b'writing cpp_sensor_server.egg-info/PKG-INFO\n'}
+[1.089569] (cpp_sensor_server) StdoutLine: {'line': b'writing dependency_links to cpp_sensor_server.egg-info/dependency_links.txt\n'}
+[1.089696] (cpp_sensor_server) StdoutLine: {'line': b'writing top-level names to cpp_sensor_server.egg-info/top_level.txt\n'}
+[1.091019] (cpp_sensor_server) StdoutLine: {'line': b"reading manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'\n"}
+[1.091404] (cpp_sensor_server) StdoutLine: {'line': b"writing manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'\n"}
+[1.100671] (-) TimerEvent: {}
+[1.105618] (cpp_sensor_server) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_cpp_sensor_server_egg\n'}
+[1.200787] (-) TimerEvent: {}
+[1.301036] (-) TimerEvent: {}
+[1.401284] (-) TimerEvent: {}
+[1.501518] (-) TimerEvent: {}
+[1.601763] (-) TimerEvent: {}
+[1.702008] (-) TimerEvent: {}
+[1.802264] (-) TimerEvent: {}
+[1.902529] (-) TimerEvent: {}
+[2.002791] (-) TimerEvent: {}
+[2.103043] (-) TimerEvent: {}
+[2.203292] (-) TimerEvent: {}
+[2.303531] (-) TimerEvent: {}
+[2.403782] (-) TimerEvent: {}
+[2.504032] (-) TimerEvent: {}
+[2.604280] (-) TimerEvent: {}
+[2.704529] (-) TimerEvent: {}
+[2.804777] (-) TimerEvent: {}
+[2.905027] (-) TimerEvent: {}
+[3.005276] (-) TimerEvent: {}
+[3.036355] (cpp_sensor_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSensorServer2::SensorServer2()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.036483] (cpp_sensor_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:13:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSensorServer\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.036537] (cpp_sensor_server) StderrLine: {'line': b'   13 |     service_ = this->create_service<SensorData>("get_sensor_data2", std::bind(&\x1b[01;31m\x1b[KSensorServer\x1b[m\x1b[K::handle_sensor_data, this, std::placeholders::_1, std::placeholders::_2));\n'}
+[3.036571] (cpp_sensor_server) StderrLine: {'line': b'      |                                                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.042970] (cpp_sensor_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SensorServer2::handle_sensor_data(std::shared_ptr<cpp_sensor_server::srv::SensorData_Request_<std::allocator<void> > >, std::shared_ptr<cpp_sensor_server::srv::SensorData_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.043080] (cpp_sensor_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:23:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klen\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.043122] (cpp_sensor_server) StderrLine: {'line': b'   23 |     size_t \x1b[01;35m\x1b[Klen\x1b[m\x1b[K = socket_.read_some(asio::buffer(buffer), ignored_error);\n'}
+[3.043158] (cpp_sensor_server) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.046672] (cpp_sensor_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.046824] (cpp_sensor_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:36:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSensorServer\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KSensorServer2\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.046884] (cpp_sensor_server) StderrLine: {'line': b'   36 |   auto node = std::make_shared<\x1b[01;31m\x1b[KSensorServer\x1b[m\x1b[K>();\n'}
+[3.046922] (cpp_sensor_server) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.046956] (cpp_sensor_server) StderrLine: {'line': b'      |                                \x1b[32m\x1b[KSensorServer2\x1b[m\x1b[K\n'}
+[3.046989] (cpp_sensor_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:36:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.047023] (cpp_sensor_server) StderrLine: {'line': b'   36 |   auto node = \x1b[01;31m\x1b[Kstd::make_shared<SensorServer>()\x1b[m\x1b[K;\n'}
+[3.047055] (cpp_sensor_server) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.047096] (cpp_sensor_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.047128] (cpp_sensor_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165\x1b[m\x1b[K,\n'}
+[3.047161] (cpp_sensor_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:1\x1b[m\x1b[K:\n'}
+[3.047198] (cpp_sensor_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.047232] (cpp_sensor_server) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[3.047266] (cpp_sensor_server) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.047298] (cpp_sensor_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.047331] (cpp_sensor_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:36:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.047363] (cpp_sensor_server) StderrLine: {'line': b'   36 |   auto node = \x1b[01;31m\x1b[Kstd::make_shared<SensorServer>()\x1b[m\x1b[K;\n'}
+[3.047400] (cpp_sensor_server) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.105394] (-) TimerEvent: {}
+[3.205631] (-) TimerEvent: {}
+[3.305885] (-) TimerEvent: {}
+[3.406124] (-) TimerEvent: {}
+[3.506368] (-) TimerEvent: {}
+[3.559922] (cpp_sensor_server) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sensor_server2.dir/build.make:76: CMakeFiles/sensor_server2.dir/src/sensor_server2.cpp.o] Error 1\n'}
+[3.560177] (cpp_sensor_server) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:659: CMakeFiles/sensor_server2.dir/all] Error 2\n'}
+[3.560337] (cpp_sensor_server) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.561394] (cpp_sensor_server) CommandEnded: {'returncode': 2}
+[3.605433] (cpp_sensor_server) JobEnded: {'identifier': 'cpp_sensor_server', 'rc': 2}
+[3.606421] (-) TimerEvent: {}
+[3.615748] (-) EventReactorShutdown: {}

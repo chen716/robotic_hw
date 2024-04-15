@@ -1,0 +1,2 @@
+# This is a custom message to hold an array of Float64MultiArray messages
+std_msgs/Float64MultiArray[] data

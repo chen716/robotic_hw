@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cpp_sensor_server/srv/SensorData.srv
+// generated code does not contain a copyright notice
+
+
+module cpp_sensor_server {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request a specific number of samples")
+    struct SensorData_Request {
+      int32 requestsamples;
+    };
+    @verbatim (language="comment", text=
+      "Response will be a 2D array of floats")
+    struct SensorData_Response {
+      sequence<double> data;
+    };
+  };
+};

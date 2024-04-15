@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target client[0m
+[35m[1mConsolidate compiler generated dependencies of target server[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/sensor_client.cpp.o[0m
+[ 75%] Built target server
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:1[m[K:
+[01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:[m[K In member function ‘[01m[Kvoid SensorClient::request_data()[m[K’:
+[01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:28:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct tutorial_interfaces::srv::SampleRequest_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::srv::SampleRequest_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksum[m[K’
+   28 |             RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Sum: %ld", result.get()->[01;31m[Ksum[m[K);
+      |                                                                                 [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/sensor_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,9 @@
+[31mCMake Error at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+  rosidl_generate_interfaces() the passed file 'std_msgs' doesn't exist
+  relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/yang/ros2_ws/src/cpp_sensor_server'
+Call Stack (most recent call first):
+  CMakeLists.txt:20 (rosidl_generate_interfaces)
+
+[0m
+gmake: *** [Makefile:938: cmake_check_build_system] Error 1

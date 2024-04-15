@@ -1,0 +1,5 @@
+[console_scripts]
+client = py_srvcli.sensor_client:main
+service = py_srvcli.sensor_server:main
+service2 = py_srvcli.sensor_server2:main
+

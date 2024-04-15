@@ -1,0 +1,56 @@
+[0.008s] Invoking command in '/home/yang/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron LD_LIBRARY_PATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib:/home/yang/ros2_ws/install/cpp_sensor_server/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.038s] [ 50%] Built target client
+[0.047s] [ 75%] [32mBuilding CXX object CMakeFiles/server.dir/src/sensor_server.cpp.o[0m
+[2.214s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.214s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[2.214s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.214s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.214s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.214s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.214s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.214s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.214s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.214s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.214s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.214s]                  from [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:1[m[K:
+[2.214s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:[m[K In member function ‘[01m[Kvoid SensorService::handle_service(std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::SampleRequest_Response_<std::allocator<void> > >)[m[K’:
+[2.214s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:64:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.214s]    64 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"got values%d"[m[K, [32m[Kvalue[m[K);
+[2.214s]       |                                             [01;35m[K^~~~~~~~~~~~~~[m[K  [32m[K~~~~~[m[K
+[2.214s]       |                                                             [32m[K|[m[K
+[2.214s]       |                                                             [32m[Kdouble[m[K
+[2.214s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:64:57:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.214s]    64 |             RCLCPP_INFO(this->get_logger(), "got values[01;36m[K%d[m[K", value);
+[2.214s]       |                                                        [01;36m[K~^[m[K
+[2.214s]       |                                                         [01;36m[K|[m[K
+[2.214s]       |                                                         [01;36m[Kint[m[K
+[2.214s]       |                                                        [32m[K%f[m[K
+[2.215s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.215s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[2.215s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.215s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.215s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.215s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.215s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.215s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.215s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.215s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.215s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.215s]                  from [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:1[m[K:
+[2.215s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:68:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects a matching ‘[01m[Klong int[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.215s]    68 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"sizes, %ld"[m[K), response->data.data.size;
+[2.215s]       |                                         [01;35m[K^~~~~~~~~~~~[m[K
+[2.215s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:68:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.215s]    68 |         RCLCPP_INFO(this->get_logger(), "sizes, [01;36m[K%ld[m[K"), response->data.data.size;
+[2.215s]       |                                                 [01;36m[K~~^[m[K
+[2.215s]       |                                                   [01;36m[K|[m[K
+[2.215s]       |                                                   [01;36m[Klong int[m[K
+[2.215s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:68:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K,[m[K’ token
+[2.215s]    68 |         RCLCPP_INFO(this->get_logger(), "sizes, %ld")[01;31m[K,[m[K response->data.data.size;
+[2.215s]       |                                                      [01;31m[K^[m[K
+[2.215s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:68:54:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[2.878s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/sensor_server.cpp.o] Error 1
+[2.878s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[2.878s] gmake: *** [Makefile:146: all] Error 2
+[2.879s] Invoked command in '/home/yang/ros2_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron LD_LIBRARY_PATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib:/home/yang/ros2_ws/install/cpp_sensor_server/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_srvcli -- -j16 -l16

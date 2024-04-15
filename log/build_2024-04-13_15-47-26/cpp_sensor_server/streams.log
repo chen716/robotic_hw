@@ -1,0 +1,203 @@
+[0.005s] Invoking command in '/home/yang/ros2_ws/build/cpp_sensor_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16
+[0.018s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.096s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[0.112s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.116s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.124s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.138s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.228s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.229s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.297s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.390s] -- Found rclcpp_components: 21.0.5 (/opt/ros/iron/share/rclcpp_components/cmake)
+[0.442s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[0.447s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[0.618s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[0.784s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.849s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.862s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[0.874s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.874s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.874s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.883s] [0mCMake Deprecation Warning at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[0.883s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[0.883s]   rosidl_target_interfaces()
+[0.883s] Call Stack (most recent call first):
+[0.883s]   CMakeLists.txt:34 (rosidl_target_interfaces)
+[0.883s] 
+[0.883s] [0m
+[0.885s] -- Configuring done
+[0.904s] -- Generating done
+[0.906s] -- Build files have been written to: /home/yang/ros2_ws/build/cpp_sensor_server
+[0.925s] [  2%] Built target cpp_sensor_server__rosidl_generator_type_description
+[0.930s] [  2%] Built target ament_cmake_python_copy_cpp_sensor_server
+[0.930s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_generator_c[0m
+[0.936s] [  5%] Built target cpp_sensor_server__cpp
+[0.937s] [ 19%] Built target cpp_sensor_server__rosidl_generator_c
+[0.942s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_c[0m
+[0.942s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_cpp[0m
+[0.942s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_fastrtps_c[0m
+[0.942s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_fastrtps_cpp[0m
+[0.942s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_introspection_cpp[0m
+[0.943s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_introspection_c[0m
+[0.949s] [ 27%] Built target cpp_sensor_server__rosidl_typesupport_c
+[0.949s] [ 47%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c
+[0.949s] [ 50%] Built target cpp_sensor_server__rosidl_typesupport_introspection_cpp
+[0.949s] [ 52%] Built target cpp_sensor_server__rosidl_typesupport_cpp
+[0.949s] [ 61%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c
+[0.949s] [ 69%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_cpp
+[0.960s] [ 69%] Built target cpp_sensor_server
+[0.966s] [35m[1mConsolidate compiler generated dependencies of target sensor_server[0m
+[0.972s] [ 72%] Built target cpp_sensor_server__py
+[0.978s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_generator_py[0m
+[0.982s] [ 75%] [32mBuilding CXX object CMakeFiles/sensor_server.dir/src/sensor_server.cpp.o[0m
+[0.985s] [ 80%] Built target cpp_sensor_server__rosidl_generator_py
+[0.990s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_introspection_c__pyext[0m
+[0.990s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.990s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_c__pyext[0m
+[0.998s] [ 97%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c__pyext
+[0.998s] [ 97%] Built target cpp_sensor_server__rosidl_typesupport_c__pyext
+[0.998s] [ 97%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c__pyext
+[1.065s] running egg_info
+[1.065s] writing cpp_sensor_server.egg-info/PKG-INFO
+[1.066s] writing dependency_links to cpp_sensor_server.egg-info/dependency_links.txt
+[1.066s] writing top-level names to cpp_sensor_server.egg-info/top_level.txt
+[1.067s] reading manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'
+[1.067s] writing manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'
+[1.081s] [ 97%] Built target ament_cmake_python_build_cpp_sensor_server_egg
+[3.030s] [01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server.cpp:[m[K In member function ‘[01m[Kvoid SensorServer::handle_sensor_data(std::shared_ptr<cpp_sensor_server::srv::SensorData_Request_<std::allocator<void> > >, std::shared_ptr<cpp_sensor_server::srv::SensorData_Response_<std::allocator<void> > >)[m[K’:
+[3.030s] [01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server.cpp:23:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klen[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.030s]    23 |     size_t [01;35m[Klen[m[K = socket_.read_some(asio::buffer(buffer), ignored_error);
+[3.030s]       |            [01;35m[K^~~[m[K
+[4.360s] [100%] [32m[1mLinking CXX executable sensor_server[0m
+[4.471s] [100%] Built target sensor_server
+[4.476s] Invoked command in '/home/yang/ros2_ws/build/cpp_sensor_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16
+[4.513s] Invoking command in '/home/yang/ros2_ws/build/cpp_sensor_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --install /home/yang/ros2_ws/build/cpp_sensor_server
+[4.517s] -- Install configuration: ""
+[4.517s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/ament_index/resource_index/rosidl_interfaces/cpp_sensor_server
+[4.517s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/srv/SensorData.json
+[4.517s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server
+[4.517s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv
+[4.517s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail
+[4.517s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__description.c
+[4.517s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__struct.h
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__functions.c
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__functions.h
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__type_support.c
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__type_support.h
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/sensor_data.h
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/msg
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/msg/rosidl_generator_c__visibility_control.h
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/environment/library_path.sh
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/environment/library_path.dsv
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_generator_c.so
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__rosidl_typesupport_fastrtps_c.h
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/msg
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_typesupport_fastrtps_c.so
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/sensor_data.hpp
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__traits.hpp
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__builder.hpp
+[4.518s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__struct.hpp
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/dds_fastrtps
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/msg
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_typesupport_fastrtps_cpp.so
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__rosidl_typesupport_introspection_c.h
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__type_support.c
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/msg
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_typesupport_introspection_c.so
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_typesupport_c.so
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/include/cpp_sensor_server/cpp_sensor_server/srv/detail/sensor_data__type_support.cpp
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_typesupport_introspection_cpp.so
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_typesupport_cpp.so
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/environment/pythonpath.sh
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/environment/pythonpath.dsv
+[4.519s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server-0.0.0-py3.10.egg-info
+[4.520s] -- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.520s] -- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server-0.0.0-py3.10.egg-info/PKG-INFO
+[4.520s] -- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.520s] -- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server-0.0.0-py3.10.egg-info/top_level.txt
+[4.520s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server
+[4.520s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/_cpp_sensor_server_s.ep.rosidl_typesupport_c.c
+[4.520s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/_cpp_sensor_server_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.520s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/_cpp_sensor_server_s.ep.rosidl_typesupport_introspection_c.c
+[4.520s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/srv
+[4.520s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/srv/_sensor_data.py
+[4.520s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/srv/_sensor_data_s.c
+[4.520s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/srv/__init__.py
+[4.520s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.520s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.520s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.520s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/libcpp_sensor_server__rosidl_generator_py.so
+[4.520s] -- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/__init__.py
+[4.537s] Listing '/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server'...
+[4.537s] Compiling '/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/__init__.py'...
+[4.537s] Listing '/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/srv'...
+[4.540s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.540s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.540s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages/cpp_sensor_server/cpp_sensor_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.540s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/lib/libcpp_sensor_server__rosidl_generator_py.so
+[4.540s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/srv/SensorData.idl
+[4.540s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/srv/SensorData.srv
+[4.540s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/srv/SensorData_Request.msg
+[4.540s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/srv/SensorData_Response.msg
+[4.540s] -- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/lib/cpp_sensor_server/sensor_server
+[4.541s] -- Set runtime path of "/home/yang/ros2_ws/install/cpp_sensor_server/lib/cpp_sensor_server/sensor_server" to ""
+[4.541s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/ament_index/resource_index/package_run_dependencies/cpp_sensor_server
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/ament_index/resource_index/parent_prefix_path/cpp_sensor_server
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/environment/ament_prefix_path.sh
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/environment/ament_prefix_path.dsv
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/environment/path.sh
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/environment/path.dsv
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/local_setup.bash
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/local_setup.sh
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/local_setup.zsh
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/local_setup.dsv
+[4.542s] -- Installing: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/package.dsv
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/ament_index/resource_index/packages/cpp_sensor_server
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/export_cpp_sensor_server__rosidl_generator_cExport.cmake
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/export_cpp_sensor_server__rosidl_generator_cExport-noconfig.cmake
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/export_cpp_sensor_server__rosidl_typesupport_fastrtps_cExport.cmake
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/export_cpp_sensor_server__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/export_cpp_sensor_server__rosidl_generator_cppExport.cmake
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/export_cpp_sensor_server__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/export_cpp_sensor_server__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_server__rosidl_typesupport_introspection_cExport.cmake
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_server__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_server__rosidl_typesupport_cExport.cmake
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_server__rosidl_typesupport_cExport-noconfig.cmake
+[4.542s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_server__rosidl_typesupport_introspection_cppExport.cmake
+[4.543s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_server__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.543s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_server__rosidl_typesupport_cppExport.cmake
+[4.543s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_server__rosidl_typesupport_cppExport-noconfig.cmake
+[4.543s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/export_cpp_sensor_server__rosidl_generator_pyExport.cmake
+[4.543s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/export_cpp_sensor_server__rosidl_generator_pyExport-noconfig.cmake
+[4.543s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/rosidl_cmake-extras.cmake
+[4.543s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.543s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.543s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/ament_cmake_export_libraries-extras.cmake
+[4.543s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/ament_cmake_export_targets-extras.cmake
+[4.543s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.543s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.543s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_serverConfig.cmake
+[4.543s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/cmake/cpp_sensor_serverConfig-version.cmake
+[4.543s] -- Up-to-date: /home/yang/ros2_ws/install/cpp_sensor_server/share/cpp_sensor_server/package.xml
+[4.544s] Invoked command in '/home/yang/ros2_ws/build/cpp_sensor_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --install /home/yang/ros2_ws/build/cpp_sensor_server

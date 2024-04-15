@@ -1,0 +1,18 @@
+[0.007s] Invoking command in '/home/yang/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron PYTHONPATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[0.033s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/sensor_server.cpp.o[0m
+[0.033s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/sensor_client.cpp.o[0m
+[0.154s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[0.154s]     3 | #include [01;31m[K<asio.hpp>[m[K
+[0.154s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.154s] compilation terminated.
+[0.154s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[0.155s]     3 | #include [01;31m[K<asio.hpp>[m[K
+[0.155s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.155s] compilation terminated.
+[0.156s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/sensor_client.cpp.o] Error 1
+[0.156s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/sensor_server.cpp.o] Error 1
+[0.156s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[0.156s] gmake[1]: *** Waiting for unfinished jobs....
+[0.157s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[0.157s] gmake: *** [Makefile:146: all] Error 2
+[0.158s] Invoked command in '/home/yang/ros2_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron PYTHONPATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_srvcli -- -j16 -l16

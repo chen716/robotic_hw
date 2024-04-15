@@ -1,0 +1,59 @@
+[0.006s] Invoking command in '/home/yang/ros2_ws/build/cpp_sensor_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16
+[0.020s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.099s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[0.115s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.119s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.126s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.135s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.219s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.219s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.282s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.372s] -- Found rclcpp_components: 21.0.5 (/opt/ros/iron/share/rclcpp_components/cmake)
+[0.423s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[0.427s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[0.432s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[0.542s] [31mCMake Error at /opt/ros/iron/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.543s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[0.543s]   cpp_sensor_server --arguments-file
+[0.543s]   /home/yang/ros2_ws/build/cpp_sensor_server/rosidl_adapter__arguments__cpp_sensor_server.json
+[0.543s]   --output-dir
+[0.543s]   /home/yang/ros2_ws/build/cpp_sensor_server/rosidl_adapter/cpp_sensor_server
+[0.543s]   --output-file
+[0.543s]   /home/yang/ros2_ws/build/cpp_sensor_server/rosidl_adapter/cpp_sensor_server.idls)
+[0.543s]   returned error code 1:
+[0.543s] 
+[0.543s]   Error processing 'std_msgs/msg/Float64MultiArray[] data' of
+[0.543s]   'cpp_sensor_server/Array2D': 'std_msgs/msg/Float64MultiArray'
+[0.543s] 
+[0.543s]   Traceback (most recent call last):
+[0.543s] 
+[0.543s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.543s]       return _run_code(code, main_globals, None,
+[0.543s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.543s]       exec(code, run_globals)
+[0.544s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.544s]       sys.exit(main())
+[0.544s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.544s]       abs_idl_file = convert_to_idl(
+[0.544s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.544s]       return convert_msg_to_idl(
+[0.544s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.544s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.544s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 521, in parse_message_string
+[0.544s]       Type(type_string, context_package_name=pkg_name),
+[0.544s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 278, in __init__
+[0.544s]       super(Type, self).__init__(
+[0.544s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 191, in __init__
+[0.544s]       raise InvalidResourceName(type_string)
+[0.544s] 
+[0.544s]   rosidl_adapter.parser.InvalidResourceName: std_msgs/msg/Float64MultiArray
+[0.544s] 
+[0.544s] Call Stack (most recent call first):
+[0.544s]   /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.545s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[0.545s] 
+[0.545s] [0m
+[0.545s] -- Configuring incomplete, errors occurred!
+[0.545s] See also "/home/yang/ros2_ws/build/cpp_sensor_server/CMakeFiles/CMakeOutput.log".
+[0.547s] gmake: *** [Makefile:938: cmake_check_build_system] Error 1
+[0.548s] Invoked command in '/home/yang/ros2_ws/build/cpp_sensor_server' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16

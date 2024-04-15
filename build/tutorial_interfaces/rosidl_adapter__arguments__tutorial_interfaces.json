@@ -1,0 +1,11 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/yang/ros2_ws/src/tutorial_interfaces:msg/Num.msg",
+    "/home/yang/ros2_ws/src/tutorial_interfaces:msg/Sphere.msg",
+    "/home/yang/ros2_ws/src/tutorial_interfaces:msg/SampleArray.msg",
+    "/home/yang/ros2_ws/src/tutorial_interfaces:srv/AddThreeInts.srv",
+    "/home/yang/ros2_ws/src/tutorial_interfaces:srv/SensorData.srv",
+    "/home/yang/ros2_ws/src/tutorial_interfaces:srv/SampleRequest.srv"
+  ]
+}

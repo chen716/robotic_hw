@@ -1,0 +1,13 @@
+{
+  "package_name": "cpp_sensor_server",
+  "output_dir": "/home/yang/ros2_ws/build/cpp_sensor_server/rosidl_generator_type_description/cpp_sensor_server",
+  "idl_tuples": [
+    "/home/yang/ros2_ws/build/cpp_sensor_server/rosidl_adapter/cpp_sensor_server:msg/SampleArray.idl",
+    "/home/yang/ros2_ws/build/cpp_sensor_server/rosidl_adapter/cpp_sensor_server:srv/SampleRequest.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/iron/share/std_msgs",
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces",
+    "service_msgs:/opt/ros/iron/share/service_msgs"
+  ]
+}

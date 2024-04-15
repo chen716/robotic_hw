@@ -1,0 +1,297 @@
+[0.007s] Invoking command in '/home/yang/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron PYTHONPATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[0.020s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.099s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[0.115s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.119s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.126s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.135s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.219s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.220s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.282s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.373s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[0.390s] -- Found tutorial_interfaces: 0.0.0 (/home/yang/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.515s] -- Configuring done
+[0.522s] -- Generating done
+[0.523s] -- Build files have been written to: /home/yang/ros2_ws/build/cpp_srvcli
+[0.538s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.538s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.552s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/sensor_server.cpp.o[0m
+[0.552s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/sensor_client.cpp.o[0m
+[2.525s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:21:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Kbuiltin_interfaces[m[K’?
+[2.525s]    21 |     void handle_service_request(const std::shared_ptr<[01;31m[Kcustom_interfaces[m[K::srv::SampleRequest::Request> request,
+[2.525s]       |                                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.525s]       |                                                       [32m[Kbuiltin_interfaces[m[K
+[2.525s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:21:101:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.525s]    21 |     void handle_service_request(const std::shared_ptr<custom_interfaces::srv::SampleRequest::Request[01;31m[K>[m[K request,
+[2.525s]       |                                                                                                     [01;31m[K^[m[K
+[2.532s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:21:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Kbuiltin_interfaces[m[K’?
+[2.532s]    21 |     void handle_service_request(const std::shared_ptr<[01;31m[Kcustom_interfaces[m[K::srv::SampleRequest::Request> request,
+[2.532s]       |                                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.532s]       |                                                       [32m[Kbuiltin_interfaces[m[K
+[2.532s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:21:101:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.532s]    21 |     void handle_service_request(const std::shared_ptr<custom_interfaces::srv::SampleRequest::Request[01;31m[K>[m[K request,
+[2.532s]       |                                                                                                     [01;31m[K^[m[K
+[2.538s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:21:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Kbuiltin_interfaces[m[K’?
+[2.538s]    21 |     void handle_service_request(const std::shared_ptr<[01;31m[Kcustom_interfaces[m[K::srv::SampleRequest::Request> request,
+[2.538s]       |                                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.538s]       |                                                       [32m[Kbuiltin_interfaces[m[K
+[2.538s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:21:101:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.539s]    21 |     void handle_service_request(const std::shared_ptr<custom_interfaces::srv::SampleRequest::Request[01;31m[K>[m[K request,
+[2.539s]       |                                                                                                     [01;31m[K^[m[K
+[2.539s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:21:39:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[2.539s]    21 |     void handle_service_request(const [01;31m[Kstd[m[K::shared_ptr<custom_interfaces::srv::SampleRequest::Request> request,
+[2.539s]       |                                       [01;31m[K^~~[m[K
+[2.539s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:21:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_interfaces[m[K’ has not been declared
+[2.539s]    21 |     void handle_service_request(const std::shared_ptr<[01;31m[Kcustom_interfaces[m[K::srv::SampleRequest::Request> request,
+[2.539s]       |                                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.539s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:21:33:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[2.539s]    21 |     void handle_service_request([01;31m[Kconst[m[K std::shared_ptr<custom_interfaces::srv::SampleRequest::Request> request,
+[2.539s]       |                                 [01;31m[K^~~~~[m[K
+[2.546s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:22:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Kbuiltin_interfaces[m[K’?
+[2.546s]    22 |                                 std::shared_ptr<[01;31m[Kcustom_interfaces[m[K::srv::SampleRequest::Response> response)
+[2.546s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.546s]       |                                                 [32m[Kbuiltin_interfaces[m[K
+[2.546s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:22:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.546s]    22 |                                 std::shared_ptr<custom_interfaces::srv::SampleRequest::Response[01;31m[K>[m[K response)
+[2.547s]       |                                                                                                [01;31m[K^[m[K
+[2.554s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:22:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Kbuiltin_interfaces[m[K’?
+[2.554s]    22 |                                 std::shared_ptr<[01;31m[Kcustom_interfaces[m[K::srv::SampleRequest::Response> response)
+[2.554s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.554s]       |                                                 [32m[Kbuiltin_interfaces[m[K
+[2.554s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:22:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.554s]    22 |                                 std::shared_ptr<custom_interfaces::srv::SampleRequest::Response[01;31m[K>[m[K response)
+[2.554s]       |                                                                                                [01;31m[K^[m[K
+[2.561s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:22:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Kbuiltin_interfaces[m[K’?
+[2.561s]    22 |                                 std::shared_ptr<[01;31m[Kcustom_interfaces[m[K::srv::SampleRequest::Response> response)
+[2.561s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.561s]       |                                                 [32m[Kbuiltin_interfaces[m[K
+[2.561s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:22:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.561s]    22 |                                 std::shared_ptr<custom_interfaces::srv::SampleRequest::Response[01;31m[K>[m[K response)
+[2.561s]       |                                                                                                [01;31m[K^[m[K
+[2.561s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:22:33:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[2.561s]    22 |                                 [01;31m[Kstd[m[K::shared_ptr<custom_interfaces::srv::SampleRequest::Response> response)
+[2.561s]       |                                 [01;31m[K^~~[m[K
+[2.561s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:22:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_interfaces[m[K’ has not been declared
+[2.561s]    22 |                                 std::shared_ptr<[01;31m[Kcustom_interfaces[m[K::srv::SampleRequest::Response> response)
+[2.561s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.561s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:22:33:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[2.561s]    22 |                                 [01;31m[Kstd[m[K::shared_ptr<custom_interfaces::srv::SampleRequest::Response> response)
+[2.561s]       |                                 [01;31m[K^~~[m[K
+[2.567s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:41:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Kbuiltin_interfaces[m[K’?
+[2.567s]    41 |     rclcpp::Service<[01;31m[Kcustom_interfaces[m[K::srv::SampleRequest>::SharedPtr service_;
+[2.567s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.567s]       |                     [32m[Kbuiltin_interfaces[m[K
+[2.567s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:41:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.567s]    41 |     rclcpp::Service<custom_interfaces::srv::SampleRequest[01;31m[K>[m[K::SharedPtr service_;
+[2.567s]       |                                                          [01;31m[K^[m[K
+[2.567s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:41:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.567s]    41 |     rclcpp::Service<custom_interfaces::srv::SampleRequest>::[01;31m[KSharedPtr[m[K service_;
+[2.567s]       |                                                             [01;31m[K^~~~~~~~~[m[K
+[2.567s]       |                                                                      [32m[K;[m[K
+[2.568s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:41:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ does not name a type
+[2.568s]    41 |     rclcpp::Service<custom_interfaces::srv::SampleRequest>::SharedPtr [01;31m[Kservice_[m[K;
+[2.568s]       |                                                                       [01;31m[K^~~~~~~~[m[K
+[2.577s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:[m[K In constructor ‘[01m[KSensorService::SensorService()[m[K’:
+[2.577s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ was not declared in this scope; did you mean ‘[01m[Kio_service_[m[K’?
+[2.577s]    14 |         [01;31m[Kservice_[m[K = this->create_service<custom_interfaces::srv::SampleRequest>("get_samples", std::bind(&SensorService::handle_service_request, this, _1));
+[2.577s]       |         [01;31m[K^~~~~~~~[m[K
+[2.577s]       |         [32m[Kio_service_[m[K
+[2.583s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:14:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Kbuiltin_interfaces[m[K’?
+[2.583s]    14 |         service_ = this->create_service<[01;31m[Kcustom_interfaces[m[K::srv::SampleRequest>("get_samples", std::bind(&SensorService::handle_service_request, this, _1));
+[2.583s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.583s]       |                                         [32m[Kbuiltin_interfaces[m[K
+[2.583s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:14:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.583s]    14 |         service_ = this->[01;31m[Kcreate_service<custom_interfaces::srv::SampleRequest>[m[K("get_samples", std::bind(&SensorService::handle_service_request, this, _1));
+[2.583s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.586s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:14:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSensorService::create_service<<expression error> >(const char [12], std::_Bind_helper<false, void (SensorService::*)(...), SensorService*, const std::_Placeholder<1>&>::type)[m[K’
+[2.586s]    14 |         service_ = [01;31m[Kthis->create_service<custom_interfaces::srv::SampleRequest>("get_samples", std::bind(&SensorService::handle_service_request, this, _1))[m[K;
+[2.586s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.586s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.586s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.586s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.586s]                  from [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:1[m[K:
+[2.586s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:299:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[2.586s]   299 |   [01;36m[Kcreate_service[m[K(
+[2.586s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.586s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:299:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.586s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:14:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.586s]    14 |         service_ = [01;31m[Kthis->create_service<custom_interfaces::srv::SampleRequest>("get_samples", std::bind(&SensorService::handle_service_request, this, _1))[m[K;
+[2.586s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.586s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.586s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.586s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.586s]                  from [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:1[m[K:
+[2.586s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:315:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[2.586s]   315 |   [01;36m[Kcreate_service[m[K(
+[2.586s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.586s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:315:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.587s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:14:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.587s]    14 |         service_ = [01;31m[Kthis->create_service<custom_interfaces::srv::SampleRequest>("get_samples", std::bind(&SensorService::handle_service_request, this, _1))[m[K;
+[2.587s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.594s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:[m[K In member function ‘[01m[Kvoid SensorService::handle_service_request(...)[m[K’:
+[2.594s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:24:44:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope
+[2.594s]    24 |         asio::write(socket_, asio::buffer(&[01;31m[Krequest[m[K->requestSample, sizeof(int)));
+[2.594s]       |                                            [01;31m[K^~~~~~~[m[K
+[2.599s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_client.cpp:29:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+[2.600s]    29 |         [01;31m[Kresponse[m[K->data.layout.dim.push_back(std_msgs::msg::MultiArrayDimension());
+[2.600s]       |         [01;31m[K^~~~~~~~[m[K
+[2.659s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:23:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[2.659s]    23 |     void handle_service(const std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::SampleRequest::Request> request,
+[2.659s]       |                                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.659s]       |                                               [32m[Krcl_interfaces[m[K
+[2.659s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:23:94:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.659s]    23 | :shared_ptr<example_interfaces::srv::SampleRequest::Request[01;31m[K>[m[K request,
+[2.659s]       |                                                            [01;31m[K^[m[K
+[2.659s] 
+[2.668s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:23:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[2.668s]    23 |     void handle_service(const std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::SampleRequest::Request> request,
+[2.668s]       |                                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.668s]       |                                               [32m[Krcl_interfaces[m[K
+[2.668s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:23:94:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.668s]    23 | :shared_ptr<example_interfaces::srv::SampleRequest::Request[01;31m[K>[m[K request,
+[2.668s]       |                                                            [01;31m[K^[m[K
+[2.668s] 
+[2.678s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:23:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[2.678s]    23 |     void handle_service(const std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::SampleRequest::Request> request,
+[2.678s]       |                                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.678s]       |                                               [32m[Krcl_interfaces[m[K
+[2.678s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:23:94:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.678s]    23 | :shared_ptr<example_interfaces::srv::SampleRequest::Request[01;31m[K>[m[K request,
+[2.678s]       |                                                            [01;31m[K^[m[K
+[2.678s] 
+[2.678s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:23:31:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[2.678s]    23 |     void handle_service(const [01;31m[Kstd[m[K::shared_ptr<example_interfaces::srv::SampleRequest::Request> request,
+[2.678s]       |                               [01;31m[K^~~[m[K
+[2.678s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:23:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ has not been declared
+[2.678s]    23 |     void handle_service(const std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::SampleRequest::Request> request,
+[2.678s]       |                                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.678s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:23:25:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[2.678s]    23 |     void handle_service([01;31m[Kconst[m[K std::shared_ptr<example_interfaces::srv::SampleRequest::Request> request,
+[2.678s]       |                         [01;31m[K^~~~~[m[K
+[2.687s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:24:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[2.687s]    24 |                         std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::SampleRequest::Response> response)
+[2.687s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.687s]       |                                         [32m[Krcl_interfaces[m[K
+[2.688s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:24:89:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.688s]    24 | hared_ptr<example_interfaces::srv::SampleRequest::Response[01;31m[K>[m[K response)
+[2.688s]       |                                                           [01;31m[K^[m[K
+[2.688s] 
+[2.697s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:24:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[2.697s]    24 |                         std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::SampleRequest::Response> response)
+[2.697s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.697s]       |                                         [32m[Krcl_interfaces[m[K
+[2.697s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:24:89:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.697s]    24 | hared_ptr<example_interfaces::srv::SampleRequest::Response[01;31m[K>[m[K response)
+[2.697s]       |                                                           [01;31m[K^[m[K
+[2.697s] 
+[2.706s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:24:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[2.706s]    24 |                         std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::SampleRequest::Response> response)
+[2.707s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.707s]       |                                         [32m[Krcl_interfaces[m[K
+[2.707s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:24:89:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.707s]    24 | hared_ptr<example_interfaces::srv::SampleRequest::Response[01;31m[K>[m[K response)
+[2.707s]       |                                                           [01;31m[K^[m[K
+[2.707s] 
+[2.707s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:24:25:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[2.707s]    24 |                         [01;31m[Kstd[m[K::shared_ptr<example_interfaces::srv::SampleRequest::Response> response)
+[2.707s]       |                         [01;31m[K^~~[m[K
+[2.707s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:24:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ has not been declared
+[2.707s]    24 |                         std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::SampleRequest::Response> response)
+[2.707s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.707s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:24:25:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[2.707s]    24 |                         [01;31m[Kstd[m[K::shared_ptr<example_interfaces::srv::SampleRequest::Response> response)
+[2.707s]       |                         [01;31m[K^~~[m[K
+[2.716s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:39:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[2.716s]    39 |     rclcpp::Service<[01;31m[Kexample_interfaces[m[K::srv::SampleRequest>::SharedPtr service_;
+[2.716s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.716s]       |                     [32m[Krcl_interfaces[m[K
+[2.716s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:39:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.716s]    39 |     rclcpp::Service<example_interfaces::srv::SampleRequest[01;31m[K>[m[K::SharedPtr service_;
+[2.716s]       |                                                           [01;31m[K^[m[K
+[2.716s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:39:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.716s]    39 |  rclcpp::Service<example_interfaces::srv::SampleRequest>::[01;31m[KSharedPtr[m[K service_;
+[2.716s]       |                                                           [01;31m[K^~~~~~~~~[m[K
+[2.716s]       |                                                                    [32m[K;[m[K
+[2.718s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:39:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ does not name a type
+[2.718s]    39 | :Service<example_interfaces::srv::SampleRequest>::SharedPtr [01;31m[Kservice_[m[K;
+[2.718s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[2.718s] 
+[2.724s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:[m[K In constructor ‘[01m[KSensorService::SensorService()[m[K’:
+[2.724s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ was not declared in this scope; did you mean ‘[01m[Kio_service_[m[K’?
+[2.725s]    14 |         [01;31m[Kservice_[m[K = this->create_service<example_interfaces::srv::SampleRequest>("get_sensor_data", std::bind(&SensorService::handle_service, this, _1, _2));
+[2.725s]       |         [01;31m[K^~~~~~~~[m[K
+[2.725s]       |         [32m[Kio_service_[m[K
+[2.734s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:14:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[2.734s]    14 |         service_ = this->create_service<[01;31m[Kexample_interfaces[m[K::srv::SampleRequest>("get_sensor_data", std::bind(&SensorService::handle_service, this, _1, _2));
+[2.734s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.734s]       |                                         [32m[Krcl_interfaces[m[K
+[2.734s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:14:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.734s]    14 |         service_ = this->[01;31m[Kcreate_service<example_interfaces::srv::SampleRequest>[m[K("get_sensor_data", std::bind(&SensorService::handle_service, this, _1, _2));
+[2.734s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.738s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:14:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSensorService::create_service<<expression error> >(const char [16], std::_Bind_helper<false, void (SensorService::*)(...), SensorService*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)[m[K’
+[2.738s]    14 | [01;31m[Kis->create_service<example_interfaces::srv::SampleRequest>("get_sensor_data", std::bind(&SensorService::handle_service, this, _1, _2))[m[K;
+[2.738s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.738s] 
+[2.738s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.738s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.738s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.738s]                  from [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:1[m[K:
+[2.738s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:299:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[2.738s]   299 |   [01;36m[Kcreate_service[m[K(
+[2.738s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.738s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:299:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.738s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:14:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.738s]    14 | [01;31m[Kis->create_service<example_interfaces::srv::SampleRequest>("get_sensor_data", std::bind(&SensorService::handle_service, this, _1, _2))[m[K;
+[2.738s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.738s] 
+[2.738s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.738s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.738s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.738s]                  from [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:1[m[K:
+[2.739s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:315:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[2.739s]   315 |   [01;36m[Kcreate_service[m[K(
+[2.739s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.739s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:315:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.739s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:14:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.739s]    14 | [01;31m[Kis->create_service<example_interfaces::srv::SampleRequest>("get_sensor_data", std::bind(&SensorService::handle_service, this, _1, _2))[m[K;
+[2.739s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.739s] 
+[2.750s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:[m[K In member function ‘[01m[Kvoid SensorService::handle_service(...)[m[K’:
+[2.750s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:26:47:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope
+[2.750s]    26 |         std::string send_buf = std::to_string([01;31m[Krequest[m[K->requestSample);
+[2.750s]       |                                               [01;31m[K^~~~~~~[m[K
+[2.752s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:31:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror[m[K’ was not declared in this scope
+[2.752s]    31 | ize_t len = socket_->read_some(boost::asio::buffer(recv_buf), [01;31m[Kerror[m[K);
+[2.752s]       |                                                               [01;31m[K^~~~~[m[K
+[2.752s] 
+[2.789s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:31:72:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[2.789s] In file included from [01m[K/usr/include/boost/asio/detail/impl/posix_event.ipp:24[m[K,
+[2.789s]                  from [01m[K/usr/include/boost/asio/detail/posix_event.hpp:172[m[K,
+[2.789s]                  from [01m[K/usr/include/boost/asio/detail/event.hpp:25[m[K,
+[2.790s]                  from [01m[K/usr/include/boost/asio/execution/blocking_adaptation.hpp:19[m[K,
+[2.790s]                  from [01m[K/usr/include/boost/asio/execution.hpp:22[m[K,
+[2.790s]                  from [01m[K/usr/include/boost/asio/system_executor.hpp:20[m[K,
+[2.790s]                  from [01m[K/usr/include/boost/asio/associated_executor.hpp:22[m[K,
+[2.790s]                  from [01m[K/usr/include/boost/asio.hpp:21[m[K,
+[2.790s]                  from [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:3[m[K:
+[2.790s] [01m[K/usr/include/boost/asio/error.hpp:66:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::asio::error[m[K’
+[2.790s]    66 | namespace [01;36m[Kerror[m[K {
+[2.790s]       |           [01;36m[K^~~~~[m[K
+[2.790s] In file included from [01m[K/usr/include/boost/asio.hpp:135[m[K,
+[2.790s]                  from [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:3[m[K:
+[2.790s] [01m[K/usr/include/boost/asio/placeholders.hpp:65:22:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::asio::placeholders::error[m[K’
+[2.790s]    65 | inline boost::arg<1> [01;36m[Kerror[m[K()
+[2.790s]       |                      [01;36m[K^~~~~[m[K
+[2.795s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:36:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+[2.795s]    36 |         [01;31m[Kresponse[m[K->data = parsed_data; // Assign parsed data to response
+[2.795s]       |         [01;31m[K^~~~~~~~[m[K
+[2.801s] [01m[K/home/yang/ros2_ws/src/cpp_srvcli/src/sensor_server.cpp:36:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kparsed_data[m[K’ was not declared in this scope
+[2.802s]    36 |         response->data = [01;31m[Kparsed_data[m[K; // Assign parsed data to response
+[2.802s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[3.074s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/sensor_client.cpp.o] Error 1
+[3.074s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[3.074s] gmake[1]: *** Waiting for unfinished jobs....
+[3.348s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/sensor_server.cpp.o] Error 1
+[3.348s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[3.348s] gmake: *** [Makefile:146: all] Error 2
+[3.349s] Invoked command in '/home/yang/ros2_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron PYTHONPATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_srvcli -- -j16 -l16

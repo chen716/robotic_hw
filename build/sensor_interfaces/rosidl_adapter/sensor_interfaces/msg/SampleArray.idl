@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sensor_interfaces/msg/SampleArray.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Float64MultiArray.idl"
+
+module sensor_interfaces {
+  module msg {
+    struct SampleArray {
+      std_msgs::msg::Float64MultiArray data;
+    };
+  };
+};

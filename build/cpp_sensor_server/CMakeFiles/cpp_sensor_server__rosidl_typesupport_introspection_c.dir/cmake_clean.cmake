@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/cpp_sensor_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cpp_sensor_server/msg/detail/sample_array__type_support.c.o"
+  "CMakeFiles/cpp_sensor_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cpp_sensor_server/msg/detail/sample_array__type_support.c.o.d"
+  "CMakeFiles/cpp_sensor_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cpp_sensor_server/srv/detail/sample_request__type_support.c.o"
+  "CMakeFiles/cpp_sensor_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cpp_sensor_server/srv/detail/sample_request__type_support.c.o.d"
+  "libcpp_sensor_server__rosidl_typesupport_introspection_c.pdb"
+  "libcpp_sensor_server__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/cpp_sensor_server/msg/detail/sample_array__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/cpp_sensor_server/msg/detail/sample_array__type_support.c"
+  "rosidl_typesupport_introspection_c/cpp_sensor_server/srv/detail/sample_request__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/cpp_sensor_server/srv/detail/sample_request__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/cpp_sensor_server__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

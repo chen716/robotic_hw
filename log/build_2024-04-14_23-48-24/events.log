@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000266] (-) JobUnselected: {'identifier': 'cpp_sensor_server'}
+[0.000314] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000330] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000368] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000378] (-) JobUnselected: {'identifier': 'sensor_interfaces'}
+[0.000442] (-) EventReactorShutdown: {}

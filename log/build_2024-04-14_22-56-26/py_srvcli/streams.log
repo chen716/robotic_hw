@@ -1,0 +1,24 @@
+[0.335s] Invoking command in '/home/yang/ros2_ws/src/py_srvcli': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server LD_LIBRARY_PATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib:/home/yang/ros2_ws/install/cpp_sensor_server/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/yang/ros2_ws/build/py_srvcli/prefix_override:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/yang/ros2_ws/build/py_srvcli/build install --record /home/yang/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[0.356s] Traceback (most recent call last):
+[0.356s]   File "/home/yang/ros2_ws/src/py_srvcli/setup.py", line 1, in <module>
+[0.356s]     from setuptools import find_packages, setup
+[0.356s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>
+[0.359s]     import distutils.core
+[0.359s]   File "/usr/lib/python3.10/distutils/core.py", line 17, in <module>
+[0.359s]     from distutils.cmd import Command
+[0.359s]   File "/usr/lib/python3.10/distutils/cmd.py", line 9, in <module>
+[0.359s]     from distutils import util, dir_util, file_util, archive_util, dep_util
+[0.359s]   File "/usr/lib/python3.10/distutils/archive_util.py", line 11, in <module>
+[0.359s]     import zipfile
+[0.359s]   File "/usr/lib/python3.10/zipfile.py", line 19, in <module>
+[0.359s]     import pathlib
+[0.359s]   File "/usr/lib/python3.10/pathlib.py", line 4, in <module>
+[0.360s]     import ntpath
+[0.360s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[0.360s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[0.360s]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[0.360s]   File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+[0.360s]   File "<frozen importlib._bootstrap_external>", line 1012, in get_code
+[0.360s]   File "<frozen importlib._bootstrap_external>", line 672, in _compile_bytecode
+[0.360s] KeyboardInterrupt
+[0.364s] Invoked command in '/home/yang/ros2_ws/src/py_srvcli' returned '-2': CMAKE_PREFIX_PATH=/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_srvcli:/home/yang/ros2_ws/install/cpp_sensor_server LD_LIBRARY_PATH=/home/yang/ros2_ws/install/tutorial_interfaces/lib:/home/yang/ros2_ws/install/cpp_sensor_server/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/yang/ros2_ws/build/py_srvcli/prefix_override:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/yang/ros2_ws/build/py_srvcli/build install --record /home/yang/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data

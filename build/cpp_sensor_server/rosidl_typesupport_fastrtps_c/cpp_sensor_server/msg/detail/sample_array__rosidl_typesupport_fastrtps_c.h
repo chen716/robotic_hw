@@ -1,0 +1,37 @@
+// generated from rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em
+// with input from cpp_sensor_server:msg/SampleArray.idl
+// generated code does not contain a copyright notice
+#ifndef CPP_SENSOR_SERVER__MSG__DETAIL__SAMPLE_ARRAY__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+#define CPP_SENSOR_SERVER__MSG__DETAIL__SAMPLE_ARRAY__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+
+
+#include <stddef.h>
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "cpp_sensor_server/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_cpp_sensor_server
+size_t get_serialized_size_cpp_sensor_server__msg__SampleArray(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_cpp_sensor_server
+size_t max_serialized_size_cpp_sensor_server__msg__SampleArray(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_cpp_sensor_server
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, cpp_sensor_server, msg, SampleArray)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // CPP_SENSOR_SERVER__MSG__DETAIL__SAMPLE_ARRAY__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_

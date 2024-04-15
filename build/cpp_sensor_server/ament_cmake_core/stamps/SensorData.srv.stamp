@@ -1,0 +1,5 @@
+# Request a specific number of samples
+int32 requestsamples
+---
+# Response will be a 2D array of floats
+float64[][] data

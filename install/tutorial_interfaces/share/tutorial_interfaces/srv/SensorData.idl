@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tutorial_interfaces/srv/SensorData.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Float64MultiArray.idl"
+
+module tutorial_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request part")
+    struct SensorData_Request {
+      @verbatim (language="comment", text=
+        "Number of samples requested")
+      int32 num_samples;
+    };
+    @verbatim (language="comment", text=
+      "Response part")
+    struct SensorData_Response {
+      @verbatim (language="comment", text=
+        "Array of sensor data")
+      std_msgs::msg::Float64MultiArray data;
+    };
+  };
+};

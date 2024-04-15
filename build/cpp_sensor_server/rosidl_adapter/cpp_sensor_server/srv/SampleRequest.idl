@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cpp_sensor_server/srv/SampleRequest.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Float64MultiArray.idl"
+
+module cpp_sensor_server {
+  module srv {
+    struct SampleRequest_Request {
+      int32 requestsample;
+    };
+    struct SampleRequest_Response {
+      std_msgs::msg::Float64MultiArray data;
+    };
+  };
+};

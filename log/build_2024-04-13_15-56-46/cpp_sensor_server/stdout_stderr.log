@@ -1,0 +1,38 @@
+[  2%] Built target cpp_sensor_server__rosidl_generator_type_description
+[  2%] Built target ament_cmake_python_copy_cpp_sensor_server
+[  5%] Built target cpp_sensor_server__cpp
+[ 17%] Built target cpp_sensor_server__rosidl_generator_c
+[ 57%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c
+[ 57%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c
+[ 57%] Built target cpp_sensor_server__rosidl_typesupport_c
+[ 57%] Built target cpp_sensor_server__rosidl_typesupport_introspection_cpp
+[ 57%] Built target cpp_sensor_server__rosidl_typesupport_cpp
+[ 62%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_cpp
+[ 62%] Built target cpp_sensor_server
+[35m[1mConsolidate compiler generated dependencies of target sensor_server2[0m
+[ 65%] Built target cpp_sensor_server__py
+[ 70%] Built target sensor_client
+[ 75%] Built target sensor_server
+[ 77%] [32mBuilding CXX object CMakeFiles/sensor_server2.dir/src/sensor_server2.cpp.o[0m
+[ 82%] Built target cpp_sensor_server__rosidl_generator_py
+[ 97%] Built target cpp_sensor_server__rosidl_typesupport_c__pyext
+[ 97%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing cpp_sensor_server.egg-info/PKG-INFO
+writing dependency_links to cpp_sensor_server.egg-info/dependency_links.txt
+writing top-level names to cpp_sensor_server.egg-info/top_level.txt
+reading manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'
+writing manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_cpp_sensor_server_egg
+[01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:[m[K In constructor ‘[01m[KSensorServer2::SensorServer2()[m[K’:
+[01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:13:80:[m[K [01;31m[Kerror: [m[K‘[01m[KSensorServer[m[K’ has not been declared
+   13 |     service_ = this->create_service<SensorData>("get_sensor_data2", std::bind(&[01;31m[KSensorServer[m[K::handle_sensor_data, this, std::placeholders::_1, std::placeholders::_2));
+      |                                                                                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:[m[K In member function ‘[01m[Kvoid SensorServer2::handle_sensor_data(std::shared_ptr<cpp_sensor_server::srv::SensorData_Request_<std::allocator<void> > >, std::shared_ptr<cpp_sensor_server::srv::SensorData_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:23:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klen[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   23 |     size_t [01;35m[Klen[m[K = socket_.read_some(asio::buffer(buffer), ignored_error);
+      |            [01;35m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/sensor_server2.dir/build.make:76: CMakeFiles/sensor_server2.dir/src/sensor_server2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:659: CMakeFiles/sensor_server2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

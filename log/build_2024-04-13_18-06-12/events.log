@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000086] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000103] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000115] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000129] (cpp_sensor_server) JobQueued: {'identifier': 'cpp_sensor_server', 'dependencies': OrderedDict()}
+[0.000143] (cpp_sensor_server) JobStarted: {'identifier': 'cpp_sensor_server'}
+[0.004066] (cpp_sensor_server) JobProgress: {'identifier': 'cpp_sensor_server', 'progress': 'cmake'}
+[0.004410] (cpp_sensor_server) JobProgress: {'identifier': 'cpp_sensor_server', 'progress': 'build'}
+[0.004836] (cpp_sensor_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yang/ros2_ws/build/cpp_sensor_server', '--', '-j16', '-l16'], 'cwd': '/home/yang/ros2_ws/build/cpp_sensor_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yang'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yang/ros2_ws/install/tutorial_interfaces/lib:/home/yang/ros2_ws/install/cpp_sensor_server/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/yang'), ('OLDPWD', '/home/yang/ros2_ws/build/cpp_sensor_server'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1428'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yang/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yang-System-Product-Name:@/tmp/.ICE-unix/1405,unix/yang-System-Product-Name:/tmp/.ICE-unix/1405'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6ccf2dbc_74aa_4166_85fa_f1cb7fa9d44a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yang/ros2_ws/install/py_srvcli:/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_sensor_server:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yang/ros2_ws/build/cpp_sensor_server'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yang/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/yang/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/yang/ros2_ws/install/cpp_sensor_server/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yang/ros2_ws/install/tutorial_interfaces:/home/yang/ros2_ws/install/cpp_sensor_server:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron')]), 'shell': False}
+[0.032948] (cpp_sensor_server) StdoutLine: {'line': b'[  2%] Built target cpp_sensor_server__rosidl_generator_type_description\n'}
+[0.038196] (cpp_sensor_server) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_cpp_sensor_server\n'}
+[0.043722] (cpp_sensor_server) StdoutLine: {'line': b'[  4%] Built target cpp_sensor_server__cpp\n'}
+[0.044861] (cpp_sensor_server) StdoutLine: {'line': b'[ 20%] Built target cpp_sensor_server__rosidl_generator_c\n'}
+[0.057084] (cpp_sensor_server) StdoutLine: {'line': b'[ 28%] Built target cpp_sensor_server__rosidl_typesupport_c\n'}
+[0.057280] (cpp_sensor_server) StdoutLine: {'line': b'[ 44%] Built target cpp_sensor_server__rosidl_typesupport_cpp\n'}
+[0.057379] (cpp_sensor_server) StdoutLine: {'line': b'[ 54%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c\n'}
+[0.057444] (cpp_sensor_server) StdoutLine: {'line': b'[ 54%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c\n'}
+[0.057509] (cpp_sensor_server) StdoutLine: {'line': b'[ 62%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_cpp\n'}
+[0.057593] (cpp_sensor_server) StdoutLine: {'line': b'[ 68%] Built target cpp_sensor_server__rosidl_typesupport_introspection_cpp\n'}
+[0.068250] (cpp_sensor_server) StdoutLine: {'line': b'[ 68%] Built target cpp_sensor_server\n'}
+[0.079371] (cpp_sensor_server) StdoutLine: {'line': b'[ 70%] Built target cpp_sensor_server__py\n'}
+[0.082527] (cpp_sensor_server) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/sensor_client.dir/src/sensor_client.cpp.o\x1b[0m\n'}
+[0.085940] (cpp_sensor_server) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/sensor_server2.dir/src/sensor_server2.cpp.o\x1b[0m\n'}
+[0.086045] (cpp_sensor_server) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/sensor_server.dir/src/sensor_server.cpp.o\x1b[0m\n'}
+[0.092078] (cpp_sensor_server) StdoutLine: {'line': b'[ 82%] Built target cpp_sensor_server__rosidl_generator_py\n'}
+[0.099515] (-) TimerEvent: {}
+[0.104563] (cpp_sensor_server) StdoutLine: {'line': b'[ 94%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c__pyext\n'}
+[0.104718] (cpp_sensor_server) StdoutLine: {'line': b'[ 94%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.104788] (cpp_sensor_server) StdoutLine: {'line': b'[ 94%] Built target cpp_sensor_server__rosidl_typesupport_c__pyext\n'}
+[0.176800] (cpp_sensor_server) StdoutLine: {'line': b'running egg_info\n'}
+[0.177239] (cpp_sensor_server) StdoutLine: {'line': b'writing cpp_sensor_server.egg-info/PKG-INFO\n'}
+[0.177446] (cpp_sensor_server) StdoutLine: {'line': b'writing dependency_links to cpp_sensor_server.egg-info/dependency_links.txt\n'}
+[0.177594] (cpp_sensor_server) StdoutLine: {'line': b'writing top-level names to cpp_sensor_server.egg-info/top_level.txt\n'}
+[0.178730] (cpp_sensor_server) StdoutLine: {'line': b"reading manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'\n"}
+[0.179133] (cpp_sensor_server) StdoutLine: {'line': b"writing manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'\n"}
+[0.193711] (cpp_sensor_server) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_cpp_sensor_server_egg\n'}
+[0.199578] (-) TimerEvent: {}
+[0.208041] (cpp_sensor_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kstd_msgs/Float32MultiArray.hpp: No such file or directory\n'}
+[0.208171] (cpp_sensor_server) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K<std_msgs/Float32MultiArray.hpp>\x1b[m\x1b[K\n'}
+[0.208214] (cpp_sensor_server) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.208250] (cpp_sensor_server) StderrLine: {'line': b'compilation terminated.\n'}
+[0.208395] (cpp_sensor_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_server2.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcpp_sensor_server/SampleRequest.hpp: No such file or directory\n'}
+[0.208458] (cpp_sensor_server) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"cpp_sensor_server/SampleRequest.hpp"\x1b[m\x1b[K\n'}
+[0.208497] (cpp_sensor_server) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.208532] (cpp_sensor_server) StderrLine: {'line': b'compilation terminated.\n'}
+[0.209870] (cpp_sensor_server) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sensor_server.dir/build.make:76: CMakeFiles/sensor_server.dir/src/sensor_server.cpp.o] Error 1\n'}
+[0.209934] (cpp_sensor_server) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sensor_server2.dir/build.make:76: CMakeFiles/sensor_server2.dir/src/sensor_server2.cpp.o] Error 1\n'}
+[0.209987] (cpp_sensor_server) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:630: CMakeFiles/sensor_server.dir/all] Error 2\n'}
+[0.210042] (cpp_sensor_server) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.210079] (cpp_sensor_server) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:659: CMakeFiles/sensor_server2.dir/all] Error 2\n'}
+[0.216252] (cpp_sensor_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_client.cpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcpp_sensor_server/srv/SampleRequest.hpp: No such file or directory\n'}
+[0.216314] (cpp_sensor_server) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K"cpp_sensor_server/srv/SampleRequest.hpp"\x1b[m\x1b[K\n'}
+[0.216351] (cpp_sensor_server) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.216385] (cpp_sensor_server) StderrLine: {'line': b'compilation terminated.\n'}
+[0.217535] (cpp_sensor_server) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sensor_client.dir/build.make:76: CMakeFiles/sensor_client.dir/src/sensor_client.cpp.o] Error 1\n'}
+[0.217621] (cpp_sensor_server) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:688: CMakeFiles/sensor_client.dir/all] Error 2\n'}
+[0.217728] (cpp_sensor_server) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[0.218951] (cpp_sensor_server) CommandEnded: {'returncode': 2}
+[0.274694] (cpp_sensor_server) JobEnded: {'identifier': 'cpp_sensor_server', 'rc': 2}
+[0.284926] (-) EventReactorShutdown: {}

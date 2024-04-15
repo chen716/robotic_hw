@@ -1,0 +1,7 @@
+{
+  "package_name": "sensor_interfaces",
+  "non_idl_tuples": [
+    "/home/yang/ros2_ws/src/sensor_interfaces:msg/SampleArray.msg",
+    "/home/yang/ros2_ws/src/sensor_interfaces:srv/SensorData.srv"
+  ]
+}

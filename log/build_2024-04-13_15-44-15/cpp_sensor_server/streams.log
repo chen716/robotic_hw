@@ -1,0 +1,77 @@
+[0.006s] Invoking command in '/home/yang/ros2_ws/build/cpp_sensor_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16
+[0.018s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.099s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[0.112s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.116s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.123s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.132s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.163s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[0.242s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.242s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.304s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.395s] -- Found rclcpp_components: 21.0.5 (/opt/ros/iron/share/rclcpp_components/cmake)
+[0.447s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[0.451s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[0.623s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[0.788s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.852s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.865s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[0.877s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.877s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.877s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.886s] [0mCMake Deprecation Warning at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[0.886s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[0.886s]   rosidl_target_interfaces()
+[0.886s] Call Stack (most recent call first):
+[0.886s]   CMakeLists.txt:36 (rosidl_target_interfaces)
+[0.886s] 
+[0.886s] [0m
+[0.888s] -- Configuring done
+[0.909s] -- Generating done
+[0.910s] -- Build files have been written to: /home/yang/ros2_ws/build/cpp_sensor_server
+[0.930s] [  2%] Built target cpp_sensor_server__rosidl_generator_type_description
+[0.930s] [  5%] [32mBuilding CXX object CMakeFiles/sensor_client.dir/src/sensor_client.cpp.o[0m
+[0.935s] [  5%] Built target ament_cmake_python_copy_cpp_sensor_server
+[0.935s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_generator_c[0m
+[0.941s] [  7%] Built target cpp_sensor_server__cpp
+[0.941s] [ 21%] Built target cpp_sensor_server__rosidl_generator_c
+[0.947s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_c[0m
+[0.947s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_introspection_c[0m
+[0.947s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_cpp[0m
+[0.947s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_fastrtps_cpp[0m
+[0.947s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_fastrtps_c[0m
+[0.948s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_introspection_cpp[0m
+[0.953s] [ 28%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c
+[0.954s] [ 44%] Built target cpp_sensor_server__rosidl_typesupport_cpp
+[0.954s] [ 44%] Built target cpp_sensor_server__rosidl_typesupport_c
+[0.954s] [ 52%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_cpp
+[0.955s] [ 60%] Built target cpp_sensor_server__rosidl_typesupport_introspection_cpp
+[0.957s] [ 68%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c
+[0.967s] [ 68%] Built target cpp_sensor_server
+[0.974s] [35m[1mConsolidate compiler generated dependencies of target sensor_server[0m
+[0.978s] [ 71%] Built target cpp_sensor_server__py
+[0.984s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_generator_py[0m
+[0.989s] [ 76%] Built target sensor_server
+[0.991s] [ 81%] Built target cpp_sensor_server__rosidl_generator_py
+[0.997s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_introspection_c__pyext[0m
+[0.997s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_c__pyext[0m
+[0.997s] [35m[1mConsolidate compiler generated dependencies of target cpp_sensor_server__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.004s] [ 97%] Built target cpp_sensor_server__rosidl_typesupport_c__pyext
+[1.005s] [ 97%] Built target cpp_sensor_server__rosidl_typesupport_fastrtps_c__pyext
+[1.005s] [ 97%] Built target cpp_sensor_server__rosidl_typesupport_introspection_c__pyext
+[1.056s] [01m[K/home/yang/ros2_ws/src/cpp_sensor_server/src/sensor_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcpp_sensor_server/srv/sensor_data.hpp: No such file or directory
+[1.057s]     2 | #include [01;31m[K"cpp_sensor_server/srv/sensor_data.hpp"[m[K
+[1.057s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.057s] compilation terminated.
+[1.058s] gmake[2]: *** [CMakeFiles/sensor_client.dir/build.make:76: CMakeFiles/sensor_client.dir/src/sensor_client.cpp.o] Error 1
+[1.058s] gmake[1]: *** [CMakeFiles/Makefile2:654: CMakeFiles/sensor_client.dir/all] Error 2
+[1.058s] gmake[1]: *** Waiting for unfinished jobs....
+[1.073s] running egg_info
+[1.074s] writing cpp_sensor_server.egg-info/PKG-INFO
+[1.074s] writing dependency_links to cpp_sensor_server.egg-info/dependency_links.txt
+[1.074s] writing top-level names to cpp_sensor_server.egg-info/top_level.txt
+[1.075s] reading manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'
+[1.075s] writing manifest file 'cpp_sensor_server.egg-info/SOURCES.txt'
+[1.089s] [ 97%] Built target ament_cmake_python_build_cpp_sensor_server_egg
+[1.089s] gmake: *** [Makefile:146: all] Error 2
+[1.090s] Invoked command in '/home/yang/ros2_ws/build/cpp_sensor_server' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yang/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/yang/ros2_ws/build/cpp_sensor_server -- -j16 -l16
