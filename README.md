@@ -2,7 +2,9 @@
 Yang Chen
  
 ## Implementation
-The goal of This project is to build a ROS2 network that collects data from 3-DOF sensors and makes the filtered data available as a ROS service and topic. Since we cannot send a real sensor to all of our applicants, we made a simple simulator (sensor.py) that mimics the behavior of a real sensor but with random data. 
+The main package {py_srvcli} has two files, sensor_server and sensor_client. To run, edit the server ip in sensor_server and compile. Then run: ros2 run py_srvcli server   
+
+Followed by ros2 run py_srvcli client
 - The first task is to make a custom service for 3-DOF sensor
   Creates a service to the given ip, listed in sensor_server.py under py_srvcli
 - The second task is to make a ROS2 service server that continuously reads data from the sensor and has the latest filter data available for the client service that you make.
